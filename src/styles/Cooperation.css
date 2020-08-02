@@ -1,0 +1,71 @@
+.coo-container {
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(90deg,#DAFAFF, #80AFF8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.coo-h1 {
+    font-size: 32px;
+    font-family: "Playfair Display";
+}
+
+.coo-h2 {
+    font-size: 22px;
+    font-family: "Sofia Pro";
+}
+
+.coo-container > div, .coo-container > button {
+    text-align: center;
+}
+
+.coo-container > a > button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 50px;
+    width: 35vw;
+    max-width: 200px;
+    color: white;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .coo-h1 {
+        display: flex;
+        font-size: 55px;
+    }
+    
+    .coo-h2 {
+        display: flex;
+        font-size: 26px;
+    }
+
+    .coo-container > a > button {
+        height: 60px;
+        max-width: 220px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .coo-h1 {
+        display: flex;
+        font-size: 60px;
+    }
+    
+    .coo-h2 {
+        display: flex;
+        font-size: 30px;
+    }
+
+    .coo-container > a > button {
+        height: 60px;
+        max-width: 250px;
+        font-size: 18px;
+    }
+}

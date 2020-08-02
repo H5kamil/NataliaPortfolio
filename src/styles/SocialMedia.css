@@ -1,0 +1,41 @@
+.soc-container-wrapper {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.soc-container > a {
+    height: 50%;
+    width: 40%;
+    text-align: center;
+    line-height: 7.5vh;
+    color: #314461;
+    font-family: "Sofia Pro";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+    .soc-container {
+        height: 10vh;
+    }
+
+    .soc-container > a {
+        height: 100%;
+        width: 15%;
+        text-align: center;
+        line-height: 10vh;
+    }
+}
+

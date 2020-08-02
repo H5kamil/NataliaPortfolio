@@ -1,0 +1,9 @@
+.work-img-container {
+    width: 180px;
+    height: 100px;
+}
+
+.work-img-container img {
+    width: 100%;
+    height: auto;
+}
