@@ -2,9 +2,11 @@
     position: fixed;
     height: 90vh;
     width: 100vw;
+    top: 10vh;
+    left: 0;
     background: linear-gradient(45deg, #4178CB, #CD84DF, #FEC3CD);
     background-size: 400%, 400%;
-    transform: translateY(10vh);
+    /* transform: translateY(10vh); */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -12,6 +14,31 @@
     animation: animate 8s ease-in-out infinite; 
     z-index: 1;
     overflow: hidden;
+  }
+
+  .ini-img-container-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 4;
+  }
+
+  .ini-img-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(calc(50vw - (calc(39.4px * 4)/2)), calc(12.5vh - (calc(28px * 4)/2)));
+    height: calc(28px * 4);
+    width: calc(39.4px * 4);
+    z-index: 4;
+  }
+
+  .ini-img-container img {
+      width: 100%;
+      height: auto;
   }
   
   .ini-who {
@@ -36,7 +63,7 @@
     color: white;
     background: transparent;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 22px;
   }
 
@@ -66,4 +93,58 @@
       font-size: 22px;
     }
   }
+
+  .ini-footer {
+    display: none;
+  }
   
+@media only screen and (min-width: 768px){
+  .ini-main {
+    height: 80vh;
+  }
+  .ini-footer {
+    display: block;
+    position: fixed;
+    top: 90vh;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .ini-main {
+    height: 65vh;
+    top: 25vh;
+  }
+
+  .ini-who {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 45px;
+  }
+
+  .ini-spec {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .ini-btn {
+    height: 55px;
+  } 
+
+  .ini-btn {
+    font-size: 26px;
+  }  
+}
+
+@media only screen and (max-width: 1024px){
+  .ini-img-container-wrapper{
+    display: none;
+  }
+}
+
+

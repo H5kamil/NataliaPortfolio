@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import InitialScreen from './InitialScreen';
+import InitialScreen from './components/InitialScreen';
 import About from './pages/About';
 import Welcome from './pages/Welcome';
 import Work from './pages/Work';

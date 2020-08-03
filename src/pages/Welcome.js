@@ -28,6 +28,9 @@ class Welcome extends Component {
     return (
         <>   
           <nav className="wel-nav"> 
+            <div className="wel-img-container">
+              <img src={require('../images-work/logo.png')} alt="Logo"/>
+            </div>
             <button onClick={this.onClick} className={`wel-hamburger ${this.state.activehamburger}`}>
               <span className="wel-hamburger-box">
                 <span className="wel-hamburger-inner">
