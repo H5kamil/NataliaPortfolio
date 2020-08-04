@@ -9,61 +9,60 @@ class Work extends Component {
   render() {
     return (
       <main className="container">
-        {/* <section>
+        <section className="work-first-sec">
           <div>SELECTED WORKS</div>
-          <div>Welcome to my projects</div>
-          <div>page, here you'll find work</div>
+          <div>Welcome to my projects<br/>page, here you'll find work</div>
         </section>
-        <section>
-          <div>Website design</div>
-          <div>Tellyo OY</div>
-          <div>UI/UX</div>
-          <div>
+        <section className="work-sec-container">
+          <div className="work-item">Website design</div>
+          <div className="work-item">Tellyo OY</div>
+          <div className="work-item">UI/UX</div>
+          <div className="work-item">
           Process focuses on creating compelling experiences that are grounded in business goals while carefully designing to deliver on the user’s needs. This collaborative process brings together business and technology vision holders to ensure designs meet business objectives, are scalable for future growth, and are feasible from a technology perspective.
           </div>
           <div className="work-img-container"><img src={require('../images-work/Tellyowebsite-opening.jpg')} alt="Website design"/></div>
-          <button>Read Case Study Component</button>
+          <button className="work-item work-btn">Read Case Study</button>
         </section>
-        <section>
-          <div>Watercolor portraits</div>
-          <div>Personal project</div>
-          <div>Graphic design</div>
-          <div>
+        <section className="work-sec-container">
+          <div className="work-item">Watercolor portraits</div>
+          <div className="work-item">Personal project</div>
+          <div className="work-item">Graphic design</div>
+          <div className="work-item">
           Process focuses on creating compelling experiences that are grounded in business goals while carefully designing to deliver on the user’s needs. This collaborative process brings together business and technology vision holders to ensure designs meet business objectives, are scalable for future growth, and are feasible from a technology perspective.
           </div>
           <div className="work-img-container"><img src={require('../images-work/Watercolorsopening.jpg')} alt="Website design"/></div>
-          <button>Read Case Study Component</button>
+          <button className="work-item work-btn">Read Case Study</button>
         </section>
-        <section>
-          <div>Tellyo Talent mobile app</div>
-          <div>Tellyo OY</div>
-          <div>UI/UX</div>
-          <div>
+        <section className="work-sec-container">
+          <div className="work-item">Tellyo Talent mobile app</div>
+          <div className="work-item">Tellyo OY</div>
+          <div className="work-item">UI/UX</div>
+          <div className="work-item">
           Process focuses on creating compelling experiences that are grounded in business goals while carefully designing to deliver on the user’s needs. This collaborative process brings together business and technology vision holders to ensure designs meet business objectives, are scalable for future growth, and are feasible from a technology perspective.
           </div>
           <div className="work-img-container"><img src={require('../images-work/ibc_stand_final.jpg')} alt="Website design"/></div>
-          <button>Read Case Study Component</button>          
+          <button className="work-item work-btn">Read Case Study</button>          
         </section>
-        <section>
-          <div>Tellyo Talent mobile app</div>
-          <div>Tellyo OY</div>
-          <div>UI/UX</div>
-          <div>
+        <section className="work-sec-container">
+          <div className="work-item">Tellyo Talent mobile app</div>
+          <div className="work-item">Tellyo OY</div>
+          <div className="work-item">UI/UX</div>
+          <div className="work-item">
           Process focuses on creating compelling experiences that are grounded in business goals while carefully designing to deliver on the user’s needs. This collaborative process brings together business and technology vision holders to ensure designs meet business objectives, are scalable for future growth, and are feasible from a technology perspective.
           </div>
           <div className="work-img-container"><img src={require('../images-work/Tellyoapp-opening.jpg')} alt="Website design"/></div>
-          <button>Read Case Study Component</button>     
+          <button className="work-item work-btn">Read Case Study</button>     
         </section>
-        <section>
-          <div>Dark Theme</div>
-          <div>Tellyo OY</div>
-          <div>UI/UX</div>
-          <div>
+        <section className="work-sec-container">
+          <div className="work-item">Dark Theme</div>
+          <div className="work-item">Tellyo OY</div>
+          <div className="work-item">UI/UX</div>
+          <div className="work-item">
           Process focuses on creating compelling experiences that are grounded in business goals while carefully designing to deliver on the user’s needs. This collaborative process brings together business and technology vision holders to ensure designs meet business objectives, are scalable for future growth, and are feasible from a technology perspective.
           </div>
           <div className="work-img-container"><img src={require('../images-work/Darktheme-opening.jpg')} alt="Website design"/></div>
-          <button>Read Case Study Component</button>
-        </section> */}
+          <button className="work-item work-btn">Read Case Study</button>
+        </section>
         <Cooperation/>
         <SocialMedia/>
         <Footer/>
