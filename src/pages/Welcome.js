@@ -28,15 +28,22 @@ class Welcome extends Component {
     return (
         <>   
           <nav className="wel-nav"> 
+          <Link to="/">
             <div className="wel-img-container">
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>
+          </Link>  
             <button onClick={this.onClick} className={`wel-hamburger ${this.state.activehamburger}`}>
               <span className="wel-hamburger-box">
                 <span className="wel-hamburger-inner">
                 </span>
               </span>
             </button>   
+            <div className="wel-nav-desktop">
+              <Link onClick={this.onClick} to="/" className="wel-nav-item">Work</Link>
+              <Link onClick={this.onClick} to="/about" className="wel-nav-item">About</Link>
+              <Link onClick={this.onClick} to="/contact" className="wel-nav-item">Contact</Link>  
+            </div>
           </nav>    
           <div className={`wel-navigation ${this.state.activelist}`}>
             <div className="wel-nav-list">

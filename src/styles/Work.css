@@ -95,3 +95,17 @@
     }
 }
 
+@media only screen and (min-width: 1155px) {
+    .work-img-container {
+        width: calc(180px * 6);
+        height: calc(100px * 6);
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .work-img-container {
+        width: calc(180px * 7);
+        height: calc(100px * 7);
+    }
+
+}

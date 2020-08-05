@@ -7,14 +7,17 @@
     z-index: 3;
     background-color: white;
     box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wel-nav-desktop {
+    display: none;
 }
 
 .wel-img-container {
-    position: fixed;
-    top: 2vh;
-    left: 3vh;
-    line-height: 10vh;
-
+    margin-left: 3vw;
     height: calc(28px * 1.5);
     width: calc(39.4px * 1.5);
 }
@@ -25,15 +28,13 @@
 }
 
 .wel-hamburger {
-    position: fixed;
-    top: 4vh;
-    right: 3vh;
     display: inline-block;
     background-color: transparent;
     cursor: pointer;
     border: 0;
     margin: 0;
     z-index: 2;
+    margin-right: 3vw;
 }
 
 .wel-hamburger, .wel-navigation {
@@ -119,5 +120,28 @@
     font-size: 40px;
 }
 
+@media only screen and (min-width: 1024px){
+    .wel-nav > button {
+        display: none;
+    }
 
+    .wel-nav-desktop {
+        display: block;
+        margin-right: 15vw;
+        font-family: "Playfair Display";
+    }
+
+    .wel-nav-desktop > a {
+        margin-right: 5vw;
+        font-size: 20px;
+        color: #314461;
+    }
+
+    .wel-img-container {
+        margin-left: 15vw;
+        height: calc(28px * 1.5);
+        width: calc(39.4px * 1.5);
+    }
+
+}
 
