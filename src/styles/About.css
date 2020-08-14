@@ -1,7 +1,21 @@
-.xddd {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    /* z-index: 5; */
+.ab-first-sec {
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(90deg, #E8F7B9, #FEA38F);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+.ab-first-sec div:nth-child(1) {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.ab-first-sec div:nth-child(2) {
+    font-size: 22px;
 }

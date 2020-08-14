@@ -6,6 +6,7 @@ import '../App.css';
 import Cooperation from '../components/Cooperation';
 
 class Work extends Component {
+
   render() {
     return (
       <main className="container">
@@ -23,7 +24,7 @@ class Work extends Component {
           <div className="work-img-container"><img src={require('../images-work/Tellyowebsite-opening.jpg')} alt="Website design"/></div>
           <button className="work-item work-btn">Read Case Study</button>
         </section>
-        <section className="work-sec-container">
+        <section className="work-sec-container work-sec-dark">
           <div className="work-item">Watercolor portraits</div>
           <div className="work-item">Personal project</div>
           <div className="work-item">Graphic design</div>
@@ -43,7 +44,7 @@ class Work extends Component {
           <div className="work-img-container"><img src={require('../images-work/ibc_stand_final.jpg')} alt="Website design"/></div>
           <button className="work-item work-btn">Read Case Study</button>          
         </section>
-        <section className="work-sec-container">
+        <section className="work-sec-container work-sec-dark">
           <div className="work-item">Tellyo Talent mobile app</div>
           <div className="work-item">Tellyo OY</div>
           <div className="work-item">UI/UX</div>

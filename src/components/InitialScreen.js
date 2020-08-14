@@ -3,6 +3,7 @@ import Footer from './Footer';
 import '../styles/Initialscreen.css';
 
 class InitialScreen extends Component {
+
   render() {
     return (
         <>
@@ -11,7 +12,7 @@ class InitialScreen extends Component {
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>
         </div>    
-        <main className="ini-main">
+        <main onScroll={this.handleScroll} className="ini-main">
             {/* who I am */}
             <div className="ini-who">
                I'M NATALIA MARCINKIEWICZ<br/> VISUAL DESIGNER AND PROBLEM SOLVER BASED IN ŁÓDŹ, POLAND.

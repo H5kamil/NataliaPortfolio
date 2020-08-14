@@ -40,9 +40,9 @@ class Welcome extends Component {
               </span>
             </button>   
             <div className="wel-nav-desktop">
-              <Link onClick={this.onClick} to="/" className="wel-nav-item">Work</Link>
-              <Link onClick={this.onClick} to="/about" className="wel-nav-item">About</Link>
-              <Link onClick={this.onClick} to="/contact" className="wel-nav-item">Contact</Link>  
+              <Link to="/" className="wel-nav-item">Work</Link>
+              <Link to="/about" className="wel-nav-item">About</Link>
+              <Link to="/contact" className="wel-nav-item">Contact</Link>  
             </div>
           </nav>    
           <div className={`wel-navigation ${this.state.activelist}`}>

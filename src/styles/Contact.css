@@ -19,15 +19,9 @@
     font-family: "Sofia Pro";
 }
 
-.con-form-container-inner {
-    padding-top: 10%;
-    height: 90%;
-    width: 80%;
-}
-
 .con-form-container {
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 150vh;
     background: linear-gradient(#fff, #d9e9e9, #DFE5E5);
     display: flex;
     flex-direction: column;
@@ -36,12 +30,25 @@
     color: #878a8f;
 }
 
+.con-form-container-inner {
+    padding-top: 10%;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label, input {
+    margin: 0;
+    padding: 0;
+}
+
 input, textarea {
     width: 98%;
     border: 1px solid #fff;
-    padding: 5px 0px;
+    /* padding: 5px 0px;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
     resize: vertical;
     font-size: 18px;
   }
@@ -51,18 +58,72 @@ input, textarea {
   }
 
   .con-btn {
-      background-color: transparent;
-      width: 40vw;
-      border-radius: 10px;
-      border: 2px solid white;
-      padding: 5px 0;
-      font-size: 24px;
-      color: #878a8f;
+    background-color: transparent;
+    width: 40vw;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px 0;
+    font-size: 24px;
+    color: #878a8f;
+    margin-bottom: 5vh;
   }
 
-  .con-picture {
-      width: 80%;
-      /* height: 200px; */
-      border: 2px solid white;
-      /* margin: 10%; */
-  }
+.con-picture {
+    padding: 5vh 0;
+    width: calc(280px * 0.9);
+    height: calc(333px * 0.9);
+    margin-bottom: 4vh;
+}
+
+.con-picture img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .con-form-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .con-form-container-inner {
+        height: 90%;
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    
+    input, textarea {
+        width: 100%;
+    }
+    
+      textarea {
+        height: 250px;
+    }
+    
+      /* .con-btn {
+          background-color: transparent;
+          width: 40vw;
+          border-radius: 10px;
+          border: 2px solid white;
+          padding: 5px 0;
+          font-size: 24px;
+          color: #878a8f;
+      } */
+    
+    .con-picture {
+        width: calc(280px * 1.2);
+        height: calc(333px * 1.2);
+    }
+
+    .con-picture img {
+        width: 100%;
+        height: auto;
+    }
+}
