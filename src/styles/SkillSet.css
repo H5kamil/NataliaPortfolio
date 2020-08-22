@@ -1,0 +1,42 @@
+.sk-title {
+    padding: 4vh 10vw;
+    font-size: 26px;
+}
+
+.sk-desc {
+    padding: 0 10vw;
+    font-size: 20px;
+}
+
+.sk-svg-desktop {
+    display: none;
+}
+
+.sk-svg-mobile {
+    width: 90%;
+    margin: auto;
+    padding: 5vh 0;
+}
+
+div.sk-svg-mobile > img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .sk-svg-mobile {
+        display: none;
+    }
+
+    .sk-svg-desktop {
+        display: block;
+        width: 90%;
+        margin: auto
+    }
+
+    div.sk-svg-desktop > img {
+        width: 100%;
+        height: auto;
+        padding: 5vh 0;
+    }
+}

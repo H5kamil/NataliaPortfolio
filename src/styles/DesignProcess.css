@@ -1,0 +1,138 @@
+.depr-text {
+    height: 15vh;
+    line-height: 10vh;
+    padding: 3vh 10vw;
+    font-size: 30px;
+}
+
+.depr-container-mobile {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.depr-line {
+    position: relative;
+    height: 200vh;
+    width: 10vw;
+    /* margin-left: 8vw; */
+    border-left: 2px solid lightgrey;
+    /* background-color: red; */
+}
+
+div.depr-line > div {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: -8px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    background-color: white;
+}
+
+div.depr-line > div:hover {
+    border: 2px solid #5876ED;
+}
+
+div.depr-line > div:nth-child(1) {
+    top: 15vh
+}
+
+div.depr-line > div:nth-child(2) {
+    top: calc((170vh / 5) + 15vh);
+}
+
+div.depr-line > div:nth-child(3) {
+    top: calc((2* (170vh / 5)) + 15vh);
+}
+
+div.depr-line > div:nth-child(4) {
+    top: calc((3* (170vh / 5)) + 15vh);
+}
+
+div.depr-line > div:nth-child(5) {
+    top: calc((4* (170vh / 5)) + 15vh);
+}
+
+div.depr-line > div:nth-child(6) {
+    top: 185vh
+}
+
+.depr-process-desc {
+    position: relative;
+    height: 200vh;
+    width: 50vw;
+    /* background-color:lightgreen; */
+}
+
+.depr-process-desc > div {
+    position: absolute;
+    font-size: 14px;
+}
+
+.depr-process-desc > div:nth-child(1) {
+    top: 6vh;
+}
+
+.depr-process-desc > div:nth-child(2) {
+    top: calc((170vh / 5) + 6vh);
+}
+
+.depr-process-desc > div:nth-child(3) {
+    top: calc((2* (170vh / 5)) + 6vh);
+}
+
+.depr-process-desc > div:nth-child(4) {
+    top: calc((3* (170vh / 5)) + 6vh);
+}
+
+.depr-process-desc > div:nth-child(5) {
+    top: calc((4* (170vh / 5)) + 6vh);
+}
+
+.depr-process-desc > div:nth-child(6) {
+    top: 178vh;
+}
+
+.depr-desc-item {
+    font-weight: bold;
+    padding: 9px 0;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .depr-process-desc > div {
+        position: absolute;
+        font-size: 12px;
+    }
+}
+
+
+.depr-container-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .depr-container-mobile {
+        display: none;
+    }
+
+    .depr-container-desktop {
+        display: flex;
+        /* height: 100vh; */
+        justify-content: center;
+    }
+
+    .depr-wavy{
+        width: calc(1223.84px * 1vw);
+        max-width: 80vw;
+    }
+
+    div.depr-wavy img{
+        width: 100%;
+        height: auto;
+    }
+
+    .depr-text {
+        font-size: 50px;
+    }
+}
