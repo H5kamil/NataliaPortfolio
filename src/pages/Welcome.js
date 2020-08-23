@@ -9,6 +9,11 @@ class Welcome extends Component {
     activelist: null
   }
 
+  //scroll top after previous scrolling
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   onClick = () => {
     if(this.state.activehamburger === null) {
       this.setState({
@@ -22,7 +27,6 @@ class Welcome extends Component {
       })
     }
   }
-
 
   render() {
     return (

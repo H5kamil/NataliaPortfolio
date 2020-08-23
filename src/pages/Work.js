@@ -7,6 +7,11 @@ import Cooperation from '../components/Cooperation';
 
 class Work extends Component {
 
+  //scroll top after previous scrolling
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <main className="container">

@@ -15,6 +15,11 @@ class Contact extends Component {
     validEmial: true
   }
 
+  //scroll top after previous scrolling
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   onChangeName = (e) => {
     this.setState({
       name: e.target.value

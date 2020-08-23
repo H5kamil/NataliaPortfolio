@@ -1,3 +1,13 @@
+#ini-id {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 200vh;
+  width: 100vw;
+  background-color: transparent;
+  z-index: 10;
+}
+
 .ini-main {
     position: fixed;
     height: 90vh;
