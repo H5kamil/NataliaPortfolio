@@ -1,12 +1,19 @@
 .work-img-container {
-    width: calc(180px * 1.8);
-    height: calc(100px * 1.8);
+    position: relative;
+    width: 90vw;
+    overflow: hidden;
 }
 
 .work-img-container img {
     width: 100%;
     height: auto;
+    transition: transform .2s ease;
 }
+
+.work-img-container:hover img {
+    transform: scale(1.06); 
+}
+
 
 .work-first-sec {
     width: 100vw;
@@ -33,7 +40,7 @@
     width: 100vw;
     height: 90vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 5vh 0;
@@ -44,12 +51,12 @@
     text-align: center;
 }
 
-.work-btn {
+a.work-btn > button {
     background-color: transparent;
     border: 2px solid #C3CFE2;
     border-radius: 40px;
     height: 50px;
-    width: 40%;
+    width: 50%;
     max-width: 260px;
     font-size: 16px;
 }
@@ -59,53 +66,79 @@
     color: #C3CFE2;
 }
 
-@media only screen and (min-width: 540px) {
+.work-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s ease;
+}
+
+.work-wrapper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.work-hover:hover {
+    background: rgba(93, 176, 214, 0.7);
+}
+
+.work-hover:hover > .work-wrapper {
+    opacity: 1;
+}
+
+.work-wrapper > a > button {
+    background-color: #AFDEFC;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 50px;
+    width: 35vw;
+    max-width: 200px;
+    color: white;
+    font-size: 15px;
+    transition: background-color .2s .1s ease-in-out;
+    transition: border .2s .1s ease-in-out;
+}
+
+.work-wrapper > a > button:hover {
+    background-color: #21222E;
+    border: 2px solid #21222E;
+}
+
+.work-dekstop-h1 {
+    font-size: 40px;
+}
+
+.work-dekstop-h3 {
+    font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
     .work-img-container {
-        width: calc(180px * 2.4);
-        height: calc(100px * 2.4);
+        width: 60vw;
     }
 
-    .work-first-sec div:nth-child(1) {
-        font-size: 40px;
-    }
-    
-    .work-first-sec div:nth-child(2) {
-        font-size: 26px;
+    .work-item {
+        display: none;
     }
 }
 
-@media only screen and (min-width: 690px) {
-    .work-img-container {
-        width: calc(180px * 3);
-        height: calc(100px * 3);
+@media only screen and (max-width: 1024px) {
+    .work-hover, .work-text-desktop {
+        display: none;
     }
 }
 
-@media only screen and (min-width: 790px) {
-    .work-img-container {
-        width: calc(180px * 3.8);
-        height: calc(100px * 3.8);
-    }
-}
 
-@media only screen and (min-width: 940px) {
-    .work-img-container {
-        width: calc(180px * 5);
-        height: calc(100px * 5);
-    }
-}
-
-@media only screen and (min-width: 1155px) {
-    .work-img-container {
-        width: calc(180px * 6);
-        height: calc(100px * 6);
-    }
-}
-
-@media only screen and (min-width: 1340px) {
-    .work-img-container {
-        width: calc(180px * 7);
-        height: calc(100px * 7);
-    }
-
-}
