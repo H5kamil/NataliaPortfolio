@@ -150,6 +150,22 @@ class WebsiteDesign extends Component {
             businesses reguirements and new features of each product, there were a 
             number of amendments and updates, but main assumption was constant.
           </section>
+          <section className="web-9-sec">
+            <div>    
+              <div>Design and prototype 02:</div>
+              <div>Final solution Case Studies</div>
+              <div>Since the site should be simple and easy to navigate and content is always 
+                getting bigger, I had to make it easy scalable. Taking into considerations 
+                business goals, I had in mind that we need to focus on sales and company 
+                reputation but also engaged and encourage new customers. Keeping up with the 
+                established IA and all graphics assets in mind, I designed a tiles grid that 
+                the best suits Case Study section.
+              </div>
+            </div>    
+            <div  className="web-9-sec-gif">
+              <img src={require('../images-work/macbook_CS-gif.gif')} alt=""/>
+            </div>
+          </section>
         </main>
         </>
     );
