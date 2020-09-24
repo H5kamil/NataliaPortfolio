@@ -137,7 +137,12 @@ class WebsiteDesign extends Component {
               were all covered with needed informations. We’ve got to really understand 
               the functionality of the site. Once these requirements were met, we started 
               begin optimizing the IA.</div>
-            <div>GRAFFFIKA NA MOBILE!!!!!!</div>
+            <div className="web-7-sec-img-mobile">
+              <img src={require('../images-work/sitemap_mobile.png')} alt=""/>
+            </div>
+            <div className="web-7-sec-img-dekstop">
+              <img src={require('../images-work/sitemap_desktop.png')} alt=""/>
+            </div>
           </section>
           <section className="web-8-sec">
             This process helped us prioritize, better clasify and organize gathered 
