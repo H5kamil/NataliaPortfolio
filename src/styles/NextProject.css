@@ -1,0 +1,29 @@
+.next-container {
+    width: 100vw;
+    height: 40vh;
+    background-color: #21222E;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.next-link-container {
+    width: 70%;
+    height: 10%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+
+.next-link-img {
+    width: 20%;
+    height: auto;
+    fill: white;
+    transform: rotate(90deg);
+    /* margin-right: 8vw; */
+}

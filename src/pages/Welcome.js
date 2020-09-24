@@ -4,9 +4,14 @@ import '../styles/Welcome.css'
 
 class Welcome extends Component {
 
+  activeClass = "wel-work-active";
+
   state = {
     activehamburger: null,
-    activelist: null
+    activelist: null,
+    link1: this.activeClass,
+    link2: null,
+    link3: null
   }
 
   //scroll top after previous scrolling
@@ -28,6 +33,39 @@ class Welcome extends Component {
     }
   }
 
+  onClickLink = (e) => {
+    console.log(e);
+    this.setState({
+      activeWork: null
+    })
+
+    switch (e) {
+      case 1:
+        this.setState({
+          link1: this.activeClass,
+          link2: null,
+          link3: null
+        })
+        break;
+      case 2:
+        this.setState({
+          link1: null,
+          link2: this.activeClass,
+          link3: null
+          })
+        break;
+      case 3:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: this.activeClass
+          })
+          break;              
+      default:
+        break;
+    }
+  }
+
   render() {
     return (
         <>   
@@ -44,9 +82,9 @@ class Welcome extends Component {
               </span>
             </button>   
             <div className="wel-nav-desktop">
-              <Link to="/" className="wel-nav-item">Work</Link>
-              <Link to="/about" className="wel-nav-item">About</Link>
-              <Link to="/contact" className="wel-nav-item">Contact</Link>  
+              <Link onClick={()=>this.onClickLink(1)} to="/" className={`wel-nav-item ${this.state.link1}`}>Work</Link>
+              <Link onClick={()=>this.onClickLink(2)} to="/about" className={`wel-nav-item ${this.state.link2}`}>About</Link>
+              <Link onClick={()=>this.onClickLink(3)} to="/contact" className={`wel-nav-item ${this.state.link3}`}>Contact</Link>  
             </div>
           </nav>    
           <div className={`wel-navigation ${this.state.activelist}`}>
