@@ -36,19 +36,39 @@
 }
 
 .web-second-sec {
-    padding: 0 3vw;
+    padding: 3vh 5vw;
     background-color: white;
+    text-align: center;
+    box-shadow: 0px 6px 6px #00000029;
 }
 
 section.web-second-sec div:nth-child(1) {
     padding-top: 5vh;
-    padding-left: 5vw;
-    font-size: 26px;
+    font-size: 28px;
+    color: #21222E;
 }
 
-section.web-second-sec div:nth-child(2) {
-    padding: 4vh 5vw;
-    font-size: 18px;
+section.web-second-sec div:nth-child(2), 
+section.web-second-sec div:nth-child(3){
+    padding: 4vh 0;
+    font-size: 22px;
+    color: #62799D;
+}
+
+section.web-second-sec div:nth-child(4) {
+    color: #5876ED;
+    font-size: 20px;
+    padding-top: 2vh;
+}
+
+section.web-second-sec div:nth-child(5) {
+    color: #62799D;
+    font-size: 20px;
+    padding: 4vh 0;
+}
+
+.web-second-sec-desc-desktop {
+    display: none;
 }
 
 .web-background-img-dekstop, .web-background-img-dekstop-wrapper {
@@ -66,6 +86,7 @@ section.web-second-sec div:nth-child(2) {
     background-color: #F5F7FA;
     color: #62799D;
     font-size: 20px;
+    text-align: center;
 }
 
 .web-third-sec-item {
@@ -86,7 +107,7 @@ section.web-second-sec div:nth-child(2) {
 
 .web-4-sec {
     width: 100vw;
-    /* height: 80vh; */
+    text-align: center;
     background-color: white;
 }
 
@@ -227,9 +248,40 @@ div.web-5-item2 div {
         background-color: transparent;
     }
 
+    section.web-second-sec {
+        text-align: start;
+        padding: 4vh 7vw;
+    }
+
+    section.web-second-sec div:nth-child(1) {
+        font-size: 50px;
+    }
+
+    section.web-second-sec div:nth-child(3) {
+        font-size: 35px;
+    }
+
+    section.web-second-sec div:nth-child(4) {
+        font-size: 30px;
+    }
+
+    section.web-second-sec div:nth-child(5) {
+        font-size: 25px;
+        padding-right: 15vw;
+    }
+
+    .web-second-sec-desc-mobile {
+        display: none;
+    }
+
+    .web-second-sec-desc-desktop {
+        display: block;
+    }
+
     .web-third-sec {
         display: flex;
         flex-direction: row;
+        text-align: start;
     }
 
     .web-third-sec-item {
@@ -248,11 +300,17 @@ div.web-5-item2 div {
 
     .web-4-sec {
         display: flex;
+        text-align: start;
     }
 
-    .web-4-sec div:nth-child(1) {
-        width: 70%;
+    .web-4-sec div div:nth-child(1) {
+        width: 50%;
+        font-size: 50px;
     }
+
+    .web-4-sec div div:nth-child(2) {
+        font-size: 25px;
+    }    
 
     .web-4-sec-img-mobile {
         display: none;

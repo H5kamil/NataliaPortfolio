@@ -29,10 +29,18 @@ class WebsiteDesign extends Component {
           </section>
           <section className="web-second-sec">
             <div>Project details</div>
-            <div>Company Project <br/>
+            <div className="web-second-sec-desc-mobile">Company Project <br/>
                 2 Months <br/>
                 3 Groups <br/>
-                (Design + Marketing+ Development Team: 6 people) <br/>
+                (Design + Marketing + <br/>
+                Development Team: 6 people) <br/>
+            </div> 
+            <div className="web-second-sec-desc-desktop">
+              Company Project l 2 Months l 3 Groups <br/>
+              (Design + Marketing+ Development Team: 6 people) 
+            </div> 
+            <div>Case Study</div>   
+            <div>
                 Process focuses on creating compelling experiences
                 that are grounded in business goals while carefully 
                 designing to deliver on the user’s needs. This collaborative 
@@ -50,10 +58,11 @@ class WebsiteDesign extends Component {
             <div className="web-third-sec-item">
               <div style={{color: "black"}}>My role</div>
               <div>UI/UX Designer</div>
-              <div>My role was to design the best possible experience and 
-                produce high fidelity design for new website. I had to figure 
-                out new attractive way to attact attention on home and 
-                prepare new layout for Case Studies.</div>
+              <div>My role was to design the best possible experience and produce high 
+                fidelity design for website update. 
+                I had to figure out new attractive way to engaged audience with desirable 
+                content. Home, Pricing, Case Studies and Careers were my part of work 
+                to prepare new layout.</div>
             </div>
             <div className="web-third-sec-item">
               <div style={{color: "#21222E"}}>Deliverables</div>
