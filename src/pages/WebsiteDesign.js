@@ -83,14 +83,14 @@ class WebsiteDesign extends Component {
                 real-time.</div>
             </div>
               <div className="web-4-sec-img-mobile">
-                <img src={require('../images-work/about-tellyo---mobile.png')} alt="Website design"/>
+                <img src={require('../images-work/about-tellyo---web.png')} alt="Website design"/>
               </div>
               <div className="web-4-sec-img-desktop">
                 <img src={require('../images-work/about-tellyo---web.png')} alt="Website design"/>
               </div>
           </section>
           <section className="web-5-sec">
-            <div className="web-5-sec-item web-5-item1">
+            <div className="web-5-item1">
               <div>The challenge</div>
               <div>Previously established hierarchy of website was based on two main 
                 products: Tellyo Pro and Tellyo On Demand. Tellyo was resigning of 
@@ -104,7 +104,7 @@ class WebsiteDesign extends Component {
                 hihlight their independent functionalities. All that align with the 
                 Tellyo brand principles to produce a better experience.</div>
             </div>
-            <div className="web-5-sec-item web-5-item2">
+            <div className="web-5-item2">
               <div>Before:</div>
               <div>Tellyo = Tellyo Pro | Tellyo On Demand</div>
               <div>New approach:</div>
@@ -123,6 +123,7 @@ class WebsiteDesign extends Component {
             </div>  
             <div className="web-6-sec-img-wrapper">
               <img src={require('../images-work/web-sec-6.png')} alt="Website design"/>
+              <figcaption>Old Tellto website</figcaption>
             </div>
           </section>
           <section className="web-7-sec">
