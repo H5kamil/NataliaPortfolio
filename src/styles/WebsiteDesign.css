@@ -106,29 +106,26 @@ section.web-second-sec div:nth-child(5) {
 }
 
 .web-4-sec {
-    width: 100vw;
+    width: 86vw;
     text-align: center;
     background-color: white;
+    padding: 0 7vw;
 }
 
 .web-4-sec div div:nth-child(1) {
     color: #21222E;
     font-size: 26px;
     padding-top: 8vh;
-    padding-left: 7vw;
-    padding-right: 7vw;
 }
 
 .web-4-sec div div:nth-child(2) {
     color: #62799D;
     font-size: 20px;
     padding-top: 4vh;
-    padding-left: 7vw;
-    padding-right: 7vw;
 }
 
 .web-4-sec-img-mobile {
-    width: 100vw;
+    width: 100%;
     padding-top: 5vh;
 }
 
@@ -188,7 +185,7 @@ div.web-5-item2 div {
 }
 
 .web-6-sec figcaption {
-    padding-bottom: 4vh;
+    padding-bottom: 5vh;
     color: #A9A6A6;
     font-size: 20px;
 }    
@@ -448,7 +445,7 @@ section.web-13-sec div:nth-child(2) {
 
     section.web-second-sec {
         text-align: start;
-        padding: 4vh 7vw;
+        padding: 4vh 14vw;
     }
 
     section.web-second-sec div:nth-child(1) {
@@ -477,15 +474,29 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-third-sec {
+        width: 72vw;
         display: flex;
         flex-direction: row;
         text-align: start;
+        padding: 5vh 14vw;
+    }
+
+    .web-third-sec div:nth-child(1) {
+        padding-right: 4vw;
+    }
+
+    
+    .web-third-sec div.web-third-sec-item:nth-child(2) {
+        padding-left: 6vw;
     }
 
     .web-third-sec-item {
         width: 50%;
         font-size: 25px;
-        padding: 5vh 8vw;
+    }
+
+    .web-third-sec-item {
+        padding: 3vh 0;
     }
 
     .web-third-sec-item div:nth-child(1) {
@@ -497,18 +508,26 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-4-sec {
+        width: 72vw;
         display: flex;
         text-align: start;
+        padding: 0 14vw;
+    }
+
+    .web-4-sec-item1 {
+        width: 120%;
     }
 
     .web-4-sec div div:nth-child(1) {
         width: 50%;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .web-4-sec div div:nth-child(2) {
-        font-size: 25px;
-    }    
+        font-size: 22px;
+        padding-right: 10vw;
+        padding-bottom: 7vh;
+    }   
 
     .web-4-sec-img-mobile {
         display: none;
@@ -517,19 +536,20 @@ section.web-13-sec div:nth-child(2) {
     .web-4-sec-img-desktop {
         display: block;
         width: 100vw;
-        padding-top: 5vh;
+        padding-top: 7vh;
     }
     
     .web-4-sec-img-desktop img {
-        width: 100%;
+        width: 120%;
         height: auto;
     }
 
     .web-5-sec {
         display: flex;
         font-size: 25px;
-        width: 100vw;
+        width: 72vw;
         text-align: start;
+        padding: 5vh 14vw;
     }
 
     .web-5-item1 {
@@ -549,6 +569,7 @@ section.web-13-sec div:nth-child(2) {
         display: block;
         width: 50%;
         padding: 10vh 6vw;
+        padding-left: 9vw;
     }
 
     .web-5-item2 div:nth-child(2) {
@@ -565,22 +586,27 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-6-sec div:nth-child(1) {
-        width: 50%;
+        width: 45%;
         font-size: 25px;
     }
 
     .web-6-sec div div:nth-child(1) {
-        font-size: 50px;
+        padding-left: 14vw;
+        padding-right: 0;
+        font-size: 45px;
     }
     
     .web-6-sec div div:nth-child(2) {
+        padding-left: 14vw;
+        padding-right: 0;
+        padding-bottom: 7vh;
         font-size: 25px;
     }
 
     .web-6-sec-img-wrapper {
         width: 40%;
         margin: 0 auto;
-        padding-top: 5vh;
+        padding-top: 8vh;
         text-align: center;
     }
 
@@ -589,8 +615,15 @@ section.web-13-sec div:nth-child(2) {
         text-align: start;
     }
 
+    .web-7-sec div:nth-child(1),
+    .web-7-sec div:nth-child(2),
+    .web-7-sec div:nth-child(3) {
+        padding: 1.5vh 14vw;
+    }
+
     section.web-7-sec div:nth-child(1) {
         font-size: 50px;
+        padding-top: 7vh;
     }
 
     section.web-7-sec div:nth-child(2) {
@@ -611,10 +644,11 @@ section.web-13-sec div:nth-child(2) {
         width: 86vw;
         padding-top: 5vh;
         padding-bottom: 7vh;
+        text-align: center;
     }
 
     section.web-7-sec div.web-7-sec-img-dekstop img {
-        width: 100%;
+        width: 75%;
         height: auto;
     }
 
@@ -625,7 +659,6 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-9-sec {
-        display: flex;
         text-align: start;
     }
 
@@ -637,26 +670,39 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-9-sec div div:nth-child(1){
-        font-size: 50px;
+        font-size: 45px;
         color: #21222E;
         padding-top: 10vh;
+        padding-left: 14vw;
+        padding-right: 0;
     }
     
     .web-9-sec div div:nth-child(2){
         font-size: 35px;
         padding-bottom: 4vh;
+        padding-left: 14vw;
     }
     
     .web-9-sec div div:nth-child(3){
         margin: 0 0;
+        padding-left: 14vw;
         text-align: start;
         padding-bottom: 4vh;
         font-size: 25px;
     }
 
+    .web-9-sec-gif {
+        text-align: center;
+    }
+    
+    .web-9-sec-gif img {
+        width: 80%;
+        height: auto;
+    }
+
     .web-10-sec {
-        width: 86vw;
-        padding: 2vw 7vw;
+        width: 72vw;
+        padding: 2vw 14vw;
         padding-top: 8vh;
         text-align: start;
     }
@@ -690,13 +736,21 @@ section.web-13-sec div:nth-child(2) {
     .web-11-sec div:nth-child(1){
         font-size: 50px;
         padding-top: 8vh;
-        padding-left: 7vw;
+        padding-left: 14vw;
     }
     
     .web-11-sec div:nth-child(2){
         font-size: 35px;
-        padding: 0 7vw;
+        padding: 0 14vw;
         padding-top: 3vh;
+    }
+
+    .web-11-sec-gif {
+        text-align: center;
+    }
+
+    .web-11-sec-gif img {
+        width: 80%;
     }
 
     .web-12-sec div:nth-child(1) {
@@ -713,9 +767,9 @@ section.web-13-sec div:nth-child(2) {
     }
 
     .web-13-sec {
-        width: 86vw;
+        width: 72vw;
         text-align: start;
-        padding: 0 7vw;
+        padding: 0 14vw;
     }
     
     section.web-13-sec div:nth-child(1) {
@@ -727,6 +781,7 @@ section.web-13-sec div:nth-child(2) {
         font-size: 25px;
         padding: 3vh 0;
         padding-right: 20vw;
+        padding-bottom: 6vh;
     }
 }
 

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
+import Cooperation from '../components/Cooperation';
 import { Link } from 'react-router-dom';
 import '../styles/Work.css';
 import '../App.css';
-import Cooperation from '../components/Cooperation';
 
 class Work extends Component {
 

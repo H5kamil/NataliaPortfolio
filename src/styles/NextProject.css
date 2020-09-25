@@ -25,5 +25,55 @@
     height: auto;
     fill: white;
     transform: rotate(90deg);
-    /* margin-right: 8vw; */
+    transition: scale 0.2s ease;
+}
+
+.next-link-img:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.next-link-arrow-up {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px){
+    .next-container {
+        display: block;
+        position: relative;
+    }
+
+    .next-container div:nth-child(1) {
+        padding-top: 7vh;
+        padding-left: 14vw;
+    }
+
+    .next-link-container {
+        padding-top: 9.5vh;
+        padding-left: 14vw;
+        justify-content: start;
+    }
+
+    .next-link-img {
+        width: 5%;
+    }
+
+    .next-link-container > div {
+        padding-left: 1vw;
+    }
+
+    .next-link-arrow-up {
+        position: absolute;
+        top: 15vh;
+        right: 14vw;
+        display: block;
+        width: 5%;
+        height: auto;
+        transition: scale 0.2s ease;
+    }
+
+    .next-link-arrow-up:hover {
+        cursor: pointer;
+        scale: 1.1;
+    }
 }

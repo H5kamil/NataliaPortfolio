@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import SocialMedia from '../components/SocialMedia';
+import Footer from '../components/Footer';
+import Cooperation from '../components/Cooperation';
 import '../styles/WebsiteDesign.css';
 import '../App.css';
+import NextProject from '../components/NextProject';
 
 class WebsiteDesign extends Component {
 
@@ -74,7 +78,7 @@ class WebsiteDesign extends Component {
             </div>
           </section>
           <section className="web-4-sec">
-            <div>
+            <div className="web-4-sec-item1">
               <div>About Tellyo</div>
               <div>Tellyo is an advanced, cloud-based live video production, 
                 editing, streaming and distribution platform. It gives broadcasters 
@@ -194,6 +198,10 @@ class WebsiteDesign extends Component {
               which should result in an increased number of  site visitors and new clients.    
             </div>
           </section>
+          <NextProject id={1}/>
+          <Cooperation/>
+        <SocialMedia/>
+        <Footer/>
         </main>
         </>
     );

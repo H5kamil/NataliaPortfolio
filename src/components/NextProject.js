@@ -20,6 +20,13 @@ class NextProject extends Component {
         console.log(this.state.activeLink);
     }
 
+    onClick = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
     render() {
       const route = this.state.activeLink;
       return (
@@ -27,8 +34,9 @@ class NextProject extends Component {
             <div>See next project</div>
             <Link to={route} className="next-link-container">
               <img src={svgArrow} alt="Arrow" className="next-link-img"/>
-              <div>Next project title</div>
+              <div>Next Project title</div>
             </Link>
+            <img onClick={this.onClick} src={svgArrow} alt="Arrow" className="next-link-arrow-up"/>
         </section>
       );
     }
