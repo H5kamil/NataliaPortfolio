@@ -83,10 +83,10 @@ class WebsiteDesign extends Component {
                 real-time.</div>
             </div>
               <div className="web-4-sec-img-mobile">
-                <img src={require('../images-work/about-tellyo---web.png')} alt="Website design"/>
+                <img src={require('../images-work/about-tellyo---mobile-noBG.png')} alt="Website design"/>
               </div>
               <div className="web-4-sec-img-desktop">
-                <img src={require('../images-work/about-tellyo---web.png')} alt="Website design"/>
+                <img src={require('../images-work/about-tellyo---mobile-noBG.png')} alt="Website design"/>
               </div>
           </section>
           <section className="web-5-sec">
@@ -123,7 +123,7 @@ class WebsiteDesign extends Component {
             </div>  
             <div className="web-6-sec-img-wrapper">
               <img src={require('../images-work/web-sec-6.png')} alt="Website design"/>
-              <figcaption>Old Tellto website</figcaption>
+              <figcaption>Old Tellyo website</figcaption>
             </div>
           </section>
           <section className="web-7-sec">
@@ -162,8 +162,36 @@ class WebsiteDesign extends Component {
                 the best suits Case Study section.
               </div>
             </div>    
-            <div  className="web-9-sec-gif">
-              <img src={require('../images-work/macbook_CS-gif.gif')} alt=""/>
+            <div className="web-9-sec-gif">
+              <img src={require('../images-work/macbook_CS-gif-NEW.gif')} alt=""/>
+            </div>
+          </section>
+          <section className="web-10-sec">
+            <div>Design and prototype 03:</div>
+            <div>Final solution for Careers</div>
+            <div className="web-10-sec-img-cont">
+              <img src={require('../images-work/Careers-02---web.png')} alt=""/>
+            </div>
+          </section>
+          <section className="web-11-sec">
+            <div>Design and prototype 04:</div>
+            <div>Final solution for Pricing and Contact form</div>
+            <div className="web-11-sec-gif">
+              <img src={require('../images-work/macbook_pricing-and-contact_gif-new.gif')} alt=""/>
+            </div>
+          </section>
+          <section className="web-12-sec">
+            <div>View the live site </div>
+            <div>We launched the official new site in 2019.</div>
+            <a id="web-10-a-id" target="_blank" rel="noopener noreferrer" href="https://tellyo.com/">See the website</a>
+          </section>
+          <section className="web-13-sec">
+            <div>Final solution takeaways</div>
+            <div>
+              In final design solution, we aimed to improve the content hierarchy and to 
+              clearly portray the company’s brand and services offered. Design closely 
+              harmonize with Tellyo Design system. I believe we improved the ease of listing, 
+              which should result in an increased number of  site visitors and new clients.    
             </div>
           </section>
         </main>

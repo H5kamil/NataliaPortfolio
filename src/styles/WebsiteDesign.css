@@ -251,8 +251,7 @@ section.web-7-sec div.web-7-sec-img-dekstop {
 }
 
 .web-9-sec {
-    width: 86vw;
-    padding: 0 7vw;
+    width: 100vw;
     color: #62799D;
     background-color: #fff;
 }
@@ -260,7 +259,7 @@ section.web-7-sec div.web-7-sec-img-dekstop {
 .web-9-sec div div:nth-child(1){
     font-size: 26px;
     color: #21222E;
-    padding: 3vh 0;
+    padding: 3vh 5vw;
 }
 
 .web-9-sec div div:nth-child(2){
@@ -271,7 +270,7 @@ section.web-7-sec div.web-7-sec-img-dekstop {
 .web-9-sec div div:nth-child(3){
     font-size: 20px;
     padding-bottom: 4vh;
-    margin: 0 3vw;
+    margin: 0 8vw;
 }
 
 section.web-9-sec div:nth-child(1) {
@@ -287,6 +286,116 @@ section.web-9-sec div:nth-child(1) {
 .web-9-sec-gif img {
     width: 100%;
     height: auto;
+}
+
+.web-10-sec {
+    width: 86vw;
+    padding: 7vw 7vw;
+    text-align: center;
+    background-color: #F5F7FA;
+}
+
+.web-10-sec div:nth-child(1) {
+    font-size: 26px;
+    color: #21222E;
+}
+
+.web-10-sec div:nth-child(2) {
+    font-size: 22px;
+    color: #62799D;
+    padding-top: 2vh;
+}
+
+section div.web-10-sec-img-cont {
+    width: 100%;
+    padding-top: 3vh;
+}
+
+section div.web-10-sec-img-cont img {
+    width: 100%;
+    height: auto;
+}
+
+#web-10-a-id {
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 9px 25px;
+    transition: background-color 0.3s ease;
+}
+
+#web-10-a-id:hover {
+    color: #F16106;
+    border: 2px solid #F16106;
+    background-color: #fff;
+}
+
+.web-11-sec {
+    width: 100vw;
+    text-align: center;
+    background-color: #fff;
+}
+
+.web-11-sec div:nth-child(1){
+    font-size: 26px;
+    color: #21222E;
+    padding-top: 7vh;
+}
+
+.web-11-sec div:nth-child(2){
+    font-size: 22px;
+    color: #62799D;
+    padding: 0 6.8vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.web-11-sec-gif {
+    width: 100%;
+}
+
+.web-11-sec-gif img {
+    width: 100%;
+    height: auto;
+}
+
+.web-12-sec {
+    background-color: #F16106;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 7vh 0;
+}
+
+.web-12-sec div:nth-child(1) {
+    font-size: 36px;
+    padding-bottom: 3vh;
+}
+
+.web-12-sec div:nth-child(2) {
+    font-size: 25px;
+    margin: 0 15vw;
+    padding-bottom: 4vh;
+}
+
+.web-13-sec {
+    width: 86vw;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 7vw;
+}
+
+section.web-13-sec div:nth-child(1) {
+    font-size: 26px;
+    color: #21222E;
+    padding-top: 5vh;
+}
+
+section.web-13-sec div:nth-child(2) {
+    font-size: 20px;
+    color: #62799D;
+    padding: 5vh 5vw;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -521,20 +630,20 @@ section.web-9-sec div:nth-child(1) {
     }
 
     .web-9-sec div:nth-child(1) {
-        width: 70%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
     .web-9-sec div div:nth-child(1){
-        font-size: 26px;
+        font-size: 50px;
         color: #21222E;
         padding-top: 10vh;
     }
     
     .web-9-sec div div:nth-child(2){
-        font-size: 22px;
+        font-size: 35px;
         padding-bottom: 4vh;
     }
     
@@ -542,6 +651,82 @@ section.web-9-sec div:nth-child(1) {
         margin: 0 0;
         text-align: start;
         padding-bottom: 4vh;
+        font-size: 25px;
+    }
+
+    .web-10-sec {
+        width: 86vw;
+        padding: 2vw 7vw;
+        padding-top: 8vh;
+        text-align: start;
+    }
+    
+    .web-10-sec div:nth-child(1) {
+        font-size: 50px;
+    }
+    
+    .web-10-sec div:nth-child(2) {
+        font-size: 35px;
+        padding-top: 2vh;
+    }
+
+    .web-10-sec div:nth-child(3) {
+        text-align: center;
+    }
+    
+    section div.web-10-sec-img-cont {
+        width: 100%;
+        padding-top: 3vh;
+    }
+
+    section div.web-10-sec-img-cont img {
+        width: 80%;
+    }
+
+    .web-11-sec {
+        text-align: start;
+    }
+
+    .web-11-sec div:nth-child(1){
+        font-size: 50px;
+        padding-top: 8vh;
+        padding-left: 7vw;
+    }
+    
+    .web-11-sec div:nth-child(2){
+        font-size: 35px;
+        padding: 0 7vw;
+        padding-top: 3vh;
+    }
+
+    .web-12-sec div:nth-child(1) {
+        font-size: 50px;
+    }
+    
+    .web-12-sec div:nth-child(2) {
+        font-size: 25px;
+        padding-bottom: 6vh;
+    }
+    
+    #web-10-a-id {
+        padding: 10px 30px;
+    }
+
+    .web-13-sec {
+        width: 86vw;
+        text-align: start;
+        padding: 0 7vw;
+    }
+    
+    section.web-13-sec div:nth-child(1) {
+        font-size: 50px;
+        padding-top: 5vh;
+    }
+    
+    section.web-13-sec div:nth-child(2) {
+        font-size: 25px;
+        padding: 3vh 0;
+        padding-right: 20vw;
     }
 }
 
