@@ -19,7 +19,10 @@ class Welcome extends Component {
     window.scrollTo(0, 0);
   }
 
-  onClick = () => {
+  onClick = (e) => {
+    if(e.target.tagName !== `SPAN`) {
+      this.props.onClickSubPage();
+    }
     if(this.state.activehamburger === null) {
       this.setState({
         activehamburger: 'wel--active',
@@ -70,7 +73,7 @@ class Welcome extends Component {
     return (
         <>   
           <nav className="wel-nav"> 
-          <Link to="/">
+          <Link to="/" onClick={ () => {this.props.onClickSubPage();} }>
             <div className="wel-img-container">
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>

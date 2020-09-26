@@ -10,7 +10,7 @@
 
 .foo-container-wrapper {
     width: 100vw;
-    height: 10vh;
+    min-height: 10vh;
     background-color: #21222E;
 }
 
@@ -25,6 +25,11 @@
     justify-content: space-evenly;
     align-items: center;
     font-size: 14px;
+    padding: 2vh 0;
+}
+
+div.foo-container div:nth-child(4) {
+    display: none;
 }
 
 .foo-author {
@@ -34,4 +39,10 @@
 
 .foo-desc {
     color: #62799D;
+}
+
+@media only screen and (min-width: 768px) {
+    div.foo-container div:nth-child(4) {
+        display: block;
+    }
 }

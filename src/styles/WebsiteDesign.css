@@ -266,7 +266,6 @@ section.web-7-sec div.web-7-sec-img-dekstop {
 
 .web-9-sec div div:nth-child(3){
     font-size: 20px;
-    padding-bottom: 4vh;
     margin: 0 8vw;
 }
 
@@ -276,7 +275,6 @@ section.web-9-sec div:nth-child(1) {
 
 .web-9-sec-gif {
     width: 100%;
-    padding-top: 5vh;
     padding-bottom: 5vh;
 }
 

@@ -27,16 +27,12 @@ class InitialScreen extends Component {
                 </div>
             </div>    
             <main className="ini-main">
-                {/* who I am */}
-                <div className="ini-who">
-                  I'M NATALIA MARCINKIEWICZ<br/> VISUAL DESIGNER AND PROBLEM SOLVER BASED IN ŁÓDŹ, POLAND.
-                </div>  
-                {/* specialization */}
                 <div className="ini-spec">
-                  Specializing in graphic and
-                  user interface design.<br/> 
-                  Animation and motion lover.
-                </div>  
+                  Hi there! <br/> I'm Natalia Marcinkiewicz - 
+                  multidisciplinary designer focused on creating 
+                  visually appealing and easy to use
+                  products and experiences
+                </div>
                 {/* start */}
                 <button onClick={this.props.onClick} className="ini-btn">Let's start</button>
             </main>

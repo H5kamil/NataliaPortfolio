@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <Router>
         {this.state.ifFirstScreen && <InitialScreen onClick={() => { this.onClick() }}/>}
-        <Welcome/>
+        <Welcome onClickSubPage={() => { this.onClick() }}/>
         <Switch>
             <Route path="/" exact component={Work}/>
             <Route path="/about" component={About}/>
