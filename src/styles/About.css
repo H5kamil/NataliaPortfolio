@@ -36,7 +36,16 @@
 }
 
 .ab-center2 {
-    padding: 2vh 4vw;
+    padding: 4vh 7vw;
+    text-align: center;
+}
+
+.ab-center2 div:nth-child(1) {
+    padding: 2vh 15vw;
+}
+
+.ab-center2 div:nth-child(3) {
+    padding: 2vh 0;
 }
 
 div.ab-center2 > div:nth-child(1) {
@@ -74,7 +83,6 @@ section.ab-long-text-component > div {
 
     .ab-second-sec {
         width: 85vw;
-        height: 70vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -83,12 +91,20 @@ section.ab-long-text-component > div {
 
     .ab-center2 {
         width: 50%;
-        padding: 0 2vw;
+        padding: 5vh 2vw;
+        text-align: start;
+    }
+    
+    .ab-center2 div:nth-child(1) {
+        padding: 2vh 0;
+    }
+    
+    .ab-center2 div:nth-child(3) {
+        padding: 2vh 0;
     }
 
     .ab-picture {
         width: 24%;
-        /* height: calc(556px * 0.5); */
         padding: 2vh 0;
     }
 
@@ -108,7 +124,7 @@ section.ab-long-text-component > div {
     }
 
     .ab-design-process {
-        height: 90vh;
+        /* height: 90vh; */
     }
 
     section.ab-long-text-component > div {

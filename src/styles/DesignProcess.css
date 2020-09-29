@@ -8,6 +8,7 @@
 .depr-container-mobile {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 7vh;
 }
 
 .depr-line {
@@ -118,17 +119,18 @@ div.depr-line > div:nth-child(6) {
 
     .depr-container-desktop {
         display: flex;
-        /* height: 100vh; */
         justify-content: center;
     }
 
-    .depr-wavy{
-        width: calc(1223.84px * 1vw);
+    .depr-wavy {
+        width: 100vw;
         max-width: 80vw;
+        text-align: center;
+        padding-bottom: 10vh; 
     }
 
-    div.depr-wavy img{
-        width: 100%;
+    div.depr-wavy img {
+        width: 90%;
         height: auto;
     }
 

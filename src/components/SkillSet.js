@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/SkillSet.css';
-import svgSkillSetDesktop from '../svg/Skill_set_desktop.svg';
-import svgSkillSetMobile from '../svg/Skill_set_mobile.svg';
 
 const SkillSet = () => {
     return (
@@ -16,10 +14,10 @@ const SkillSet = () => {
                 I believe that simplicity is the most important feature.
             </div>
             <div className="sk-svg-mobile">
-                <img src={svgSkillSetMobile} alt="SkillSetMobile"/>
+                <img src={require('../images-work/sill_set_mobile.png')} alt="SkillSetMobile"/>
             </div>
             <div className="sk-svg-desktop">
-                <img src={svgSkillSetDesktop} alt="SkillSetDesktop"/>
+                <img src={require('../images-work/sill_set_web.png')} alt="SkillSetDesktop"/>
             </div>
         </>
     )

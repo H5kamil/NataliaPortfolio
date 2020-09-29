@@ -1,11 +1,18 @@
 .sk-title {
-    padding: 4vh 10vw;
-    font-size: 26px;
+    padding: 3vh 10vw;
+    padding-top: 7vh;
+    font-size: 30px;
+    color: #21222E;
+    font-family: "Playfair Display";
+    text-align: center;
 }
 
 .sk-desc {
-    padding: 0 10vw;
+    padding: 2vh 10vw;
     font-size: 20px;
+    color: #707070;
+    font-family: "Sofia Pro";
+    text-align: center;
 }
 
 .sk-svg-desktop {
@@ -16,14 +23,25 @@
     width: 90%;
     margin: auto;
     padding: 5vh 0;
+    text-align: center;
 }
 
 div.sk-svg-mobile > img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 @media only screen and (min-width: 1024px) {
+
+    .sk-title {
+        text-align: start;
+    }
+
+    .sk-desc {
+        text-align: start;
+        padding-right: 25vw;
+    }
+
     .sk-svg-mobile {
         display: none;
     }
@@ -31,12 +49,14 @@ div.sk-svg-mobile > img {
     .sk-svg-desktop {
         display: block;
         width: 90%;
-        margin: auto
+        margin: auto;
+        text-align: center;
     }
 
     div.sk-svg-desktop > img {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 5vh 0;
+        padding-bottom: 8vh;
     }
 }
