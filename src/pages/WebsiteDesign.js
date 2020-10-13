@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import Cooperation from '../components/Cooperation';
+import NextProject from '../components/NextProject';
 import '../styles/WebsiteDesign.css';
 import '../App.css';
-import NextProject from '../components/NextProject';
 
 class WebsiteDesign extends Component {
 
