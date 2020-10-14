@@ -420,7 +420,137 @@ section.dark-a-sec div:nth-child(3) {
     padding-bottom: 4vh;
 }
 
+section.dark-b-sec {
+    font-size: 20px;
+    text-align: center;
+    padding: 3vh 7vw;
+    color: #62799D;
+    background-color: #fff;
+}
 
+section.dark-b-sec div:nth-child(1) {
+    font-size: 30px;
+    color: #21222E;
+    padding: 3vh 0;
+}
+
+section.dark-b-sec div:nth-child(2) {
+    font-size: 24px;
+    padding-bottom: 2vh;
+}
+
+section.dark-b-sec div:nth-child(3) span{
+    font-weight: bold;
+}
+
+section.dark-b-sec div:nth-child(3) span:nth-child(1) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dark-underline {
+    text-decoration: underline;
+}
+
+section.dark-b-sec div:nth-child(4) {
+    font-size: 30px;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+
+section.dark-b-sec div:nth-child(5) {
+    padding-bottom: 4vh;
+}
+
+.dark-layouts-dekstop {
+    display: none;
+}
+
+.dark-layouts-mobile div:nth-child(1) {
+    padding-bottom: 3vh;
+}
+
+.dark-layouts {
+    width: 90vw;
+    padding: 6vh 5vw;
+    background-color: #282C2E;
+    text-align: center;
+}
+
+.dark-cont {
+    width: 100%;
+}
+
+.dark-cont img {
+    width: 100%;
+    height: auto;
+}
+
+.dark-text {
+    font-size: 22px;
+    text-align: center;
+    padding: 8vh 7vw;
+    background-color: #fff;
+    color: #5876ED;
+}
+
+.dark-hard {
+    background-color: #21222E;
+    width: 96vw;
+    padding: 5vh 2vw;
+    padding-top: 7vh; 
+    text-align: center;
+}
+
+.dark-hard div:nth-child(1) {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.dark-hard div:nth-child(2) {
+    color: #62799D;
+    font-size: 22px;
+    padding: 3vh 3vw
+}
+
+.dark-hard-container {
+    width: 100%;
+}
+
+.dark-hard-container img {
+    width: 100%;
+    height: auto;
+}
+
+.dark-proto-01 {
+    background-color: #F5F7FA;
+    color: #62799D;
+    padding: 0 7vw; 
+    text-align: center;
+}
+
+.dark-proto-01 div:nth-child(1) {
+    color: #21222E;
+    font-size: 30px;
+    padding-top: 6vh;
+}
+
+.dark-proto-01 div:nth-child(2) {
+    font-size: 24px;
+    padding: 3vh 5vw;
+}
+
+.dark-proto-01 div:nth-child(3),
+.dark-proto-01 div:nth-child(4) {
+    font-size: 20px;
+    padding: 0 5vw;
+    padding-bottom: 3vh;
+}
+
+.dark-p-01-cont img {
+    width: 100%;
+    height: auto;
+}
 /* NEW CSS NOT COPIED FROM WEBSITE DESIGN - END */
 
 @media only screen and (min-width: 1024px) {
@@ -829,6 +959,123 @@ section.dark-a-sec div:nth-child(3) {
         padding-bottom: 4vh;
         padding-right: 15vw;
     }
+
+    section.dark-b-sec {
+        text-align: start;
+        padding: 5vh 14vw;
+        padding-right: 27vw;
+        font-size: 25px;
+    }
+
+    section.dark-b-sec div:nth-child(1) {
+        font-size: 40px;
+        color: #21222E;
+        padding: 3vh 0;
+    }
+    
+    section.dark-b-sec div:nth-child(2) {
+        font-size: 30px;
+        padding-bottom: 2vh;
+    }
+    
+    section.dark-b-sec div:nth-child(4) {
+        font-size: 35px;
+        padding-top: 10vh;
+        padding-bottom: 3vh;
+    }
+    
+    section.dark-b-sec div:nth-child(5) {
+        padding-bottom: 4vh;
+    }
+
+    .dark-layouts-mobile {
+        display: none;
+    }
+
+    .dark-layouts {
+        width: 80vw;
+        text-align: center;
+        padding: 8vh 10vw;
+    }
+
+    .dark-layouts-dekstop {
+        display: block;
+        width: 100%;
+    }
+
+    .dark-layouts-dekstop img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dark-text {
+        font-size: 35px;
+        text-align: center;
+        padding: 12vh 18vw;
+        background-color: #fff;
+        color: #5876ED;
+    }
+
+    .dark-hard {
+        background-color: #21222E;
+        width: 80vw;
+        padding: 10vh 10vw;
+        padding-top: 12vh; 
+        text-align: start;
+    }
+    
+    .dark-hard div:nth-child(1) {
+        color: #ffffff;
+        font-size: 40px;
+        padding-left: 4vw;
+    }
+    
+    .dark-hard div:nth-child(2) {
+        color: #62799D;
+        font-size: 32px;
+        padding: 0;
+        padding-left: 4vw;
+        padding-top: 4vh;
+        padding-bottom: 3vh;
+    }
+    
+    .dark-hard-container {
+        width: 100%;
+    }
+    
+    .dark-hard-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dark-proto-01 {
+        background-color: #F5F7FA;
+        color: #62799D;
+        padding: 0 7vw; 
+        text-align: start;
+    }
+    
+    .dark-proto-01 div:nth-child(1) {
+        color: #21222E;
+        font-size: 40px;
+        padding: 0 7vw;
+        padding-top: 6vh;
+    }
+    
+    .dark-proto-01 div:nth-child(2) {
+        font-size: 35px;
+        padding: 3vh 7vw;
+    }
+    
+    .dark-proto-01 div:nth-child(3),
+    .dark-proto-01 div:nth-child(4) {
+        font-size: 25px;
+        padding: 0;
+        padding: 0 7vw;
+        padding-bottom: 4vh;
+        padding-right: 15vw;
+    }
+
     /* NEW CSS NOT COPIED FROM WEBSITE DESIGN - END */
 }
 

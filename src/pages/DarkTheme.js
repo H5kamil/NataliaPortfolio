@@ -106,6 +106,93 @@ class DarkTheme extends Component {
                 time-consuming.  
             </div>
           </section>
+          <section className="dark-b-sec">
+            <div>
+              Design process
+            </div>
+            <div>
+            Research and technical requirement:
+            </div>
+            <div>
+            Most important guides from <span>Material Design</span> dark theme:<br/>
+            - <span>Contrast</span>: Dark surfaces and light body text should have a contrast level of at 
+            least 15.8:1<br/>
+            - <span>Depth</span>:  At higher levels of elevation, components express depth by displaying 
+            lighter surface colors<br/>
+            - <span>Desaturation</span>: Primary colors are desaturated so they pass the 
+            <div className="dark-underline">Web Content Accessibility Guidelines’ (WCAG)</div> AA standard of 
+            at least 4.5:1 (when used with body text) at all elevation levels<br/>
+            - <span>Limited color</span>: Large surfaces use a dark surface color, with limited 
+            color accents (light, desaturated and bright, saturated colors)
+            </div>
+            <div>
+            Checking contrast:
+            </div>
+            <div>
+            The process of checking and establishing well balanced colors with proper contrast was 
+            very complex. Combining all surfaces, buttons, dividers, text, icons, disabled element, 
+            bigger components on darker backgrounds, causes contrast problems on lighter ones.
+            </div>
+          </section>
+          <section className="dark-layouts">
+            <div className="dark-layouts-mobile">
+              <div className="dark-cont">
+                <img src={require('../images-work/layout_nextto_1.png')} alt=""/>
+              </div>
+              <div className="dark-cont">
+                <img src={require('../images-work/layout_nextto_2.png')} alt=""/>
+              </div>
+            </div>
+            <div className="dark-layouts-dekstop">
+              <img src={require('../images-work/Checking_contrast.png')} alt=""/>
+            </div>
+          </section>
+          <section className="dark-text">
+          Creating dark theme although is very pleasant, it is not very easy. There are numerous of 
+          guidelines, properties, usability and technical requirements also best practises, advices,
+           guides and updates to follow. During the process we headed mamy problems. The shadows, 
+           text and button colours weren't just simple opposite or supplemental colors, as dark
+            background make people perceived color differently. Dark and light themes will always 
+            evoke different emotions. We knew we have to do our best to keep the same visual 
+            hierarchy and  take advantage of product’s identity. 
+          </section>
+          <section className="dark-hard">
+            <div>
+              Working hard
+            </div>
+            <div>
+            Matching colors, testing, failing, iterating
+            </div>
+            <div className="dark-hard-container">
+            <img src={require('../images-work/Iterations_03.gif')} alt=""/>
+            </div>
+          </section>
+          <section className="dark-proto-01">
+            <div>Design and prototype 01</div>
+            <div>Final color palettes</div>
+            <div>We have divided colours by groups, depending on their purpose and use. This role 
+              is closely related to the token's naming. We did our best to reduce number of colours 
+              and standarize nomenclature, so that using themes would be much easy and efficient. 
+              As a part of Design System, themes need to become the most important global guidelines 
+              for Developers so they could have colours reference and use them safely and appropriate.
+            </div>
+            <div>
+            We have distinguished the following groups of interface colors:<br/>
+            - layouts (containers and pages backgrounds)<br/>
+            - borders<br/>
+            - dividers<br/>
+            - scroll<br/>
+            - shadow<br/>
+            - masks<br/>
+            - typography <br/>
+            - buttons/ interactions (primary, secondary, text buttons, disabled, states)<br/>
+            - semantic colors<br/>
+            - forms
+            </div>
+            <div className="dark-p-01-cont">
+            <img src={require('../images-work/Color-palette.png')} alt=""/>
+            </div>
+          </section>
           {/* <section className="dark-4-sec">
             <div className="dark-4-sec-item1">
               <div>About Tellyo</div>
