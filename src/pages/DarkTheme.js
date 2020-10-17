@@ -85,9 +85,11 @@ class DarkTheme extends Component {
             </div>    
             <div className="dark-9-sec-gif-mobile">
               <img src={require('../images-work/About-Tellyo-mobile.png')} alt=""/>
+              <figcaption>Video editior and dashboard in light theme</figcaption>
             </div>
             <div className="dark-9-sec-gif-desktop">
               <img src={require('../images-work/About-Tellyo.png')} alt=""/>
+              <figcaption>Video editior and dashboard in light theme</figcaption>
             </div>
           </section>
           <section className="dark-a-sec">
@@ -147,6 +149,55 @@ class DarkTheme extends Component {
               <img src={require('../images-work/Checking_contrast.png')} alt=""/>
             </div>
           </section>
+          <section className="dark-colors">
+            <div>
+            Color theme creation
+            </div>
+            <div>
+            Mapping general rules of light theme
+            </div>
+            <div>
+            Similar to light theme design, when it comes to creating dark theme UI it’s essential 
+            to create hierarchy and emphasize important elements in the layout. Elevation is one 
+            of the most important way to communicate the element's hierarhy. While in light theme 
+            we use shadows to emphasize and express the elevation, in dark theme mode shadows are 
+            not well visible. Following Material Design guidelines, we were trying to find best 
+            match of background colours by lightning them up- the more elevated the surface is, 
+            the brighter the color becomes.
+            </div>
+            <div>
+            Trying to find the best backgrounds eqivalent
+            </div>
+            <div className="dark-c-img1-mobile">
+              <img src={require('../images-work/light_BG@2x.png')} alt=""/>
+            </div>
+            <div className="dark-c-img1-mobile">
+              <img src={require('../images-work/dark_BG@2x.png')} alt=""/>
+            </div>
+            <div className="dark-c-img1-desktop">
+              <img src={require('../images-work/bg_eqivalent@2x.png')} alt=""/>
+            </div>
+            <div>
+            Establishing the elevation
+            </div>
+            <div className="dark-c-img2">
+              <img src={require('../images-work/Elevation_01@2x.png')} alt=""/>
+            </div>
+            <div className="dark-c-img2">
+              <img src={require('../images-work/Elevation_02@2x.png')} alt=""/>
+            </div>
+            <div>
+            Action colours + semantic colours check
+            </div>
+            <div className="dark-c-img3-mobile">
+              <img src={require('../images-work/Grid_colours@2x.png')} alt=""/>
+              <img src={require('../images-work/colors@2x.png')} alt=""/>
+              <img src={require('../images-work/Buttons@2x.png')} alt=""/>
+            </div>
+            <div className="dark-c-img3-dektop">
+              <img src={require('../images-work/Action_@2x.png')} alt=""/>
+            </div>
+          </section>
           <section className="dark-text">
           Creating dark theme although is very pleasant, it is not very easy. There are numerous of 
           guidelines, properties, usability and technical requirements also best practises, advices,
@@ -193,127 +244,38 @@ class DarkTheme extends Component {
             <img src={require('../images-work/Color-palette.png')} alt=""/>
             </div>
           </section>
-          {/* <section className="dark-4-sec">
-            <div className="dark-4-sec-item1">
-              <div>About Tellyo</div>
-              <div>Tellyo is an advanced, cloud-based live video production, 
-                editing, streaming and distribution platform. It gives broadcasters 
-                and rights holders the solutions to easily create engaging videos 
-                from live content, and share them to social and digital channels in 
-                real-time.</div>
-            </div>
-              <div className="dark-4-sec-img-mobile">
-                <img src={require('../images-work/about-tellyo---mobile-noBG.png')} alt="darksite design"/>
-              </div>
-              <div className="dark-4-sec-img-desktop">
-                <img src={require('../images-work/about-tellyo---mobile-noBG.png')} alt="darksite design"/>
-              </div>
-          </section>
-          <section className="dark-5-sec">
-            <div className="dark-5-item1">
-              <div>The challenge</div>
-              <div>Previously established hierarchy of darksite was based on two main 
-                products: Tellyo Pro and Tellyo On Demand. Tellyo was resigning of 
-                promoting Tellyo On Demand which was a solution for smaller companies 
-                and pay-per-use clients focused. Company has centred on presenting new 
-                solution: Tellyo Stream Studio. While main product, Tellyo Pro remains 
-                unchanged as the core of the company, the additional features polished 
-                lately were needed to present for wider audience. 
-                Main goal was to present those two products as the complementary but 
-                at the same time 
-                hihlight their independent functionalities. All that align with the 
-                Tellyo brand principles to produce a better experience.</div>
-            </div>
-            <div className="dark-5-item2">
-              <div>Before:</div>
-              <div>Tellyo = Tellyo Pro | Tellyo On Demand</div>
-              <div>New approach:</div>
-              <div>Tellyo = Tellyo Pro + Tellyo Stream Studio</div>
-            </div>
-          </section>
-          <section className="dark-6-sec">
-            <div>
-              <div>Design process</div>
-              <div>The first step of the design process involved desk research to understand 
-                how competitors and users behave. Starting design process we gathered all the
-                necessary information, established the scope of work. By taking a more holistic 
-                approach we focused on showing our solutions right. Explaining all advantages 
-                of each characteristics and showing main product, Tellyo Pro while Tellyo
-                Stream Studio as the additional benefit.</div>
-            </div>  
-            <div className="dark-6-sec-img-wrapper">
-              <img src={require('../images-work/dark-sec-6.png')} alt="darksite design"/>
-              <figcaption>Old Tellyo darksite</figcaption>
-            </div>
-          </section>
-          <section className="dark-7-sec">
-            <div>Establishing the new hierarhy</div>
-            <div>IA and sitemap</div>
-            <div>Building the information architecture for this darksite took lots of things 
-              into account, as well as organizing the information in a logical way. 
-              Design a proper site structure required principles that are based on the 
-              understanding that our focus should be purely the structure - something that 
-              can be shown with maps and flowcharts, so that all critical user journeys 
-              were all covered with needed informations. We’ve got to really understand 
-              the functionality of the site. Once these requirements were met, we started 
-              begin optimizing the IA.</div>
-            <div className="dark-7-sec-img-mobile">
-              <img src={require('../images-work/sitemap_mobile.png')} alt=""/>
-            </div>
-            <div className="dark-7-sec-img-dekstop">
-              <img src={require('../images-work/sitemap_desktop.png')} alt=""/>
-            </div>
-          </section>
-          <section className="dark-8-sec">
-            This process helped us prioritize, better clasify and organize gathered 
-            information and needed elements. When dealing with constantly changing 
-            businesses reguirements and new features of each product, there were a 
-            number of amendments and updates, but main assumption was constant.
-          </section>
-          <section className="dark-9-sec">
-            <div>    
-              <div>Design and prototype 02:</div>
-              <div>Final solution Case Studies</div>
-              <div>Since the site should be simple and easy to navigate and content is always 
-                getting bigger, I had to make it easy scalable. Taking into considerations 
-                business goals, I had in mind that we need to focus on sales and company 
-                reputation but also engaged and encourage new customers. Keeping up with the 
-                established IA and all graphics assets in mind, I designed a tiles grid that 
-                the best suits Case Study section.
-              </div>
-            </div>    
-            <div className="dark-9-sec-gif">
-              <img src={require('../images-work/macbook_CS-gif-NEW.gif')} alt=""/>
-            </div>
-          </section>
-          <section className="dark-10-sec">
-            <div>Design and prototype 03:</div>
-            <div>Final solution for Careers</div>
-            <div className="dark-10-sec-img-cont">
-              <img src={require('../images-work/Careers-02---dark.png')} alt=""/>
-            </div>
-          </section>
           <section className="dark-11-sec">
-            <div>Design and prototype 04:</div>
-            <div>Final solution for Pricing and Contact form</div>
+            <div>Design and prototype 02</div>
+            <div>The process and final outcome</div>
+            <div>
+            We established dark theme step by step, testing every variation in more and more 
+            complicated interface context.  When numerous of surface within different elevation 
+            and text hierarchy had any accesibility problem, we had clear reference in our 
+            light theme to keep visual order in place. We were working on numerous components 
+            and testing them in variable surfaces. As far as the components grow, we created more 
+            complex interfaces that started to match perfectly.
+            </div>
             <div className="dark-11-sec-gif">
-              <img src={require('../images-work/macbook_pricing-and-contact_gif-new.gif')} alt=""/>
+              <img src={require('../images-work/macbook-switch-themes.gif')} alt=""/>
+              <figcaption>Final result when switching between modes</figcaption>
             </div>
           </section>
           <section className="dark-12-sec">
-            <div>View the live site </div>
-            <div>We launched the official new site in 2019.</div>
-            <a id="dark-10-a-id" target="_blank" rel="noopener noreferrer" href="https://tellyo.com/">See the darksite</a>
+            <div>Final result</div>
+            <div>To see interface in action you need to be a logged Tellyo user.</div>
+            <a id="dark-10-a-id" target="_blank" rel="noopener noreferrer" href="https://tellyo.com/">See the website</a>
+            <a id="dark-10-a-id" target="_blank" rel="noopener noreferrer" href="https://app.tellyo.com/signin">Log in to Tellyo</a>
           </section>
-          <section className="dark-13-sec">
-            <div>Final solution takeaways</div>
-            <div>
-              In final design solution, we aimed to improve the content hierarchy and to 
-              clearly portray the company’s brand and services offered. Design closely 
-              harmonize with Tellyo Design system. I believe we improved the ease of listing, 
-              which should result in an increased number of  site visitors and new clients.    
-            </div>
-          </section> */}
+          <section className="dark-take">
+          <img src={require('../images-work/all_tools_final.png')} alt=""/>
+          <div>Final solution takeaways</div>
+          <div>Although creating of dark theme was really demanding job, keeping it organize together
+            with light theme brought to the company a lot of value. Users can easily switch between 
+            modes and choose preferable option. Interfaces look well polished and elegant. I have 
+            experienced on my own how well implemented themes makes work much more efficient and
+            effective in every day collaboration with developers. What is the most important, Tellyo 
+            users also gave back really positive feedback about dark theme.</div>
+          </section>
           <NextProject id={2}/>
           <Cooperation/>
           <SocialMedia/>

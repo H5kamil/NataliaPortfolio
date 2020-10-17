@@ -1,1 +1,2 @@
 [0803/133613.396:ERROR:http_transport_win.cc(382)] HTTP status 400
+[1017/131528.414:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
