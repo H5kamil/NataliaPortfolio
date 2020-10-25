@@ -33,9 +33,13 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: SofiaPro;
+  src: url(sofiapro-light.otf);
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .container {

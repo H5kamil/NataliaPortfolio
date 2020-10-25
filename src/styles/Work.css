@@ -14,14 +14,13 @@
     transform: scale(1.06); 
 }
 
-
 .work-first-sec {
     width: 100vw;
-    height: 20vh;
     background: linear-gradient(90deg,#DAFAFF, #80AFF8);
-    color: white;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
+    font-family: SofiaPro;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -30,36 +29,110 @@
 }
 
 .work-first-sec div:nth-child(1) {
+    padding-top: 3vh;
     font-size: 36px;
+    font-family: "Playfair Display";
 }
 
 .work-first-sec div:nth-child(2) {
     font-size: 22px;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .work-sec-container {
     width: 100vw;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 5vh 0;
+    font-family: SofiaPro;
 }
 
+/* !!! PROPER STYLING - START */
+.work-light1 {
+    padding-top: 5vh;
+    color: #21222E;
+    font-size: 32px;
+    font-family: "Playfair Display";
+}
+
+.work-light2 {
+    padding-top: 4vh;
+    color: #62799D;
+    font-size: 22px;
+}
+
+.work-light3 {
+    padding: 0 5vw;
+    padding-top: 3vh;
+    color: #5876ED;
+    font-size: 22px;
+}
+
+.work-light4 {
+    padding-top: 3vh;
+    color: #62799D;
+    font-size: 20px;
+    padding-bottom: 5vh;
+}
+
+.work-dark1 {
+    padding-top: 5vh;
+    font-family: "Playfair Display";
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.work-dark2 {
+    padding-top: 4vh;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.work-dark3 {
+    padding-top: 3vh;
+    color: #A972E3;
+    font-size: 22px;
+}
+
+.work-dark4 {
+    padding-top: 3vh;
+    color: #C3CFE2;
+    font-size: 20px;
+    padding-bottom: 5vh;
+}
+/* !!! PROPER STYLING - END */
+
 .work-item {
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
 
 a.work-btn > button {
     background-color: transparent;
-    border: 2px solid #C3CFE2;
+    border: 2px solid #21222E;
     border-radius: 40px;
     height: 50px;
-    width: 50%;
+    width: 60%;
     max-width: 260px;
     font-size: 16px;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+
+a.work-btn-light > button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 40px;
+    height: 50px;
+    width: 60%;
+    max-width: 260px;
+    font-size: 16px;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
 }
 
 .work-sec-dark {
@@ -82,18 +155,30 @@ a.work-btn > button {
 
 .work-wrapper {
     width: 100%;
-    height: 40%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
+    text-align: center;
     opacity: 0;
     transition: opacity 0.2s ease;
 }
 
+.work-wrapper div:nth-child(1) {
+    color: #21222E;
+    font-size: 26px;
+}
+
+.work-wrapper div:nth-child(2) {
+    padding: 0 8vw;
+    color: #62799D;
+    font-size: 18px;
+}
+
 .work-hover:hover {
-    background: rgba(93, 176, 214, 0.7);
+    background: rgba(33, 34, 46, 0.7);
 }
 
 .work-hover:hover > .work-wrapper {
@@ -101,38 +186,47 @@ a.work-btn > button {
 }
 
 .work-wrapper > a > button {
-    background-color: #AFDEFC;
-    border: 2px solid white;
+    background-color: #ffffff;
+    border: 2px solid #21222E;
     border-radius: 30px;
     height: 50px;
     width: 35vw;
-    max-width: 200px;
-    color: white;
-    font-size: 15px;
-    transition: background-color .2s .1s ease-in-out;
-    transition: border .2s .1s ease-in-out;
+    max-width: 230px;
+    color: #21222E;
+    font-size: 20px;
+    transition: background-color .4s .1s ease-in-out;
+    transition: border .4s .1s ease-in-out;
 }
 
 .work-wrapper > a > button:hover {
     background-color: #21222E;
     border: 2px solid #21222E;
+    color: white;
 }
 
 .work-dekstop-h1 {
     font-size: 40px;
+    padding-top: 4vh;
 }
 
 .work-dekstop-h3 {
     font-size: 26px;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
 }
 
 @media only screen and (min-width: 1024px) {
     .work-img-container {
         width: 60vw;
+        /* padding-top: 7vh; */
     }
 
     .work-item {
         display: none;
+    }
+
+    .work-sec-container {
+        padding-top: 11vh;
     }
 }
 

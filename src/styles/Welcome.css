@@ -117,8 +117,21 @@
     font-family: "Playfair Display";
 }
 
+.wel-nav-list a:active {
+    color: #62799D;
+}
+
+.wel-nav-list a:focus {
+    color: #62799D;
+}
+
 .wel-nav-item {
     font-size: 40px;
+}
+
+.wel-nav-list a {
+    font-family: "Playfair Display";
+    color: #21222E;
 }
 
 .wel-work-active {
