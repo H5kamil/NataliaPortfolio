@@ -43,7 +43,7 @@ class Watercolor extends Component {
               <div>Case Study</div>
               <div>Developing my skills in watecolours technique as well as drawing and 
                 sketching. Improving color mixing and use of tones and values more 
-                intentionally. The challenge follow is focused on creating 100 watercolour 
+                intentionally. The challenge I follow is focused on creating 100 watercolour 
                 portraits. Can't wait to see improvements! :) </div>
               <section className="wat-cont">
                 {imgList}

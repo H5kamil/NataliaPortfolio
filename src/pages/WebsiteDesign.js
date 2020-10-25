@@ -186,7 +186,7 @@ class WebsiteDesign extends Component {
           </section>
           <section className="web-12-sec">
             <div>View the live site </div>
-            <div>We launched the official new site in 2019.</div>
+            <div>We launched the official new site in 2019</div>
             <a id="web-10-a-id" target="_blank" rel="noopener noreferrer" href="https://tellyo.com/">See the website</a>
           </section>
           <section className="web-13-sec">

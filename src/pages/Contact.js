@@ -85,8 +85,7 @@ class Contact extends Component {
         <main className="container">
           <section className="con-desc">
             <div className="con-h1">GET IN TOUCH</div>
-            <div className="con-h3">Always available for</div>
-            <div className="con-h3"> creative work</div>
+            <div className="con-h3">Always available for creative work</div>
           </section>
           {/* contact form with picture */}
             <div className="con-form-container">

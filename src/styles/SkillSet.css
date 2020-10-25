@@ -3,7 +3,7 @@
     padding-top: 7vh;
     font-size: 30px;
     color: #21222E;
-    font-family: "Playfair Display";
+    /* font-family: "Playfair Display"; */
     text-align: center;
 }
 
@@ -11,7 +11,7 @@
     padding: 2vh 10vw;
     font-size: 20px;
     color: #707070;
-    font-family: "Sofia Pro";
+    /* font-family: "Sofia Pro"; */
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ div.sk-svg-mobile > img {
 
     .sk-desc {
         text-align: start;
-        padding-right: 25vw;
+        padding-right: 30vw;
     }
 
     .sk-svg-mobile {
@@ -54,7 +54,7 @@ div.sk-svg-mobile > img {
     }
 
     div.sk-svg-desktop > img {
-        width: 90%;
+        width: 70%;
         height: auto;
         padding: 5vh 0;
         padding-bottom: 8vh;

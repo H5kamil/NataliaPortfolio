@@ -276,7 +276,7 @@ class DarkTheme extends Component {
             effective in every day collaboration with developers. What is the most important, Tellyo 
             users also gave back really positive feedback about dark theme.</div>
           </section>
-          <NextProject id={2}/>
+          <NextProject id={0}/>
           <Cooperation/>
           <SocialMedia/>
           <Footer/>

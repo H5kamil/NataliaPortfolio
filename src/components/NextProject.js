@@ -31,10 +31,10 @@ class NextProject extends Component {
       const route = this.state.activeLink;
       return (
         <section className="next-container">
-            <div>See next project</div>
+            <div className="nata">See next project</div>
             <Link to={route} className="next-link-container">
               <img src={svgArrow} alt="Arrow" className="next-link-img"/>
-              <div>Next Project title</div>
+              <div className="kamil">Next project</div>
             </Link>
             <img onClick={this.onClick} src={svgArrow} alt="Arrow" className="next-link-arrow-up"/>
         </section>

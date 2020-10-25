@@ -95,7 +95,7 @@ class Welcome extends Component {
               <Link onClick={this.onClick} to="/" className="wel-nav-item">Work</Link>
               <Link onClick={this.onClick} to="/website-design">Website design</Link>
               <Link onClick={this.onClick} to="/watercolor-portraits">Watercolor portraits</Link>
-              <Link onClick={this.onClick} to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link>
+              {/* <Link onClick={this.onClick} to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link> */}
               <Link onClick={this.onClick} to="/conference-stand">Conference stand</Link>
               <Link onClick={this.onClick} to="/dark-theme">Dark Theme</Link>
               <Link onClick={this.onClick} to="/about" className="wel-nav-item">About</Link>

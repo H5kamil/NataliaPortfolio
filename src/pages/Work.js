@@ -17,7 +17,7 @@ class Work extends Component {
       <main className="container">
         <section className="work-first-sec">
           <div>SELECTED WORKS</div>
-          <div>Welcome to my projects<br/>page, here you'll find work that I undertook lately</div>
+          <div>Welcome to my projects page,<br/> here you'll find work that I undertook lately</div>
         </section>
         <section className="work-sec-container">
           <div className="work-item work-light1">Website design</div>
@@ -86,28 +86,24 @@ class Work extends Component {
           <div className="work-item work-light2">Tellyo OY</div>
           <div className="work-item work-light3">UX/UI</div>
           <div className="work-item work-light4">
-          Process focuses on creating compelling experiences that are grounded 
-          in business goals while carefully designing to deliver on the user’s needs. 
-          This collaborative process brings together business and technology vision 
-          holders to ensure designs meet business objectives, 
-          are scalable for future growth, and are feasible from a technology perspective.
+          Since the nature of this work is confidential, please contact me to see this project.
+                  Get in touch with me to talk about my process.
           </div>
           <div className="work-img-container">
             <img src={require('../images-work/Tellyoapp-opening.jpg')} alt="Website design"/>
             <section className="work-hover">
               <div className="work-wrapper">
                 <div>UX/UI</div>
-                <div>Since the nature of this work is confidential, you need 
-                  a password to see this project.
+                <div>Since the nature of this work is confidential, please contact me to see this project.
                   Get in touch with me to talk about my process.</div>
-                <Link to='/conference-stand'>
-                  <button>Read Case Study</button>
+                <Link to='/contact'>
+                  <button>Contact me</button>
                 </Link>
               </div>
             </section>
           </div>
-          <Link className="work-item work-btn" to='/conference-stand'>
-                  <button>Read Case Study</button>
+          <Link className="work-item work-btn" to='/contact'>
+                  <button>Contact me</button>
           </Link>  
           <div className="work-text-desktop work-dekstop-h1">Tellyo Talent mobile app</div>
           <div className="work-text-desktop work-dekstop-h3">Tellyo OY</div>    

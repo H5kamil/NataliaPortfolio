@@ -27,7 +27,8 @@
     text-align: center;
     background: linear-gradient(90deg, #A6B7FC, #ECA1F9);
     color: white;
-    padding: 12vh 7vw;
+    padding: 8vh 7vw;
+    font-family: "Playfair Display";
 }
 
 .wat-first-sec div:nth-child(1) {
@@ -39,6 +40,7 @@
     text-transform: uppercase;
     font-size: 20px;
     padding-top: 2vh;
+    font-family: SofiaPro;
 }
 
 .wat-cont {

@@ -1,22 +1,24 @@
 .coo-container {
     width: 100vw;
-    height: 50vh;
+    height: 35vh;
     background: linear-gradient(90deg,#DAFAFF, #80AFF8);
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding: 7.5vh 0;
 }
 
 .coo-h1 {
     font-size: 32px;
     font-family: "Playfair Display";
+    padding-bottom: 3vh;
 }
 
 .coo-h2 {
     font-size: 22px;
-    font-family: "Sofia Pro";
+    padding-bottom: 4vh;
 }
 
 .coo-container > div, .coo-container > button {
@@ -28,10 +30,10 @@
     border: 2px solid white;
     border-radius: 30px;
     height: 50px;
-    width: 35vw;
-    max-width: 200px;
+    width: 45vw;
+    max-width: 230px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     transition: background-color .2s .1s ease-in-out;
     transition: border .2s .1s ease-in-out;
 }
@@ -74,5 +76,12 @@
         height: 60px;
         max-width: 250px;
         font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .coo-container {
+        height: 30vh;
+        padding: 10vh 0;
     }
 }

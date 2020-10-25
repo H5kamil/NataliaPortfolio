@@ -6,8 +6,16 @@
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+.nata {
+    padding-bottom: 4vh;
+}
+
+.kamil{
+    padding-left: 5vw;
 }
 
 .next-link-container {
@@ -15,13 +23,13 @@
     height: 10%;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     font-size: 24px;
 }
 
 .next-link-img {
-    width: 20%;
+    width: 15%;
     height: auto;
     fill: white;
     transform: rotate(90deg);
@@ -67,7 +75,7 @@
         top: 15vh;
         right: 14vw;
         display: block;
-        width: 5%;
+        width: 3.5%;
         height: auto;
         transition: scale 0.2s ease;
     }

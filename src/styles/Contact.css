@@ -4,7 +4,7 @@
     background: linear-gradient(90deg, #FA94CA, #F6ECD4);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: white;
 }
@@ -17,6 +17,7 @@
 .con-h3 {
     font-size: 24px;
     font-family: "Sofia Pro";
+    padding-top: 2vh;
 }
 
 .con-form-container {
@@ -99,7 +100,7 @@ input, textarea {
 
     .con-form-container {
         width: 100vw;
-        height: 100vh;
+        height: 110vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -137,5 +138,11 @@ input, textarea {
     .con-picture img {
         width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .con-form-container {
+        height: 90vh;
     }
 }

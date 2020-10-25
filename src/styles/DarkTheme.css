@@ -10,6 +10,7 @@
     align-items: center;
     text-align: center;
     padding: 5vh 0;
+    font-family: "Playfair Display";
 }
 
 .dark-first-sec div:nth-child(1) {
@@ -18,7 +19,9 @@
 }
 
 .dark-fs-text-mobile {
-    font-size: 16px;
+    font-size: 22px;
+    font-family: SofiaPro;
+    padding: 0 5vh;
 }
 
 .dark-fs-text-dekstop {
@@ -334,7 +337,7 @@ section div.dark-10-sec-img-cont img {
     border: 2px solid white;
     border-radius: 40px;
     padding: 9px 25px;
-    max-width: 230px;
+    max-width: 180px;
     margin: 2vh auto;
     transition: background-color 0.3s ease;
 }
@@ -719,10 +722,11 @@ section.dark-colors {
         background-color: #f6f6f6;
         display: block;
         position: fixed;
-        top: 6vh;
+        top: 10vh;
         left: 0;
         z-index: 0;
         width: 100vw;
+        height: 120vh;
     }
 
     .dark-background-img-dekstop {

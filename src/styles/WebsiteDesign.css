@@ -10,15 +10,18 @@
     align-items: center;
     text-align: center;
     padding: 5vh 0;
+    font-family: "Playfair Display";
 }
 
 .web-first-sec div:nth-child(1) {
     font-size: 36px;
     text-transform: uppercase;
+    
 }
 
 .web-fs-text-mobile {
-    font-size: 16px;
+    font-size: 22px;
+    font-family: SofiaPro;
 }
 
 .web-fs-text-dekstop {
@@ -87,6 +90,7 @@ section.web-second-sec div:nth-child(5) {
     color: #62799D;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 8vh;
 }
 
 .web-third-sec-item {
@@ -110,6 +114,7 @@ section.web-second-sec div:nth-child(5) {
     text-align: center;
     background-color: white;
     padding: 0 7vw;
+    padding-bottom: 8vh;
 }
 
 .web-4-sec div div:nth-child(1) {
@@ -143,6 +148,8 @@ section.web-second-sec div:nth-child(5) {
     color: white;
     padding: 5vh 7vw;
     text-align: center;
+    padding-bottom: 8vh;
+
 }
 
 div.web-5-item1 div {
