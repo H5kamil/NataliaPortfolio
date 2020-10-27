@@ -241,7 +241,7 @@ class DarkTheme extends Component {
             - forms
             </div>
             <div className="dark-p-01-cont">
-            <img src={require('../images-work/Color-palette.png')} alt=""/>
+            <img src={require('../images-work/Color-palettes.png')} alt=""/>
             </div>
           </section>
           <section className="dark-11-sec">

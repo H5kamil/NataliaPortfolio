@@ -649,6 +649,10 @@ section.dark-colors {
     height: auto;
 }
 
+.dark-c-img2 {
+    margin: 0 5vw;
+} 
+
 .dark-c-img3-mobile, .dark-c-img3-dekstop {
     background-color: #282C2E;
 }
