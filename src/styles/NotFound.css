@@ -1,0 +1,56 @@
+.not-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-60deg, #FEADC8, #695CE9);
+    background-size: 400%, 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: animate 8s ease-in-out infinite; 
+    z-index: 10;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.not-wrapper div:nth-child(1) {
+    font-size: 70px;
+}
+
+.not-wrapper div:nth-child(2) {
+    text-align: center;
+    font-size: 25px;
+    padding: 5vh 5vw;
+    padding-bottom: 7vh;
+}
+
+.not-wrapper a {
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    width: 230px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 22px;
+    padding: 10px;
+    transition: background-color 0.25s ease;
+}
+
+.not-wrapper a:hover {
+    background-color: #000000;
+    border: 2px solid transparent;
+}
+
+@keyframes animate {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }    
+  }
