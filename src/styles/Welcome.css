@@ -156,7 +156,11 @@
     .wel-nav-desktop > a {
         margin-right: 5vw;
         font-size: 20px;
-        color: #314461;
+        color: #21222E;
+    }
+
+    .wel-nav-desktop > a:hover {
+        color: #62799D;
     }
 
     .wel-img-container {
@@ -165,5 +169,46 @@
         width: calc(39.4px * 1.5);
     }
 
+    .wel-nav-desktop {
+        position: relative;
+        display: inline-block;
+    }
+
+    .wel-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: 200px;
+        box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+        z-index: 5;
+        transform: translateX(-75px) translatey(2px);
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .wel-menu-active:hover .wel-dropdown {
+        display: block;
+    }
+
+    .wel-dropdown > a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .wel-dropdown a:nth-child(1) {
+        padding-top: 25px;
+    }
+
+    .wel-dropdown a:nth-child(4) {
+        padding-bottom: 25px;
+    }
+
+    .wel-dropdown a:hover {
+        color: #62799D;
+    }
 }
 

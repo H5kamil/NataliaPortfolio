@@ -11,7 +11,8 @@ class Welcome extends Component {
     activelist: null,
     link1: this.activeClass,
     link2: null,
-    link3: null
+    link3: null,
+    menuActive: true
   }
 
   //scroll top after previous scrolling
@@ -85,7 +86,14 @@ class Welcome extends Component {
               </span>
             </button>   
             <div className="wel-nav-desktop">
-              <Link onClick={()=>this.onClickLink(1)} to="/" className={`wel-nav-item ${this.state.link1}`}>Work</Link>
+              <Link onClick={()=>this.onClickLink(1)} to="/" className={`wel-nav-item wel-menu-active ${this.state.link1}`}>Work
+              <div className="wel-dropdown">
+                <Link to="/website-design">Website design</Link>
+                <Link to="/watercolor-portraits">Watercolor portraits</Link>
+                {/* <Link onClick={this.onClick} to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link> */}
+                <Link to="/conference-stand">Conference stand</Link>
+                <Link to="/dark-theme">Dark Theme</Link>
+              </div></Link>
               <Link onClick={()=>this.onClickLink(2)} to="/about" className={`wel-nav-item ${this.state.link2}`}>About</Link>
               <Link onClick={()=>this.onClickLink(3)} to="/contact" className={`wel-nav-item ${this.state.link3}`}>Contact</Link>  
             </div>

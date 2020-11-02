@@ -70,13 +70,13 @@ class Work extends Component {
                   intentionally.
                   </div>
                 <Link to='/watercolor-portraits'>
-                  <button>Read Case Study</button>
+                  <button>See the Gallery</button>
                 </Link>
               </div>
             </section>
           </div>
           <Link className="work-item work-btn-light" to='/watercolor-portraits'>
-                  <button>Read Case Study</button>
+                  <button>See the Gallery</button>
           </Link>
           <div className="work-text-desktop work-dekstop-h1">Watercolor portraits</div>
           <div className="work-text-desktop work-dekstop-h3">Personal project</div>
@@ -126,7 +126,7 @@ class Work extends Component {
               <div className="work-wrapper">
                 <div>Graphic Design</div>
                 <div>Company brand in a large format design: 
-                  project of stand for international broadcasting conference. <br/>
+                  project of stand for International Broadcasting Conference. <br/>
                 Catching attention and building the brand awareness.</div>
                 <Link to='/tellyo-talent-mobile-app'>
                   <button>Read Case Study</button>

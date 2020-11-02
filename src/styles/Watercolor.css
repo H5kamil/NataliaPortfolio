@@ -33,12 +33,12 @@
 
 .wat-first-sec div:nth-child(1) {
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 50px;
 }
 
 .wat-first-sec div:nth-child(2) {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 2vh;
     font-family: SofiaPro;
 }
