@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
-import PDF from '../svg/Natalia-Marcinkiewicz-Mobile-App-Case-Study.pdf';
 import '../styles/Talent.css';
 import '../App.css';
 
@@ -23,7 +22,7 @@ class Talent extends Component {
           <br/> Unfortunately this project is still under construction.
           <br/> You can check the PDF presentation file
         </div>
-        <a href={PDF} rel="noopener noreferrer" target="_blank"><button>See PDF presentation</button></a>
+        <a href="https://drive.google.com/file/d/15yfMxt-czZYS1F3fGDLu6cbMqbdpKAp3/view?fbclid=IwAR1DveBp2oJPxAqa6m25krBWMOXPr68ihztHKzfqVaRy5wWov0ICiEX1hkU" rel="noopener noreferrer" target="_blank"><button>See PDF presentation</button></a>
       </section>
       <SocialMedia/>
       <Footer/>
