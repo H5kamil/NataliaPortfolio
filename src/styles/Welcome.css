@@ -178,7 +178,7 @@
         display: none;
         position: absolute;
         background-color: #ffffff;
-        width: 200px;
+        width: 220px;
         box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
         z-index: 5;
         transform: translateX(-75px) translatey(2px);
@@ -203,7 +203,7 @@
         padding-top: 25px;
     }
 
-    .wel-dropdown a:nth-child(4) {
+    .wel-dropdown a:nth-child(5) {
         padding-bottom: 25px;
     }
 

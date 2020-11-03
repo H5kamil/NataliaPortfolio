@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import SocialMedia from '../components/SocialMedia';
+import Footer from '../components/Footer';
+import PDF from '../svg/Natalia-Marcinkiewicz-Mobile-App-Case-Study.pdf';
+import '../styles/Talent.css';
+import '../App.css';
 
 class Talent extends Component {
 
@@ -9,7 +14,20 @@ class Talent extends Component {
 
   render() {
     return (
-        <>Talent</>
+      <main className="container st-container">
+      <section className="st-container">
+        <div>Ooooooops!</div>
+        <div>Sorry! Coming soon!</div>
+        <div>
+          I'm very pleased that you made all the way here.
+          <br/> Unfortunately this project is still under construction.
+          <br/> You can check the PDF presentation file
+        </div>
+        <a href={PDF} rel="noopener noreferrer" target="_blank"><button>See PDF presentation</button></a>
+      </section>
+      <SocialMedia/>
+      <Footer/>
+    </main>
     );
   }
 }
