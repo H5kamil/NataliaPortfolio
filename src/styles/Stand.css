@@ -1,0 +1,68 @@
+.st-container {
+    height: 65vh;
+    background-color: #ffffff;
+    color: #21222E;
+    font-family: SofiaPro;
+    text-align: center;
+}
+
+section.st-container div:nth-child(1) {
+    padding-top: 6vh;
+    font-size: 50px;
+    font-family: "Playfair Display";
+}
+
+section.st-container div:nth-child(2) {
+    padding: 3vh 0;
+    font-size: 24px;
+    color: #5876ED;
+}
+
+section.st-container div:nth-child(3) {
+    font-size: 20px;
+    padding: 0 9vw;
+}
+
+section.st-container > a > button {
+    margin: 5vh 0;
+    background-color: #ffffff;
+    border: 2px solid #21222E;
+    border-radius: 30px;
+    height: 50px;
+    width: 45vw;
+    max-width: 230px;
+    color: #21222E;
+    font-size: 18px;
+    transition: background-color .2s .1s ease-in-out;
+    transition: border .2s .1s ease-in-out;
+}
+
+section.st-container > a > button:hover {
+    background-color: #21222E;
+    border: 2px solid #21222E;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+
+    section.st-container div:nth-child(1) {
+        padding-top: 10vh;
+        font-size: 60px;
+    }
+
+    section.st-container div:nth-child(2) {
+        padding: 3vh 0;
+        padding-bottom: 7vh;
+        font-size: 24px;
+        color: #5876ED;
+    }
+    
+    section.st-container div:nth-child(3) {
+        font-size: 20px;
+        padding: 0 13vw;
+    }
+
+    section.st-container > a > button {
+        margin: 6vh 0;
+    }
+}

@@ -95,7 +95,7 @@ class WebsiteDesign extends Component {
           </section>
           <section className="web-5-sec">
             <div className="web-5-item1">
-              <div>The challenge</div>
+              <div id="web-challange">The challenge</div>
               <div>Previously established hierarchy of website was based on two main 
                 products: Tellyo Pro and Tellyo On Demand. Tellyo was resigning of 
                 promoting Tellyo On Demand which was a solution for smaller companies 

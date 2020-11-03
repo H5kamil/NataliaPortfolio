@@ -88,7 +88,7 @@ class DarkTheme extends Component {
               <figcaption>Video editior and dashboard in light theme</figcaption>
             </div>
             <div className="dark-9-sec-gif-desktop">
-              <img src={require('../images-work/About-Tellyo.png')} alt=""/>
+              <img src={require('../images-work/About-Tellyo-2.png')} alt=""/>
               <figcaption>Video editior and dashboard in light theme</figcaption>
             </div>
           </section>
@@ -183,9 +183,6 @@ class DarkTheme extends Component {
             <div className="dark-c-img2">
               <img src={require('../images-work/Elevation_01@2x.png')} alt=""/>
             </div>
-            <div className="dark-c-img2">
-              <img src={require('../images-work/Elevation_02@2x.png')} alt=""/>
-            </div>
             <div>
             Action colours + semantic colours check
             </div>
@@ -241,7 +238,7 @@ class DarkTheme extends Component {
             - forms
             </div>
             <div className="dark-p-01-cont">
-            <img src={require('../images-work/Color-palettes.png')} alt=""/>
+            <img src={require('../images-work/Color-palettes-02.png')} alt=""/>
             </div>
           </section>
           <section className="dark-11-sec">
@@ -267,7 +264,7 @@ class DarkTheme extends Component {
             <a id="dark-10-a-id" target="_blank" rel="noopener noreferrer" href="https://app.tellyo.com/signin">Log in to Tellyo</a>
           </section>
           <section className="dark-take">
-          <img src={require('../images-work/all_tools_final.png')} alt=""/>
+          <img src={require('../images-work/all_tools_final_02.png')} alt=""/>
           <div>Final solution takeaways</div>
           <div>Although creating of dark theme was really demanding job, keeping it organize together
             with light theme brought to the company a lot of value. Users can easily switch between 

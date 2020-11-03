@@ -196,6 +196,7 @@ div.dark-5-item2 div {
     padding-bottom: 5vh;
     color: #A9A6A6;
     font-size: 20px;
+
 }    
 
 .dark-6-sec-img-wrapper {
@@ -296,7 +297,7 @@ section.dark-9-sec div:nth-child(1) {
 
 .dark-9-sec-gif-mobile figcaption,
 .dark-9-sec-gif-desktop figcaption {
-    padding: 0 12vw;
+    padding: 3vh 12vw;
     padding-bottom: 4vh;
     color: #A9A6A6;
     font-size: 18px;
@@ -391,9 +392,11 @@ section div.dark-10-sec-img-cont img {
 
 .dark-11-sec-gif figcaption {
     padding: 0 12vw;
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
     color: #A9A6A6;
     font-size: 18px;
+    z-index: 5;
+    transform: translateY(-11vh);
 }
 
 .dark-12-sec {
@@ -446,11 +449,16 @@ section.dark-a-sec {
 section.dark-a-sec div:nth-child(1) {
     font-size: 30px;
     padding: 5vh 0;
+    padding-top: 8vh;
 }
 
 section.dark-a-sec div:nth-child(2),
 section.dark-a-sec div:nth-child(3) {
     padding-bottom: 4vh;
+}
+
+section.dark-a-sec div:nth-child(3) {
+    padding-bottom: 8vh;
 }
 
 section.dark-b-sec {
@@ -565,7 +573,7 @@ section.dark-b-sec div:nth-child(5) {
 .dark-proto-01 div:nth-child(1) {
     color: #21222E;
     font-size: 30px;
-    padding-top: 6vh;
+    padding-top: 8vh;
 }
 
 .dark-proto-01 div:nth-child(2) {
@@ -597,7 +605,7 @@ section.dark-colors {
 .dark-colors div:nth-child(3),
 .dark-colors div:nth-child(4),
 .dark-colors div:nth-child(8),
-.dark-colors div:nth-child(11) {
+.dark-colors div:nth-child(10) {
     padding: 0 5vw;
     font-size: 25px;
 }
@@ -620,7 +628,7 @@ section.dark-colors {
 
 .dark-colors div:nth-child(4),
 .dark-colors div:nth-child(8),
-.dark-colors div:nth-child(11) {
+.dark-colors div:nth-child(10) {
     padding-top: 7vh;
     padding-bottom: 3vh;
 }
@@ -629,9 +637,9 @@ section.dark-colors {
     background-color: #121212;
 }
 
-.dark-colors div:nth-child(10) {
+/* .dark-colors div:nth-child(10) {
     background-color: #282C2E;
-}
+} */
 
 .dark-c-img1-desktop, .dark-c-img3-dektop {
     display: none;
@@ -654,9 +662,9 @@ section.dark-colors {
     height: auto;
 }
 
-.dark-c-img2 {
+/* .dark-c-img2 {
     margin: 0 5vw;
-} 
+}  */
 
 .dark-c-img3-mobile, .dark-c-img3-dekstop {
     background-color: #282C2E;
@@ -1069,11 +1077,12 @@ section.dark-colors {
         font-size: 25px;
         padding: 0 14vw;
         padding-top: 3vh;
+        padding-right: 24vw;
         color: #62799D;
     }
 
     .dark-11-sec-gif figcaption {
-        padding-bottom: 12vh;
+        padding-bottom: 8vh;
         color: #A9A6A6;
         font-size: 22px;
     }
@@ -1122,12 +1131,17 @@ section.dark-colors {
     section.dark-a-sec div:nth-child(1) {
         font-size: 50px;
         padding: 5vh 0;
+        padding-top: 10vh;
     }
     
     section.dark-a-sec div:nth-child(2),
     section.dark-a-sec div:nth-child(3) {
         padding-bottom: 4vh;
         padding-right: 15vw;
+    }
+
+    section.dark-a-sec div:nth-child(3) {
+        padding-bottom: 10vh;
     }
 
     section.dark-b-sec {
@@ -1141,6 +1155,7 @@ section.dark-colors {
         font-size: 40px;
         color: #21222E;
         padding: 3vh 0;
+        padding-top: 8vh;
     }
     
     section.dark-b-sec div:nth-child(2) {
@@ -1229,7 +1244,7 @@ section.dark-colors {
         color: #21222E;
         font-size: 40px;
         padding: 0 7vw;
-        padding-top: 6vh;
+        padding-top: 12vh;
     }
     
     .dark-proto-01 div:nth-child(2) {
@@ -1263,7 +1278,7 @@ section.dark-colors {
     .dark-colors div:nth-child(3),
     .dark-colors div:nth-child(4),
     .dark-colors div:nth-child(8),
-    .dark-colors div:nth-child(11) {
+    .dark-colors div:nth-child(10) {
         padding: 0 14vw;
         font-size: 30px;
     }
@@ -1271,7 +1286,7 @@ section.dark-colors {
     .dark-colors div:nth-child(1) {
         font-size: 40px;
         color: #21222E;
-        padding-top: 7vh;
+        padding-top: 12vh;
     }
 
     .dark-colors div:nth-child(2) {
@@ -1286,9 +1301,9 @@ section.dark-colors {
 
     .dark-colors div:nth-child(4),
     .dark-colors div:nth-child(8),
-    .dark-colors div:nth-child(11) {
-        padding-top: 7vh;
-        padding-bottom: 4vh;
+    .dark-colors div:nth-child(10) {
+        padding-top: 10vh;
+        padding-bottom: 7vh;
     }
 
     .dark-c-img3-dektop {
@@ -1298,7 +1313,7 @@ section.dark-colors {
     }
 
     .dark-c-img3-dektop img {
-        width: 80%;
+        width: 70%;
     }
 
     .dark-take {

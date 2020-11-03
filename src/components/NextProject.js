@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/NextProject.css';
-import svgArrow from '../svg/up-arrow.svg';
 import { Link } from 'react-router-dom';
 
 class NextProject extends Component {
@@ -31,12 +30,10 @@ class NextProject extends Component {
       const route = this.state.activeLink;
       return (
         <section className="next-container">
-            <div className="nata">See next project</div>
-            <Link to={route} className="next-link-container">
-              <img src={svgArrow} alt="Arrow" className="next-link-img"/>
-              <div className="kamil">Next project</div>
+            <div className="next-nata">See the next project</div>
+            <Link id="next-id" to={route}>
+              Next project
             </Link>
-            <img onClick={this.onClick} src={svgArrow} alt="Arrow" className="next-link-arrow-up"/>
         </section>
       );
     }
