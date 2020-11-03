@@ -1,6 +1,5 @@
 .dark-first-sec {
     width: 100vw;
-    height: 20vh;
     background: linear-gradient(90deg, #A6B7FC, #B7ACFA, #CDA0F9);
     color: white;
     display: flex;
@@ -16,16 +15,22 @@
 .dark-first-sec div:nth-child(1) {
     font-size: 36px;
     text-transform: uppercase;
+    padding-top: 3vh;
 }
 
 .dark-fs-text-mobile {
     font-size: 22px;
     font-family: SofiaPro;
     padding: 0 5vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .dark-fs-text-dekstop {
     display: none;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    font-family: SofiaPro;
 }
 
 .dark-img-container-mobile {
@@ -711,11 +716,11 @@ section.dark-colors {
     }
 
     .dark-first-sec div:nth-child(1) {
-        font-size: 55px;
+        font-size: 50px;
     }
     
     .dark-first-sec div:nth-child(2) {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .dark-img-container-mobile {

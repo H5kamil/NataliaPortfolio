@@ -1,6 +1,5 @@
 .ab-first-sec {
     width: 100vw;
-    height: 15vh;
     background: linear-gradient(90deg, #E8F7B9, #FEA38F);
     color: white;
     display: flex;
@@ -13,6 +12,7 @@
 }
 
 .ab-first-sec div:nth-child(1) {
+    padding-top: 3vh;
     font-size: 36px;
     text-transform: uppercase;
     font-family: "Playfair Display";
@@ -20,6 +20,9 @@
 
 .ab-first-sec div:nth-child(2) {
     font-size: 22px;
+    font-family: SofiaPro;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .ab-center {
@@ -82,6 +85,10 @@ section.ab-long-text-component > div {
 }
 
 @media only screen and (min-width: 1024px){
+
+    .ab-first-sec div:nth-child(1) {
+        font-size: 50px;
+    }
 
     .ab-second-sec {
         width: 85vw;

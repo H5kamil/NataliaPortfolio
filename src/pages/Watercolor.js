@@ -16,7 +16,6 @@ class Watercolor extends Component {
   //scroll top after previous scrolling
   componentDidMount() {
     window.scrollTo(0, 0);
-    console.log(this.state.images);
   }
 
   render() {

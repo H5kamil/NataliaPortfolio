@@ -1,6 +1,5 @@
 .web-first-sec {
     width: 100vw;
-    height: 20vh;
     background: linear-gradient(90deg,#DAFAFF, #80AFF8);
     color: white;
     display: flex;
@@ -16,12 +15,15 @@
 .web-first-sec div:nth-child(1) {
     font-size: 36px;
     text-transform: uppercase;
+    padding-top: 3vh;
     
 }
 
 .web-fs-text-mobile {
     font-size: 22px;
     font-family: SofiaPro;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .web-fs-text-dekstop {
@@ -407,14 +409,18 @@ section.web-13-sec div:nth-child(2) {
 
     .web-fs-text-dekstop {
         display: block;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    font-family: SofiaPro;
     }
 
     .web-first-sec div:nth-child(1) {
-        font-size: 55px;
+        font-size: 50px;
     }
     
     .web-first-sec div:nth-child(2) {
-        font-size: 30px;
+        font-size: 22px;
+        font-family: SofiaPro;
     }
 
     .web-img-container-mobile {
