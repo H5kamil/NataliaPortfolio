@@ -396,7 +396,7 @@ section div.dark-10-sec-img-cont img {
     color: #A9A6A6;
     font-size: 18px;
     z-index: 5;
-    transform: translateY(-11vh);
+    transform: translateY(-3vh);
 }
 
 .dark-12-sec {
@@ -993,7 +993,7 @@ section.dark-colors {
     .dark-9-sec div div:nth-child(1){
         font-size: 45px;
         color: #21222E;
-        padding-top: 10vh;
+        padding-top: 14vh;
         padding-left: 14vw;
         padding-right: 0;
     }
@@ -1001,8 +1001,10 @@ section.dark-colors {
     .dark-9-sec div div:nth-child(2){
         margin: 0 0;
         padding-left: 14vw;
+        padding-right: 10vw;
         text-align: start;
-        padding-bottom: 4vh;
+        padding-top: 4vh;
+        padding-bottom: 10vh;
         font-size: 25px;
     }
 
@@ -1016,7 +1018,7 @@ section.dark-colors {
     }
     
     .dark-9-sec-gif-desktop img {
-        width: 80%;
+        width: 72%;
         height: auto;
     }
 
@@ -1077,7 +1079,7 @@ section.dark-colors {
         font-size: 25px;
         padding: 0 14vw;
         padding-top: 3vh;
-        padding-right: 24vw;
+        padding-right: 30vw;
         color: #62799D;
     }
 
@@ -1085,6 +1087,8 @@ section.dark-colors {
         padding-bottom: 8vh;
         color: #A9A6A6;
         font-size: 22px;
+        z-index: 5;
+        transform: translateY(-11vh);
     }
 
     .dark-12-sec div:nth-child(1) {
@@ -1226,10 +1230,11 @@ section.dark-colors {
     
     .dark-hard-container {
         width: 100%;
+        text-align: center;
     }
     
     .dark-hard-container img {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
@@ -1258,7 +1263,7 @@ section.dark-colors {
         padding: 0;
         padding: 0 7vw;
         padding-bottom: 4vh;
-        padding-right: 15vw;
+        padding-right: 25vw;
     }
 
     section.dark-colors {
@@ -1296,7 +1301,7 @@ section.dark-colors {
     .dark-colors div:nth-child(3) {
         font-size: 25px;
         padding-top: 4vh;
-        padding-right: 20vw;
+        padding-right: 30vw;
     }
 
     .dark-colors div:nth-child(4),
@@ -1313,7 +1318,7 @@ section.dark-colors {
     }
 
     .dark-c-img3-dektop img {
-        width: 70%;
+        width: 60%;
     }
 
     .dark-take {
@@ -1340,7 +1345,7 @@ section.dark-colors {
         font-size: 25px;
         padding: 5vh 14vw;
         padding-bottom: 12vh;
-        padding-right: 20vw;
+        padding-right: 30vw;
         text-align: start;
     }
     /* NEW CSS NOT COPIED FROM WEBSITE DESIGN - END */

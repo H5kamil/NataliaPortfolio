@@ -5,6 +5,7 @@ import '../styles/Welcome.css'
 class Welcome extends Component {
 
   activeClass = "wel-work-active";
+  activeId = "wel-id-active";
 
   state = {
     activehamburger: null,
@@ -12,6 +13,11 @@ class Welcome extends Component {
     link1: this.activeClass,
     link2: null,
     link3: null,
+    link4: null,
+    link5: null,
+    link6: null,
+    link7: null,
+    link8: null,
     menuActive: true
   }
 
@@ -37,7 +43,7 @@ class Welcome extends Component {
     }
   }
 
-  onClickLink = (e) => {
+  onClickLink = (e,) => {
     console.log(e);
     this.setState({
       activeWork: null
@@ -48,23 +54,110 @@ class Welcome extends Component {
         this.setState({
           link1: this.activeClass,
           link2: null,
-          link3: null
+          link3: null,
+          // link4: null,
+          // link5: null,
+          // link6: null,
+          // link7: null,
+          // link8: null,
         })
         break;
       case 2:
         this.setState({
           link1: null,
           link2: this.activeClass,
-          link3: null
+          link3: null,
+          link4: null,
+          link5: null,
+          link6: null,
+          link7: null,
+          link8: null,
           })
         break;
       case 3:
         this.setState({
           link1: null,
           link2: null,
-          link3: this.activeClass
+          link3: this.activeClass,
+          link4: null,
+          link5: null,
+          link6: null,
+          link7: null,
+          link8: null,
           })
-          break;              
+          break;    
+      default:
+        break;
+    }
+  }
+
+  onClickLink2 = (e) => {
+    console.log(e);
+    this.setState({
+      activeWork: null
+    })
+
+    switch (e) {
+      case 4:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: null,
+          link4: this.activeId,
+          link5: null,
+          link6: null,
+          link7: null,
+          link8: null,
+          })
+          break;      
+      case 5:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: null,
+          link4: null,
+          link5: this.activeId,
+          link6: null,
+          link7: null,
+          link8: null,
+          })
+          break;               
+      case 6:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: null,
+          link4: null,
+          link5: null,
+          link6: this.activeId,
+          link7: null,
+          link8: null,
+          })
+          break;   
+      case 7:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: null,
+          link4: null,
+          link5: null,
+          link6: null,
+          link7: this.activeId,
+          link8: null,
+          })
+          break;   
+      case 8:
+        this.setState({
+          link1: null,
+          link2: null,
+          link3: null,
+          link4: null,
+          link5: null,
+          link6: null,
+          link7: null,
+          link8: this.activeId,
+          })
+          break;    
       default:
         break;
     }
@@ -88,11 +181,11 @@ class Welcome extends Component {
             <div className="wel-nav-desktop">
               <Link onClick={()=>this.onClickLink(1)} to="/" className={`wel-nav-item wel-menu-active ${this.state.link1}`}>Work
               <div className="wel-dropdown">
-                <Link to="/website-design">Website design</Link>
-                <Link to="/watercolor-portraits">Watercolor portraits</Link>
-                <Link to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link>
-                <Link to="/conference-stand">Conference stand</Link>
-                <Link to="/dark-theme">Dark Theme</Link>
+                <Link onClick={()=>this.onClickLink2(4)} id={`${this.state.link4}`} to="/website-design">Website design</Link>
+                <Link onClick={()=>this.onClickLink2(5)} id={`${this.state.link5}`} to="/watercolor-portraits">Watercolor portraits</Link>
+                <Link onClick={()=>this.onClickLink2(6)} id={`${this.state.link6}`} to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link>
+                <Link onClick={()=>this.onClickLink2(7)} id={`${this.state.link7}`} to="/conference-stand">Conference stand</Link>
+                <Link onClick={()=>this.onClickLink2(8)} id={`${this.state.link8}`} to="/dark-theme">Dark Theme</Link>
               </div></Link>
               <Link onClick={()=>this.onClickLink(2)} to="/about" className={`wel-nav-item ${this.state.link2}`}>About</Link>
               <Link onClick={()=>this.onClickLink(3)} to="/contact" className={`wel-nav-item ${this.state.link3}`}>Contact</Link>  

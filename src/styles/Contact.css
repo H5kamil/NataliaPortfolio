@@ -52,8 +52,12 @@ input, textarea {
     resize: vertical;
     font-size: 18px;
     margin-bottom: 3vh;
-    padding: 1vh 0;
+    padding: 1vh 1vw;
     color: grey;
+  }
+
+  textarea {
+      font-family: sans-serif;
   }
 
   textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
