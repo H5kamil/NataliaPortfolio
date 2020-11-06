@@ -1,6 +1,7 @@
 .foo-img-container {
     height: calc(28px * 1.5);
     width: calc(39.4px * 1.5);
+    padding-left: 5vw;
 }
 
 .foo-img-container img {
@@ -21,28 +22,28 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    font-family: "Sofia Pro";
-    justify-content: space-evenly;
+    font-family: SofiaPro;
+    justify-content: space-between;
     align-items: center;
     font-size: 14px;
     padding: 2vh 0;
 }
 
-div.foo-container div:nth-child(4) {
-    display: none;
-}
-
-.foo-author {
-    font-family: PlayfairDisplay;
-    font-size: 16px;
-}
 
 .foo-desc {
     color: #62799D;
+    display: block;
+    padding-right: 5vw;
 }
 
 @media only screen and (min-width: 768px) {
     div.foo-container div:nth-child(4) {
         display: block;
+    }
+
+    .foo-desc {
+        color: #62799D;
+        display: inline;
+        padding-right: 5vw;
     }
 }

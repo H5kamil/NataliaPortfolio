@@ -11,9 +11,11 @@ const Footer = () => {
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>
           </Link>
-          <div className="foo-author">Natalia Marcikiewicz</div>
-          <div className="foo-desc">Design Portfolio 2020.</div>
-          <div className="foo-desc">All rights reserved.</div>
+          <div className="foo-nt">
+            <div className="foo-desc">Natalia Marcikiewicz</div>
+            <div className="foo-desc">Design Portfolio 2020.</div>
+          </div>
+
         </div>
     </section>
     );

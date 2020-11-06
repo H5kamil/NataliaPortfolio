@@ -154,6 +154,21 @@ class WebsiteDesign extends Component {
             businesses reguirements and new features of each product, there were a 
             number of amendments and updates, but main assumption was constant.
           </section>
+          <section className="web-9-sec web-9-dark">
+            <div>    
+              <div id="web-9-dark-id" >Design and prototype 01: </div>
+              <div>Iterations of Home page</div>
+              <div>Home page needed a completly new design. Showcasing the flow that potential 
+                user will follow when start to use Tellyo was the main idea. It should be 
+                simple and easy to understand with no aditional tetx. Having to use only title, 
+                we had to explain clearly what Tellyo is about. Home page had many different 
+                approaches:
+              </div>
+            </div>    
+            <div id="web-gif-am" className="web-9-sec-gif">
+              <img src={require('../images-work/Design-and-prototype-01-HOME.png')} alt=""/>
+            </div>
+          </section>
           <section className="web-9-sec">
             <div>    
               <div>Design and prototype 02:</div>
