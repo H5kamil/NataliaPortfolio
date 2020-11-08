@@ -113,7 +113,7 @@ section.ab-long-text-component > div {
     }
 
     .ab-picture {
-        width: 24%;
+        width: 30%;
         padding: 2vh 0;
     }
 
@@ -142,4 +142,10 @@ section.ab-long-text-component > div {
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    .ab-picture {
+        width: 30%;
+        padding-top: 7vh;
+    }
+}
 

@@ -6,7 +6,6 @@ import svgDesign from '../svg/icon_design.svg';
 import svgDeveloping from '../svg/icon_developing.svg';
 import svgPresent from '../svg/icon_present.svg';
 import svgResearch from '../svg/icon_research.svg';
-import svgDesignProcessDesktop from '../svg/Design_process_web.svg'
 
 const DesignProcess = () =>  {
     return (
@@ -100,7 +99,7 @@ const DesignProcess = () =>  {
             </section>
             <section className="depr-container-desktop">
                 <div className="depr-wavy">
-                    <img src={svgDesignProcessDesktop} alt="DesignProcssDesktop"/>
+                <img src={require('../images-work/Dpw.png')} alt="Natalcia about"/>
                 </div>
             </section>
         </>

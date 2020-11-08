@@ -25,8 +25,8 @@ class About extends Component {
             <div className="ab-center2">
               <div>Hello! Nice that you are here</div>
               <div>Natalia Marcinkiewicz</div>
-              <div>Working in a 3-person design team in a small company forced me to be as much multidisciplinary as possible. 
-                Being an UX generalist, I create powerful and clear experiences in wide range of projects:
+              <div>Working in a 3-person design team in a growing company determined multidisciplinarity.
+                 As a visual designer I create powerful and clear experiences in wide range of projects:
                 <br/>
                 - website design
                 <br/>
@@ -43,11 +43,11 @@ class About extends Component {
                 - DTP (prints)
                 <br/>
                 This all gave me great opportunities to constant growth and improvement of skillset. 
-                What is great I always have a freedom of action for my design decisions and concepts.
+                What is great I always have a freedom of action for my design decisions and concepts..
               </div>
             </div>
             <div className="ab-picture">
-              <img src={require('../images-work/Natalcia-about.png')} alt="Natalcia about"/>
+              <img src={require('../images-work/jaaa-small.png')} alt="Natalcia about"/>
             </div>
           </section>
           <section className="ab-center ab-design-process">

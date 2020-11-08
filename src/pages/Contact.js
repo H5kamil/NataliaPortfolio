@@ -103,7 +103,7 @@ class Contact extends Component {
                   {/* </form>           */}
               </div>
               <div className="con-picture">
-                <img src={require('../images-work/contact-portrait.png')} alt="Contact portrait"/>
+                <img src={require('../images-work/face.png')} alt="Contact portrait"/>
               </div>
             </div>
             <SocialMedia/>
