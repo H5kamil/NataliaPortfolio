@@ -19,20 +19,13 @@ class NextProject extends Component {
         console.log(this.state.activeLink);
     }
 
-    onClick = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    }
-
     render() {
       const route = this.state.activeLink;
       return (
         <section className="next-container">
             <div className="next-nata">See the next project</div>
             <Link id="next-id" to={route}>
-              Next project
+              <button>Next project</button>
             </Link>
         </section>
       );

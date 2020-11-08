@@ -35,7 +35,6 @@
     color: white;
     font-size: 18px;
     transition: background-color 0.06s 0.06s ease-in-out;
-    /* transition: border .2s .1s ease-in-out; */
 }
 
 .coo-container > a > button:hover {
