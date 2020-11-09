@@ -96,14 +96,14 @@ class Work extends Component {
                 <div>UX/UI</div>
                 <div>Since the nature of this work is confidential, please contact me to see this project.
                   Get in touch with me to talk about my process.</div>
-                <Link to='/contact'>
-                  <button>Contact me</button>
+                <Link to='/tellyo-talent-mobile-app'>
+                  <button>See presentation</button>
                 </Link>
               </div>
             </section>
           </div>
-          <Link className="work-item work-btn" to='/contact'>
-                  <button>Contact me</button>
+          <Link className="work-item work-btn" to='/tellyo-talent-mobile-app'>
+                  <button>See presentation</button>
           </Link>  
           <div className="work-text-desktop work-dekstop-h1">Tellyo Talent mobile app</div>
           <div className="work-text-desktop work-dekstop-h3">Tellyo OY</div>    
