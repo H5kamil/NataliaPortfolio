@@ -32,6 +32,8 @@ class InitialScreen extends Component {
                   multidisciplinary designer focused on creating 
                   visually appealing and easy to use
                   products and experiences
+                  {/* dodane qa */}
+                  <span>Kocham Cie Misia!</span> 
                 </div>
                 {/* start */}
                 <button onClick={this.props.onClick} className="ini-btn">Let's start</button>
