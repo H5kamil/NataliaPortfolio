@@ -128,13 +128,13 @@ class Work extends Component {
                 <div>Company brand in a large format design: 
                   project of stand for International Broadcasting Conference. <br/>
                 Catching attention and building the brand awareness.</div>
-                <Link to='/tellyo-talent-mobile-app'>
+                <Link to='/conference-stand'>
                   <button>Read Case Study</button>
                 </Link>
               </div>
             </section>
           </div>
-          <Link className="work-item work-btn-light" to='/tellyo-talent-mobile-app'>
+          <Link className="work-item work-btn-light" to='/conference-stand'>
                   <button>Read Case Study</button>
           </Link>     
           <div className="work-text-desktop work-dekstop-h1">Conference stand</div>

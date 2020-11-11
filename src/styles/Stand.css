@@ -187,6 +187,7 @@ section.st-second-sec div:nth-child(5) {
 .st-first div:nth-child(1) {
     font-size: 30px;
     color: #21222E;
+    padding: 0 8vw;
     padding-bottom: 4vh;
 }
 
@@ -423,7 +424,7 @@ section.st-second-sec div:nth-child(5) {
     
     .st-sketches {
         text-align: center;
-        padding: 0 10vw;
+        padding: 0 14vw;
         display: flex;
         flex-wrap: wrap;
     }
@@ -446,6 +447,7 @@ section.st-second-sec div:nth-child(5) {
         color: #21222E;
         padding-bottom: 4vh;
         padding-left: 14vw;
+        padding-right: 0;
     }
     
     .st-first div:nth-child(2) {
@@ -458,7 +460,7 @@ section.st-second-sec div:nth-child(5) {
     }
     
     .st-first-img {
-        padding: 0 10vw;
+        padding: 0 14vw;
         display: flex;
         flex-wrap: wrap;
     }
@@ -480,7 +482,7 @@ section.st-second-sec div:nth-child(5) {
     }
 
     .st-video video {
-        width: 79.4%;
+        width: 71.5%;
         height: auto;
         padding: 0 10vw;
     }

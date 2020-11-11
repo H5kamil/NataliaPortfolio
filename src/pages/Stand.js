@@ -154,7 +154,7 @@ class Stand extends Component {
                 <img src={require('../images-work/final_01a.jpg')} alt="darksite design"/>
               </div>
               <div className="st-video">
-              <video controls={true} autostart autoPlay src={Video} type="video/pm4"/>
+              <video controls={true} src={Video} type="video/pm4"/>
               </div>
           </section>
           <section className="st-first" id="st-print">
