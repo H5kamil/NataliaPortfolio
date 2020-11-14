@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SocialMedia from '../components/SocialMedia';
-import Footer from '../components/Footer';
+// import SocialMedia from '../components/SocialMedia';
+// import Footer from '../components/Footer';
 import '../styles/Talent.css';
 import '../App.css';
 
@@ -20,8 +20,8 @@ class Talent extends Component {
         <img src={require('../images-work/app_part03.jpg')} alt="app_part03"/>
         <img src={require('../images-work/app_part04.jpg')} alt="app_part04"/>
       </section>
-      <SocialMedia/>
-      <Footer/>
+      {/* <SocialMedia/>
+      <Footer/> */}
     </main>
     );
   }
