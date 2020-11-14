@@ -11,6 +11,7 @@ import Stand from './pages/Stand';
 import Talent from './pages/Talent';
 import Watercolor from './pages/Watercolor';
 import WebsiteDesign from './pages/WebsiteDesign';
+import TalentApp from './pages/TalentApp';
 
 class App extends Component {
 
@@ -36,6 +37,7 @@ class App extends Component {
             <Route path="/dark-theme" component={DarkTheme}/>
             <Route path="/conference-stand" component={Stand}/>
             <Route path="/tellyo-talent-mobile-app" component={Talent}/>
+            <Route path="/talent-app-presentation" component={TalentApp}/>
             <Route path="/watercolor-portraits" component={Watercolor}/>
             <Route path="/website-design" component={WebsiteDesign}/>
             <Route path="*" component={NotFound}/>

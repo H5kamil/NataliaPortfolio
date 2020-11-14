@@ -3,7 +3,6 @@ import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import Cooperation from '../components/Cooperation';
 import NextProject from '../components/NextProject';
-import { Link } from 'react-router-dom';
 import Video from '../images-work/Video_white_orange.mp4';
 import '../styles/Stand.css';
 import '../App.css';

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
 import '../styles/Talent.css';
 import '../App.css';
 
@@ -15,15 +14,11 @@ class Talent extends Component {
   render() {
     return (
       <main className="container">
-      <section className="st-container">
-        <div>Ooooooops!</div>
-        <div>Sorry! Coming soon!</div>
-        <div>
-          I'm very pleased that you made all the way here.
-          <br/> Unfortunately this project is still under construction.
-          <br/> You can check the PDF presentation file
-        </div>
-          <Link to="/talent-app-presentation"><button>See PDF presentation</button></Link>
+      <section className="st-presentation">
+        <img src={require('../images-work/app_part01.jpg')} alt="app_part01"/>
+        <img src={require('../images-work/app_part02.jpg')} alt="app_part02"/>
+        <img src={require('../images-work/app_part03.jpg')} alt="app_part03"/>
+        <img src={require('../images-work/app_part04.jpg')} alt="app_part04"/>
       </section>
       <SocialMedia/>
       <Footer/>

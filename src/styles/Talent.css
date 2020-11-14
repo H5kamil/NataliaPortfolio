@@ -1,5 +1,6 @@
 .st-container {
     height: 65vh;
+    width: 100vw;
     background-color: #ffffff;
     color: #21222E;
     font-family: SofiaPro;
@@ -42,6 +43,15 @@ section.st-container > a > button:hover {
     background-color: #21222E;
     border: 2px solid #21222E;
     color: #ffffff;
+}
+
+/* .st-presentation {
+
+} */
+
+.st-presentation img {
+    width: 100%;
+    height: auto;
 }
 
 @media only screen and (min-width: 768px) {
