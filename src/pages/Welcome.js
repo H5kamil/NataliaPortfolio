@@ -167,7 +167,7 @@ class Welcome extends Component {
     return (
         <>   
           <nav className="wel-nav"> 
-          <Link to="/" onClick={ () => {this.props.onClickSubPage();} }>
+          <Link to="/work" onClick={ () => {this.props.onClickSubPage();} }>
             <div className="wel-img-container">
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>
@@ -179,7 +179,7 @@ class Welcome extends Component {
               </span>
             </button>   
             <div className="wel-nav-desktop">
-              <Link onClick={()=>this.onClickLink(1)} to="/" className={`wel-nav-item wel-menu-active ${this.state.link1}`}>Work
+              <Link onClick={()=>this.onClickLink(1)} to="/work" className={`wel-nav-item wel-menu-active ${this.state.link1}`}>Work
               <div className="wel-dropdown">
                 <Link onClick={()=>this.onClickLink2(4)} id={`${this.state.link4}`} to="/website-design">Website design</Link>
                 <Link onClick={()=>this.onClickLink2(5)} id={`${this.state.link5}`} to="/watercolor-portraits">Watercolor portraits</Link>
@@ -193,7 +193,7 @@ class Welcome extends Component {
           </nav>    
           <div className={`wel-navigation ${this.state.activelist}`}>
             <div className="wel-nav-list">
-              <Link onClick={this.onClick} to="/" className="wel-nav-item">Work</Link>
+              <Link onClick={this.onClick} to="/work" className="wel-nav-item">Work</Link>
               <Link onClick={this.onClick} to="/website-design">Website design</Link>
               <Link onClick={this.onClick} to="/watercolor-portraits">Watercolor portraits</Link>
               <Link onClick={this.onClick} to="/tellyo-talent-mobile-app">Tellyo Talent mobile app</Link>

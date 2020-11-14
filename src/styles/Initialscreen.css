@@ -61,9 +61,9 @@
     color: white;
   }
   
-  .ini-btn {
-    height: 40px;
-    width: 60%;
+  .ini-main > a > button.ini-btn {
+    height: 50px;
+    width: 45vw;
     max-width: 230px;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.137);
@@ -76,7 +76,7 @@
     margin-bottom: 3vh;
   }
 
-  .ini-btn:hover {
+  .ini-main > a > button.ini-btn:hover {
     background-color: #21222E;
     border: 2px solid #21222E;
   }
@@ -90,7 +90,7 @@
       font-size: 22px;
     }
     
-    .ini-btn {
+    .ini-main > a > button.ini-btn {
       font-size: 22px;
     }
   }
@@ -127,11 +127,8 @@
     font-size: 40px;
   }
 
-  .ini-btn {
+  .ini-main > a > button.ini-btn {
     height: 50px;
-  } 
-
-  .ini-btn {
     font-size: 26px;
   }  
 }
@@ -143,7 +140,7 @@
 }
 
 @media only screen and (min-width: 1500px){
-  .ini-btn {
+  .ini-main > a > button.ini-btn {
     margin-bottom: 10vh;
   }
 

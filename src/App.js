@@ -28,10 +28,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        {this.state.ifFirstScreen && <InitialScreen onClick={() => { this.onClick() }}/>}
+        {/* {this.state.ifFirstScreen && <InitialScreen onClick={() => { this.onClick() }}/>} */}
         <Welcome onClickSubPage={() => { this.onClick() }}/>
         <Switch>
-            <Route path="/" exact component={Work}/>
+            <Route path="/" exact component={InitialScreen}/>
+            <Route path="/work" component={Work}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/dark-theme" component={DarkTheme}/>

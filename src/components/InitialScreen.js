@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import '../styles/Initialscreen.css';
 
@@ -34,7 +35,7 @@ class InitialScreen extends Component {
                   products and experiences
                 </div>
                 {/* start */}
-                <button onClick={this.props.onClick} className="ini-btn">Let's start</button>
+                <Link to="/work"><button className="ini-btn">Let's start</button></Link>
             </main>
             <section className="ini-footer">
               <Footer/>

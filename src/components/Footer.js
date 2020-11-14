@@ -6,7 +6,7 @@ const Footer = () => {
     return (
       <section className="foo-container-wrapper">
         <div className="foo-container">
-          <Link to="/">
+          <Link to="/work">
             <div className="foo-img-container">
               <img src={require('../images-work/logo.png')} alt="Logo"/>
             </div>

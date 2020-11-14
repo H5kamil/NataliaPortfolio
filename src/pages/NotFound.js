@@ -14,7 +14,7 @@ class NotFound extends Component {
       <div className="not-wrapper">
         <div>404</div>
         <div>The page you're looking for does not exist</div>
-        <Link to="/">
+        <Link to="/work">
           Go to Home Page
         </Link>
       </div>
