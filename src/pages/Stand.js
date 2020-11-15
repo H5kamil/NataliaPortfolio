@@ -102,7 +102,7 @@ class Stand extends Component {
               We had in mind that company's new brand identity need to be bold and highlighted among others and also well 
               recognizable and remembered
             </div>
-            <div className="st-sketches">
+            <div id="st-2x3" className="st-sketches">
               <img src={require('../images-work/sketches-01.jpg')} alt=""/>
               <img src={require('../images-work/sketches-02.jpg')} alt=""/>
               <img src={require('../images-work/sketches-03.jpg')} alt=""/>

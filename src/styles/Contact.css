@@ -97,6 +97,15 @@ input, textarea {
     height: auto;
 }
 
+.con-picture figcaption {
+    padding: 0 10vw;
+    padding-top: 2vh;
+}
+
+.con-picture figcaption span {
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 768px) {
 
     .con-h1 {
@@ -150,6 +159,11 @@ input, textarea {
     .con-picture img {
         width: 100%;
         height: auto;
+    }
+
+    .con-picture figcaption {
+        padding: 0;
+        padding-top: 2vh;
     }
 }
 

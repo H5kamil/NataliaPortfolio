@@ -198,9 +198,6 @@ section.st-second-sec div:nth-child(5) {
     padding-bottom: 4vh;
 }
 
-.st-first-img {
-
-}
 
 .st-first-img img {
     width: 100%;
@@ -434,6 +431,10 @@ section.st-second-sec div:nth-child(5) {
         flex-grow: 1;
         width: 40%;
         padding: 0.8vh;
+    }
+
+    #st-2x3 img {
+        width: 30%;
     }
 
     .st-first {

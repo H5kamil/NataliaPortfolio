@@ -86,8 +86,8 @@ class Work extends Component {
           <div className="work-item work-light2">Tellyo OY</div>
           <div className="work-item work-light3">UX/UI</div>
           <div className="work-item work-light4">
-          <br/> Unfortunately this project is still under construction.
-          <br/> You can check the presentation.
+            Unfortunately this project is still under construction.
+            You can check the presentation.
           </div>
           <div className="work-img-container">
             <img src={require('../images-work/Tellyoapp-opening.jpg')} alt="Website design"/>
@@ -95,16 +95,16 @@ class Work extends Component {
               <div className="work-wrapper">
                 <div>UX/UI</div>
                 <div>
-                <br/> Unfortunately this project is still under construction.
-          <br/> You can check the presentation.
+                  Unfortunately this project is still under construction.
+                  <br/> You can check the presentation.
                   </div>
-                <Link to='/tellyo-talent-mobile-app'>
+                <Link to='/talent-app-presentation'>
                   <button>See presentation</button>
                 </Link>
               </div>
             </section>
           </div>
-          <Link className="work-item work-btn" to='/tellyo-talent-mobile-app'>
+          <Link className="work-item work-btn" to='/talent-app-presentation'>
                   <button>See presentation</button>
           </Link>  
           <div className="work-text-desktop work-dekstop-h1">Tellyo Talent mobile app</div>

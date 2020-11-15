@@ -1,7 +1,7 @@
 .sk-title {
     padding: 3vh 10vw;
     padding-top: 7vh;
-    font-size: 50px;
+    font-size: 30px;
     color: #21222E;
     /* font-family: PlayfairDisplay; */
     text-align: center;
@@ -35,6 +35,7 @@ div.sk-svg-mobile > img {
 
     .sk-title {
         text-align: start;
+        font-size: 50px;
     }
 
     .sk-desc {

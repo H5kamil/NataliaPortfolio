@@ -43,7 +43,7 @@ class About extends Component {
                 - DTP (prints)
                 <br/>
                 This all gave me great opportunities to constant growth and improvement of skillset. 
-                What is great I always have a freedom of action for my design decisions and concepts..
+                What is great I always have a freedom of action for my design decisions and concepts.
               </div>
             </div>
             <div className="ab-picture">

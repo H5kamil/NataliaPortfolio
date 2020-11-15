@@ -393,13 +393,14 @@ section div.web-10-sec-img-cont img {
 section.web-13-sec div:nth-child(1) {
     font-size: 26px;
     color: #21222E;
-    padding-top: 5vh;
+    padding-top: 10vh;
 }
 
 section.web-13-sec div:nth-child(2) {
     font-size: 20px;
     color: #62799D;
     padding: 5vh 5vw;
+    padding-bottom: 10vh;
 }
 
 .web-9-dark {
@@ -807,14 +808,14 @@ section.web-9-dark div div:nth-child(3) {
     
     section.web-13-sec div:nth-child(1) {
         font-size: 50px;
-        padding-top: 5vh;
+        padding-top: 12vh;
     }
     
     section.web-13-sec div:nth-child(2) {
         font-size: 25px;
         padding: 3vh 0;
         padding-right: 20vw;
-        padding-bottom: 6vh;
+        padding-bottom: 12vh;
     }
 }
 
