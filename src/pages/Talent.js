@@ -21,9 +21,9 @@ class Talent extends Component {
         <div>
           I'm very pleased that you made all the way here.
           <br/> Unfortunately this project is still under construction.
-          <br/> You can check the PDF presentation file
+          <br/> You can check the presentation.
         </div>
-          <Link to="/talent-app-presentation"><button>See PDF presentation</button></Link>
+          <Link to="/talent-app-presentation"><button>See presentation</button></Link>
       </section>
       <SocialMedia/>
       <Footer/>
