@@ -62,7 +62,7 @@
     }
     .wat-img-container {
         padding: 6vh 14vw;
-        text-align: start;
+        /* text-align: start; */
     }
 
     .wat-img-container div:nth-child(1) {
@@ -80,7 +80,7 @@
         font-size: 20px;
         padding: 3vh 0;
         padding-bottom: 6vh;
-        padding-right: 14vw;
+        /* padding-right: 14vw; */
     }
 
     .wat-cont {

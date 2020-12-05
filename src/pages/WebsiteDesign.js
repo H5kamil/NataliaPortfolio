@@ -40,18 +40,16 @@ class WebsiteDesign extends Component {
                 Development Team: 6 people) <br/>
             </div> 
             <div className="web-second-sec-desc-desktop">
-              Company Project l 2 Months l 3 Groups <br/>
+              Company Project | 2 Months | 3 Groups <br/>
               (Design + Marketing+ Development Team: 6 people) 
             </div> 
             <div>Case Study</div>   
             <div>
-                Process focuses on creating compelling experiences
-                that are grounded in business goals while carefully 
-                designing to deliver on the user’s needs. This collaborative 
-                process brings together business and technology 
-                vision holders to ensure designs meet business objectives, 
-                are scalable for future growth, and are feasible from a 
-                technology perspective.
+            Process focused on creating compelling visual experiences that are follow business goals. 
+            Combining information architecture, interaction design and visual style guides with 
+            highly informative content, I was carefully designing new digital solutions to 
+            presenting products and promote them to boost selling. Company strategy was redefined 
+            and target audience has ben refocused.
             </div>
             <div className="web-img-container-mobile">
               <img src={require('../images-work/final_t_dark_line.png')} alt="Website design"/>
@@ -96,17 +94,16 @@ class WebsiteDesign extends Component {
           <section className="web-5-sec">
             <div className="web-5-item1">
               <div id="web-challange">The challenge</div>
-              <div>Previously established hierarchy of website was based on two main 
-                products: Tellyo Pro and Tellyo On Demand. Tellyo was resigning of 
-                promoting Tellyo On Demand which was a solution for smaller companies 
-                and pay-per-use clients focused. Company has centred on presenting new 
-                solution: Tellyo Stream Studio. While main product, Tellyo Pro remains 
-                unchanged as the core of the company, the additional features polished 
-                lately were needed to present for wider audience. 
-                Main goal was to present those two products as the complementary but 
-                at the same time 
-                hihlight their independent functionalities. All that align with the 
-                Tellyo brand principles to produce a better experience.</div>
+              <div>
+                Previously established hierarchy of website was based on two main products: Tellyo Pro and Tellyo On Demand.
+                 Tellyo was resigning of promoting Tellyo On Demand which was a solution for smaller companies and pay-per-use clients focused. 
+                 Company has centred on presenting new advanced live video editing solution: Tellyo Stream Studio. 
+                 Tellyo Pro remained unchanged as the core of the company, 
+                 but the additional features polished lately were needed to present for wider audience. <br/>
+                 Main goal was to present those two products as the complementary but at the same time highlight their independent functionalities. 
+                 All that align with the Tellyo brand principles to produce a better experience, generate awareness, 
+                 boost credibility and rise the number of new users. You can check previous website version here.
+              </div>
             </div>
             <div className="web-5-item2">
               <div>Before:</div>
@@ -156,13 +153,12 @@ class WebsiteDesign extends Component {
           </section>
           <section className="web-9-sec web-9-dark">
             <div>    
-              <div id="web-9-dark-id" >Design and prototype 01: </div>
-              <div>Iterations of Home page</div>
-              <div>Home page needed a completly new design. Showcasing the flow that potential 
-                user will follow when start to use Tellyo was the main idea. It should be 
-                simple and easy to understand with no aditional tetx. Having to use only title, 
-                we had to explain clearly what Tellyo is about. Home page had many different 
-                approaches:
+              <div id="web-9-dark-id" >Iterations of Home page</div>
+              <div>Design and prototype</div>
+              <div>Home page needed a completly new design. Showcasing the flow that potential user will follow when start to use Tellyo was the main idea. 
+                It should be simple and easy to understand with no aditional tetx. 
+                Having to use only title, we had to explain clearly what Tellyo is about and quickly establish emotional connection with the audience. 
+                Intriguing them but at the same time make the experience irresistibly professional. Home page had many different approaches:
               </div>
             </div>    
             <div id="web-gif-am" className="web-9-sec-gif">
@@ -171,14 +167,12 @@ class WebsiteDesign extends Component {
           </section>
           <section className="web-9-sec">
             <div>    
-              <div>Design and prototype 02:</div>
-              <div>Final solution Case Studies</div>
-              <div>Since the site should be simple and easy to navigate and content is always 
-                getting bigger, I had to make it easy scalable. Taking into considerations 
-                business goals, I had in mind that we need to focus on sales and company 
-                reputation but also engaged and encourage new customers. Keeping up with the 
-                established IA and all graphics assets in mind, I designed a tiles grid that 
-                the best suits Case Study section.
+              <div>Case Studies</div>
+              <div>Final Design </div>
+              <div>Since the site should be simple and easy to navigate and content is always getting bigger, 
+                I had to make it easy scalable. Taking into considerations business goals, I had in mind that we need to focus on sales and company 
+                reputation but also engaged and encourage new customers. Keeping up with the established IA and all graphics assets in mind, 
+                I designed a tiles grid that the best suits Case Study section.
               </div>
             </div>    
             <div className="web-9-sec-gif">
@@ -186,15 +180,25 @@ class WebsiteDesign extends Component {
             </div>
           </section>
           <section className="web-10-sec">
-            <div>Design and prototype 03:</div>
-            <div>Final solution for Careers</div>
+            <div>Careers</div>
+            <div>Final solution</div>
+            <div>Careers section for the growing company is the place to encourage and spark interest of great top applicants. 
+              Being an organization that truly cares about its people, it's obvious that hiring the right talent is key to driving results. 
+              While building this solution I concentrated on organizing information in a thoughtful, succinct and readable way. 
+              Clear listing, accessible form and focus of emphasizing company culture results in a simple design layout. </div>
             <div className="web-10-sec-img-cont">
               <img src={require('../images-work/Careers-02---web.png')} alt=""/>
             </div>
           </section>
           <section className="web-11-sec">
-            <div>Design and prototype 04:</div>
-            <div>Final solution for Pricing and Contact form</div>
+            <div>Pricing and Contact form</div>
+            <div>Final solution</div>
+            <div>Nurturing sales and bringing customers down to online sales 
+              funnel is essential in every software as a service page. 
+              Tellyo's monthly fees are explained in an informative way. 
+              Contact form contains easy to sort list of requests and is very 
+              straightforward with additional information about addresses of 
+              individual offices.</div>
             <div className="web-11-sec-gif">
               <img src={require('../images-work/macbook_pricing-and-contact_gif-new.gif')} alt=""/>
             </div>

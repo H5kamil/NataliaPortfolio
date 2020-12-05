@@ -49,8 +49,9 @@
 
 section.web-second-sec div:nth-child(1) {
     padding-top: 5vh;
-    font-size: 28px;
+    font-size: 36px;
     color: #21222E;
+    font-family: "Playfair Display";
 }
 
 section.web-second-sec div:nth-child(2), 
@@ -104,7 +105,9 @@ section.web-second-sec div:nth-child(5) {
 }
 
 .web-third-sec-item div:nth-child(1) {
-    font-size: 26px;
+    font-size: 36px;
+    font-family: "Playfair Display";
+    padding-top: 7vh;
 }
 
 .web-third-sec div.web-third-sec-item:nth-child(1) div:nth-child(2) {
@@ -121,8 +124,9 @@ section.web-second-sec div:nth-child(5) {
 
 .web-4-sec div div:nth-child(1) {
     color: #21222E;
-    font-size: 26px;
+    font-size: 36px;
     padding-top: 8vh;
+    font-family: "Playfair Display";
 }
 
 .web-4-sec div div:nth-child(2) {
@@ -159,7 +163,8 @@ div.web-5-item1 div {
 }
 
 div.web-5-item1 div:nth-child(1){
-    font-size: 30px;
+    font-size: 36px;
+    font-family: "Playfair Display";
 }
 
 div.web-5-item1 div:nth-child(2){
@@ -184,7 +189,8 @@ div.web-5-item2 div {
     padding: 0 7vw;
     padding-top: 6vh;
     color: #21222E;
-    font-size: 26px;
+    font-size: 36px;
+    font-family: "Playfair Display";
 }
 
 .web-6-sec div div:nth-child(2) {
@@ -219,8 +225,9 @@ div.web-5-item2 div {
 
 .web-7-sec div:nth-child(1) {
     padding-top: 6vh;
-    font-size: 26px;
+    font-size: 36px;
     color: #21222E;
+    font-family: "Playfair Display";
 }
 
 .web-7-sec div:nth-child(2) {
@@ -263,9 +270,11 @@ section.web-7-sec div.web-7-sec-img-dekstop {
 }
 
 .web-9-sec div div:nth-child(1){
-    font-size: 26px;
+    font-size: 36px;
     color: #21222E;
     padding: 3vh 5vw;
+    padding-top: 10vh;
+    font-family: "Playfair Display";
 }
 
 .web-9-sec div div:nth-child(2){
@@ -300,12 +309,20 @@ section.web-9-sec div:nth-child(1) {
 }
 
 .web-10-sec div:nth-child(1) {
-    font-size: 26px;
+    font-size: 36px;
     color: #ffffff;
+    font-family: "Playfair Display";
+    padding-top: 7vh;
 }
 
 .web-10-sec div:nth-child(2) {
     font-size: 22px;
+    color: #62799D;
+    padding-top: 2vh;
+}
+
+.web-10-sec div:nth-child(3) {
+    font-size: 20px;
     color: #62799D;
     padding-top: 2vh;
 }
@@ -342,9 +359,11 @@ section div.web-10-sec-img-cont img {
 }
 
 .web-11-sec div:nth-child(1){
-    font-size: 26px;
+    font-size: 36px;
     color: #21222E;
-    padding-top: 7vh;
+    padding: 0 5vw;
+    padding-top: 8vh;
+    font-family: "Playfair Display";
 }
 
 .web-11-sec div:nth-child(2){
@@ -353,6 +372,11 @@ section div.web-10-sec-img-cont img {
     padding: 0 6.8vw;
     padding-top: 5vh;
     padding-bottom: 3vh;
+}
+.web-11-sec div:nth-child(3){
+    font-size: 20px;
+    color: #62799D;
+    padding: 0 6.8vw;
 }
 
 .web-11-sec-gif {
@@ -375,10 +399,12 @@ section div.web-10-sec-img-cont img {
 .web-12-sec div:nth-child(1) {
     font-size: 36px;
     padding-bottom: 3vh;
+    font-family: "Playfair Display";
+
 }
 
 .web-12-sec div:nth-child(2) {
-    font-size: 25px;
+    font-size: 22px;
     margin: 0 15vw;
     padding-bottom: 4vh;
 }
@@ -391,9 +417,10 @@ section div.web-10-sec-img-cont img {
 }
 
 section.web-13-sec div:nth-child(1) {
-    font-size: 26px;
+    font-size: 36px;
     color: #21222E;
     padding-top: 10vh;
+    font-family: "Playfair Display";
 }
 
 section.web-13-sec div:nth-child(2) {
@@ -413,8 +440,9 @@ section.web-9-dark div div:nth-child(3) {
 }
 
 #web-9-dark-id {
-    padding-top: 10vh;
+    padding-top: 14vh;
     color: #ffffff;
+    text-align: center;
 }
 
 #web-gif-am {
@@ -478,12 +506,12 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     section.web-second-sec {
-        text-align: start;
+        /* text-align: start; */
         padding: 4vh 14vw;
     }
 
     section.web-second-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     section.web-second-sec div:nth-child(3) {
@@ -496,7 +524,7 @@ section.web-9-dark div div:nth-child(3) {
 
     section.web-second-sec div:nth-child(5) {
         font-size: 25px;
-        padding-right: 15vw;
+        /* padding-right: 15vw; */
     }
 
     .web-second-sec-desc-mobile {
@@ -554,7 +582,8 @@ section.web-9-dark div div:nth-child(3) {
 
     .web-4-sec div div:nth-child(1) {
         width: 50%;
-        font-size: 40px;
+        font-size: 43px;
+        font-family: "Playfair Display";
     }
 
     .web-4-sec div div:nth-child(2) {
@@ -593,6 +622,7 @@ section.web-9-dark div div:nth-child(3) {
 
     #web-challange {
         font-size: 50px;
+        font-family: "Playfair Display";
     }
 
     .web-5-item1 div:nth-child(2) {
@@ -628,6 +658,7 @@ section.web-9-dark div div:nth-child(3) {
         padding-left: 14vw;
         padding-right: 0;
         font-size: 45px;
+        font-family: "Playfair Display";
     }
     
     .web-6-sec div div:nth-child(2) {
@@ -646,18 +677,19 @@ section.web-9-dark div div:nth-child(3) {
 
     section.web-7-sec {
         width: 100vw;
-        text-align: start;
+        /* text-align: start; */
     }
 
     .web-7-sec div:nth-child(1),
     .web-7-sec div:nth-child(2),
     .web-7-sec div:nth-child(3) {
-        padding: 1.5vh 14vw;
+        padding: 3vh 14vw;
     }
 
     section.web-7-sec div:nth-child(1) {
         font-size: 50px;
-        padding-top: 7vh;
+        padding-top: 14vh;
+        font-family: "Playfair Display";
     }
 
     section.web-7-sec div:nth-child(2) {
@@ -665,7 +697,7 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     section.web-7-sec div:nth-child(3) {
-        padding-right: 20vw;
+        /* padding-right: 20vw; */
         font-size: 25px;
     }
 
@@ -687,41 +719,35 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-8-sec {
-        width: 76vw;
-        padding: 11vh 12vw;
-        font-size: 35px;
-    }
-
-    .web-9-sec {
-        text-align: start;
+        width: 68vw;
+        padding: 16vh 18vw;
+        font-size: 30px;
     }
 
     .web-9-sec div:nth-child(1) {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        width: 100vw;
     }
 
     .web-9-sec div div:nth-child(1){
         font-size: 45px;
         color: #21222E;
-        padding-top: 12vh;
-        padding-left: 14vw;
-        padding-right: 0;
+        padding: 0;
+        font-family: "Playfair Display";
+        padding-top: 16vh;
     }
     
     .web-9-sec div div:nth-child(2){
         font-size: 35px;
-        padding-bottom: 6vh;
-        padding-left: 14vw;
+        padding: 0;
+        padding-top: 5vh;
     }
     
     .web-9-sec div div:nth-child(3){
         margin: 0 0;
+        padding: 0;
+        padding-top: 5vh;
         padding-left: 14vw;
-        text-align: start;
-        padding-bottom: 6vh;
+        padding-right: 14vw;
         font-size: 25px;
     }
 
@@ -738,19 +764,27 @@ section.web-9-dark div div:nth-child(3) {
         width: 72vw;
         padding: 2vw 14vw;
         padding-top: 8vh;
-        text-align: start;
+        /* text-align: start; */
     }
     
     .web-10-sec div:nth-child(1) {
         font-size: 50px;
+        font-family: "Playfair Display";
+        padding-top: 4vh;
     }
     
     .web-10-sec div:nth-child(2) {
-        font-size: 35px;
-        padding-top: 2vh;
+        font-size: 34px;
+        padding-top: 5vh;
     }
 
     .web-10-sec div:nth-child(3) {
+        font-size: 25px;
+        padding-top: 5vh;
+        color: #62799D;
+    }
+
+    .web-10-sec div:nth-child(4) {
         text-align: center;
     }
     
@@ -763,20 +797,22 @@ section.web-9-dark div div:nth-child(3) {
         width: 80%;
     }
 
-    .web-11-sec {
-        text-align: start;
-    }
-
     .web-11-sec div:nth-child(1){
         font-size: 50px;
-        padding-top: 8vh;
-        padding-left: 14vw;
+        padding-top: 14vh;
     }
     
     .web-11-sec div:nth-child(2){
         font-size: 35px;
         padding: 0 14vw;
-        padding-top: 3vh;
+        padding-top: 5vh;
+    }
+
+    .web-11-sec div:nth-child(3){
+        font-size: 25px;
+        padding: 0 14vw;
+        padding-top: 5vh;
+        color:#62799D;
     }
 
     .web-11-sec-gif {
@@ -801,21 +837,19 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-13-sec {
-        width: 72vw;
-        text-align: start;
-        padding: 0 14vw;
+        width: 64vw;
+        padding: 0 18vw;
     }
     
     section.web-13-sec div:nth-child(1) {
         font-size: 50px;
-        padding-top: 12vh;
+        padding-top: 15vh;
     }
     
     section.web-13-sec div:nth-child(2) {
         font-size: 25px;
-        padding: 3vh 0;
-        padding-right: 20vw;
-        padding-bottom: 12vh;
+        padding: 5vh 0;
+        padding-bottom: 15vh;
     }
 }
 
