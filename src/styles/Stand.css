@@ -52,8 +52,9 @@
 
 section.st-second-sec div:nth-child(1) {
     padding-top: 5vh;
-    font-size: 28px;
+    font-size: 30px;
     color: #21222E;
+    font-family: "Playfair Display";
 }
 
 section.st-second-sec div:nth-child(2), 
@@ -107,6 +108,7 @@ section.st-second-sec div:nth-child(5) {
 
 .st-third-sec-item div:nth-child(1) {
     font-size: 26px;
+    font-family: "Playfair Display";
 }
 
 .st-third-sec div.st-third-sec-item:nth-child(1) div:nth-child(2) {
@@ -121,6 +123,7 @@ section.st-second-sec div:nth-child(5) {
 
 .st-tech-req div:nth-child(1) {
     padding-bottom: 3vh;
+    font-family: "Playfair Display";
 }
 
 .st-tech-req-img {
@@ -142,6 +145,7 @@ section.st-second-sec div:nth-child(5) {
 .st-challenge div:nth-child(1) {
     font-size: 30px;
     padding-bottom: 4vh;
+    font-family: "Playfair Display";
 }
 
 .st-challenge div:nth-child(2) {
@@ -159,6 +163,7 @@ section.st-second-sec div:nth-child(5) {
     font-size: 30px;
     padding-bottom: 4vh;
     color: #21222E;
+    font-family: "Playfair Display";
 }
 
 .st-dpc div:nth-child(2) {
@@ -185,10 +190,11 @@ section.st-second-sec div:nth-child(5) {
 }
 
 .st-first div:nth-child(1) {
-    font-size: 30px;
+    font-size: 32px;
     color: #21222E;
     padding: 0 8vw;
     padding-bottom: 4vh;
+    font-family: "Playfair Display";
 }
 
 .st-first div:nth-child(2) {
@@ -294,12 +300,12 @@ section.st-second-sec div:nth-child(5) {
     }
 
     section.st-second-sec {
-        text-align: start;
+        /* text-align: start; */
         padding: 4vh 14vw;
     }
 
     section.st-second-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     section.st-second-sec div:nth-child(3) {
@@ -312,7 +318,7 @@ section.st-second-sec div:nth-child(5) {
 
     section.st-second-sec div:nth-child(5) {
         font-size: 25px;
-        padding-right: 15vw;
+        /* padding-right: 15vw; */
     }
 
     .st-second-sec-desc-mobile {
@@ -351,6 +357,7 @@ section.st-second-sec div:nth-child(5) {
 
     .st-third-sec-item div:nth-child(1) {
         font-size: 50px;
+        font-family: "Playfair Display";
     }
 
     .st-third-sec div.st-third-sec-item:nth-child(1) div:nth-child(2) {
@@ -358,7 +365,7 @@ section.st-second-sec div:nth-child(5) {
     }
 
     .st-tech-req {
-        font-size: 50px;
+        font-size: 55px;
         text-align: start;
         padding: 12vh 0;
         background-color: #fff;
@@ -380,43 +387,39 @@ section.st-second-sec div:nth-child(5) {
     }
 
     .st-challenge {
-        text-align: start;
+        /* text-align: start; */
         background-color: #62799D;
         color: #ffffff;
-        padding: 12vh 0;
+        padding: 14vh 0;
     }
     
     .st-challenge div:nth-child(1) {
         font-size: 50px;
-        padding-bottom: 4vh;
-        padding-left: 14vw;
+        padding-bottom: 6vh;
     }
     
     .st-challenge div:nth-child(2) {
         font-size: 25px;
-        padding-left: 14vw;
-        padding-right: 28vw;
+        padding: 0 15vw;
     }
 
     .st-dpc {
         background-color: #fff;
-        text-align: start;
+        /* text-align: start; */
         padding: 14vh 0;
     }
     
     .st-dpc div:nth-child(1) {
-        font-size: 50px;
+        font-size: 55px;
         padding-bottom: 4vh;
         color: #21222E;
-        padding-left: 14vw;
     }
     
     .st-dpc div:nth-child(2) {
         font-size: 25px;
+        padding: 0 14vw;
         padding-bottom: 7vh;
         color: #62799D;
-        padding-left: 14vw;
-        padding-right: 28vw;
     }
     
     .st-sketches {
@@ -438,26 +441,23 @@ section.st-second-sec div:nth-child(5) {
     }
 
     .st-first {
-        padding: 12vh 0;
-        text-align: start;
+        padding: 14vh 0;
+        /* text-align: start; */
         background-color: #F5F7FA;
     }
     
     .st-first div:nth-child(1) {
-        font-size: 50px;
+        font-size: 55px;
         color: #21222E;
-        padding-bottom: 4vh;
-        padding-left: 14vw;
-        padding-right: 0;
+        padding-bottom: 6vh;
+        font-family: "Playfair Display";
     }
     
     .st-first div:nth-child(2) {
         font-size: 25px;
         color: #62799D;
-        padding: 0 7vw;
+        padding: 0 14vw;
         padding-bottom: 6vh;
-        padding-left: 14vw;
-        padding-right: 28vw;
     }
     
     .st-first-img {
