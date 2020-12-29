@@ -78,7 +78,7 @@ class DarkTheme extends Component {
               <div>Tellyo is an advanced, cloud-based live video production, editing, streaming and 
                 distribution platform. It gives broadcasters and rights holders the solutions to easily 
                 create engaging videos from live content, and share them to social and digital channels 
-                in real-time. <br/>
+                in real-time.
                 It was crucial to ensure dark theme mode for users to improve visual ergonomics by reducing 
                 eye strain, as the professional video producers spend a lot of time editing video content.
               </div>
@@ -96,7 +96,7 @@ class DarkTheme extends Component {
             <div>The challenge</div>
             <div>Our ambition was to create a strong foundation: providing clear and easy to use color 
                 system for designers and developers. Establish well-balanced, harmonious and accessible 
-                dark theme. <br/>
+                dark theme.
                 Main goal was to define and develop practical solution when using and switching color 
                 palettes so that final users can change it easily when working with Tellyo. There was a 
                 need to implement dark theme in Video Editor, Tellyo Pro Dashboard and Stream Studio products.
@@ -216,8 +216,8 @@ class DarkTheme extends Component {
             </div>
           </section>
           <section className="dark-proto-01">
-            <div>Design and prototype 01</div>
-            <div>Final color palettes</div>
+            <div>Color palettes</div>
+            <div>Final solution</div>
             <div>We have divided colours by groups, depending on their purpose and use. This role 
               is closely related to the token's naming. We did our best to reduce number of colours 
               and standarize nomenclature, so that using themes would be much easy and efficient. 
@@ -242,8 +242,8 @@ class DarkTheme extends Component {
             </div>
           </section>
           <section className="dark-11-sec">
-            <div>Design and prototype 02</div>
-            <div>The process and final outcome</div>
+            <div>Dark Theme</div>
+            <div>Final solution</div>
             <div>
             We established dark theme step by step, testing every variation in more and more 
             complicated interface context.  When numerous of surface within different elevation 

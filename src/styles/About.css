@@ -55,6 +55,7 @@
 
 div.ab-center2 > div:nth-child(1) {
     font-size: 28px;
+    font-family: PlayfairDisplay;
 }
 
 div.ab-center2 > div:nth-child(2) {
@@ -87,7 +88,7 @@ section.ab-long-text-component > div {
 @media only screen and (min-width: 1024px){
 
     .ab-first-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .ab-second-sec {
@@ -118,7 +119,7 @@ section.ab-long-text-component > div {
     }
 
     div.ab-center2 > div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     div.ab-center2 > div:nth-child(2) {
@@ -138,7 +139,7 @@ section.ab-long-text-component > div {
 
     section.ab-long-text-component > div {
         width: 60%;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 

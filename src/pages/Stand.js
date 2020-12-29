@@ -46,7 +46,7 @@ class Stand extends Component {
             held in September in Amsterdam, the Netherlands. Is aimed at
             broadcasters, content creators/providers, equipment manufacturers, 
             professional and technical associations, and other participants in 
-            the broadcasting, entertainment and technology industry. <br/>
+            the broadcasting, entertainment and technology industry.
             Tellyo is an annual participant from couple of years, but with new 
             brand identity company has presented its products there for the 3rd 
             time.
@@ -100,7 +100,7 @@ class Stand extends Component {
               but some of them were too brave :) Having such a large space to develop, together with senior designer, 
               we decided that the best solution will be go for a clean, modern and a bit more sophisticated design. 
               We had in mind that company's new brand identity need to be bold and highlighted among others and also well 
-              recognizable and remembered
+              recognizable and remembered.
             </div>
             <div id="st-2x3" className="st-sketches">
               <img src={require('../images-work/sketches-01.jpg')} alt=""/>

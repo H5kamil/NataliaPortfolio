@@ -18,11 +18,11 @@
 }
 
 .foo-container div:nth-child(1) {
-    padding-left: 5vw;
+    padding-left: 13vw;
 }
 
 .foo-container div:nth-child(2) {
-    padding-right: 5vw;
+    padding-right: 13vw;
 }
 
 @media only screen and (min-width: 768px) {

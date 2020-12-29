@@ -3,6 +3,7 @@
     line-height: 10vh;
     padding: 3vh 10vw;
     font-size: 30px;
+    font-family: PlayfairDisplay;
 }
 
 .depr-container-mobile {
@@ -135,6 +136,6 @@ div.depr-line > div:nth-child(6) {
     }
 
     .depr-text {
-        font-size: 50px;
+        font-size: 45px;
     }
 }

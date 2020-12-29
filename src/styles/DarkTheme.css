@@ -54,11 +54,12 @@ section.dark-second-sec div:nth-child(1) {
     padding-top: 5vh;
     font-size: 28px;
     color: #21222E;
+    font-family: PlayfairDisplay;
 }
 
 section.dark-second-sec div:nth-child(2), 
 section.dark-second-sec div:nth-child(3){
-    padding: 4vh 0;
+    padding: 3vh 0;
     font-size: 22px;
     color: #62799D;
 }
@@ -107,6 +108,7 @@ section.dark-second-sec div:nth-child(5) {
 
 .dark-third-sec-item div:nth-child(1) {
     font-size: 26px;
+    font-family: PlayfairDisplay;
 }
 
 .dark-third-sec div.dark-third-sec-item:nth-child(1) div:nth-child(2) {
@@ -266,6 +268,7 @@ section.dark-7-sec div.dark-7-sec-img-dekstop {
     font-size: 26px;
     color: #21222E;
     padding: 3vh 5vw;
+    font-family: PlayfairDisplay;
 }
 
 .dark-9-sec div div:nth-child(2){
@@ -364,6 +367,7 @@ section div.dark-10-sec-img-cont img {
     font-size: 26px;
     color: #21222E;
     padding-top: 7vh;
+    font-family: PlayfairDisplay;
 }
 
 .dark-11-sec div:nth-child(2){
@@ -405,7 +409,7 @@ section div.dark-10-sec-img-cont img {
     color: white;
     width: 100vw;
     text-align: center;
-    padding: 7vh 0;
+    padding: 12vh 0;
 }
 
 .dark-12-sec div:nth-child(1) {
@@ -451,11 +455,12 @@ section.dark-a-sec div:nth-child(1) {
     font-size: 30px;
     padding: 5vh 0;
     padding-top: 8vh;
+    font-family: PlayfairDisplay;
 }
 
 section.dark-a-sec div:nth-child(2),
 section.dark-a-sec div:nth-child(3) {
-    padding-bottom: 4vh;
+    padding-bottom: 2vh;
 }
 
 section.dark-a-sec div:nth-child(3) {
@@ -474,6 +479,8 @@ section.dark-b-sec div:nth-child(1) {
     font-size: 30px;
     color: #21222E;
     padding: 3vh 0;
+    font-family: PlayfairDisplay;
+
 }
 
 section.dark-b-sec div:nth-child(2) {
@@ -547,10 +554,11 @@ section.dark-b-sec div:nth-child(5) {
 .dark-hard div:nth-child(1) {
     color: #ffffff;
     font-size: 30px;
+    font-family: PlayfairDisplay;
 }
 
 .dark-hard div:nth-child(2) {
-    color: #62799D;
+    color: #ffffff;
     font-size: 22px;
     padding: 3vh 3vw
 }
@@ -575,6 +583,7 @@ section.dark-b-sec div:nth-child(5) {
     color: #21222E;
     font-size: 30px;
     padding-top: 8vh;
+    font-family: PlayfairDisplay;
 }
 
 .dark-proto-01 div:nth-child(2) {
@@ -615,6 +624,8 @@ section.dark-colors {
     font-size: 30px;
     color: #21222E;
     padding-top: 7vh;
+    font-family: PlayfairDisplay;
+
 }
 
 .dark-colors div:nth-child(2) {
@@ -704,6 +715,7 @@ section.dark-colors {
     color: #21222E;
     font-size: 30px;
     padding: 0 5vw;
+    font-family: PlayfairDisplay;
 }
 
 .dark-take div:nth-child(3) {
@@ -725,7 +737,7 @@ section.dark-colors {
     }
 
     .dark-first-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 60px;
     }
     
     .dark-first-sec div:nth-child(2) {
@@ -766,16 +778,16 @@ section.dark-colors {
     }
 
     section.dark-second-sec {
-        text-align: start;
-        padding: 4vh 14vw;
+        /* text-align: start; */
+        padding: 8vh 20vw;
     }
 
     section.dark-second-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     section.dark-second-sec div:nth-child(3) {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     section.dark-second-sec div:nth-child(4) {
@@ -783,8 +795,8 @@ section.dark-colors {
     }
 
     section.dark-second-sec div:nth-child(5) {
-        font-size: 25px;
-        padding-right: 15vw;
+        font-size: 22px;
+        /* padding-right: 15vw; */
     }
 
     .dark-second-sec-desc-mobile {
@@ -800,7 +812,8 @@ section.dark-colors {
         display: flex;
         flex-direction: row;
         text-align: start;
-        padding: 5vh 14vw;
+        padding: 8vh 14vw;
+        padding-bottom: 10vh;
     }
 
     .dark-third-sec div:nth-child(1) {
@@ -814,7 +827,7 @@ section.dark-colors {
 
     .dark-third-sec-item {
         width: 50%;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .dark-third-sec-item {
@@ -822,11 +835,11 @@ section.dark-colors {
     }
 
     .dark-third-sec-item div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .dark-third-sec div.dark-third-sec-item:nth-child(1) div:nth-child(2) {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .dark-4-sec {
@@ -981,32 +994,36 @@ section.dark-colors {
     }
 
     .dark-9-sec {
-        text-align: start;
+        /* text-align: start; */
+        text-align: center;
     }
 
     .dark-9-sec div:nth-child(1) {
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
+        align-items: center;
     }
 
     .dark-9-sec div div:nth-child(1){
         font-size: 45px;
         color: #21222E;
         padding-top: 14vh;
-        padding-left: 14vw;
-        padding-right: 0;
+        /* padding-left: 14vw; */
+        /* padding-right: 0; */
+        
     }
     
     .dark-9-sec div div:nth-child(2){
         margin: 0 0;
-        padding-left: 14vw;
-        padding-right: 10vw;
-        text-align: start;
-        padding-top: 4vh;
+        padding: 0 20vh;
+        /* padding-left: 20vw; */
+        /* padding-right: 10vw; */
+        /* text-align: start; */
+        /* padding-top: 4vh; */
         padding-bottom: 10vh;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .dark-9-sec-gif-mobile {
@@ -1053,19 +1070,19 @@ section.dark-colors {
     }
 
     .dark-11-sec {
-        text-align: start;
+        /* text-align: start; */
     }
 
     .dark-11-sec div:nth-child(1){
-        font-size: 50px;
-        padding-top: 10vh;
-        padding-left: 14vw;
+        font-size: 45px;
+        padding-top: 12vh;
+        /* padding-left: 14vw; */
     }
     
     .dark-11-sec div:nth-child(2){
-        font-size: 35px;
+        font-size: 30px;
         padding: 0 14vw;
-        padding-top: 3vh;
+        padding-top: 2vh;
     }
 
     .dark-11-sec-gif {
@@ -1077,10 +1094,10 @@ section.dark-colors {
     }
 
     .dark-11-sec div:nth-child(3){
-        font-size: 25px;
-        padding: 0 14vw;
-        padding-top: 3vh;
-        padding-right: 30vw;
+        font-size: 22px;
+        padding: 0 19vw;
+        padding-top: 2vh;
+        /* padding-right: 32vw; */
         color: #62799D;
     }
 
@@ -1093,12 +1110,14 @@ section.dark-colors {
     }
 
     .dark-12-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
+        font-family: PlayfairDisplay;
+
     }
     
     .dark-12-sec div:nth-child(2) {
         font-size: 25px;
-        padding-bottom: 6vh;
+        padding-bottom: 4vh;
     }
     
     #dark-10-a-id {
@@ -1127,22 +1146,24 @@ section.dark-colors {
 
     /* NEW CSS NOT COPIED FROM WEBSITE DESIGN - BEGIN */
     section.dark-a-sec {
-        padding: 0 14vw;
-        text-align: start;
-        font-size: 25px;
-        padding-bottom: 2vh;
+        padding: 0 20vw;
+        /* text-align: start; */
+        font-size: 22px;
+        padding-bottom: 4vh;
     }
     
     section.dark-a-sec div:nth-child(1) {
-        font-size: 50px;
-        padding: 5vh 0;
-        padding-top: 10vh;
+        font-size: 45px;
+        padding: 3vh 0;
+        padding-top: 14vh;
+        font-family: PlayfairDisplay;
+
     }
     
     section.dark-a-sec div:nth-child(2),
     section.dark-a-sec div:nth-child(3) {
-        padding-bottom: 4vh;
-        padding-right: 15vw;
+        /* padding-bottom: 3vh; */
+        /* padding-right: 15vw; */
     }
 
     section.dark-a-sec div:nth-child(3) {
@@ -1152,14 +1173,14 @@ section.dark-colors {
     section.dark-b-sec {
         text-align: start;
         padding: 5vh 14vw;
-        padding-right: 27vw;
-        font-size: 25px;
+        padding-right: 30vw;
+        font-size: 22px;
     }
 
     section.dark-b-sec div:nth-child(1) {
-        font-size: 40px;
+        font-size: 45px;
         color: #21222E;
-        padding: 3vh 0;
+        padding: 2vh 0;
         padding-top: 8vh;
     }
     
@@ -1169,13 +1190,13 @@ section.dark-colors {
     }
     
     section.dark-b-sec div:nth-child(4) {
-        font-size: 35px;
-        padding-top: 10vh;
-        padding-bottom: 3vh;
+        font-size: 30px;
+        padding-top: 5vh;
+        padding-bottom: 2vh;
     }
     
     section.dark-b-sec div:nth-child(5) {
-        padding-bottom: 4vh;
+        padding-bottom: 8vh;
     }
 
     .dark-layouts-mobile {
@@ -1199,9 +1220,9 @@ section.dark-colors {
     }
 
     .dark-text {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
-        padding: 12vh 18vw;
+        padding: 14vh 20vw;
         background-color: #fff;
         color: #5876ED;
     }
@@ -1211,21 +1232,21 @@ section.dark-colors {
         width: 80vw;
         padding: 10vh 10vw;
         padding-top: 12vh; 
-        text-align: start;
+        /* text-align: start; */
     }
     
     .dark-hard div:nth-child(1) {
         color: #ffffff;
-        font-size: 40px;
+        font-size: 45px;
         padding-left: 4vw;
     }
     
     .dark-hard div:nth-child(2) {
-        color: #62799D;
-        font-size: 32px;
+        color: #ffffff;
+        font-size: 30px;
         padding: 0;
         padding-left: 4vw;
-        padding-top: 4vh;
+        padding-top: 2vh;
         padding-bottom: 3vh;
     }
     
@@ -1248,19 +1269,19 @@ section.dark-colors {
     
     .dark-proto-01 div:nth-child(1) {
         color: #21222E;
-        font-size: 40px;
+        font-size: 45px;
         padding: 0 7vw;
         padding-top: 12vh;
     }
     
     .dark-proto-01 div:nth-child(2) {
-        font-size: 35px;
-        padding: 3vh 7vw;
+        font-size: 30px;
+        padding: 2vh 7vw;
     }
     
     .dark-proto-01 div:nth-child(3),
     .dark-proto-01 div:nth-child(4) {
-        font-size: 25px;
+        font-size: 22px;
         padding: 0;
         padding: 0 7vw;
         padding-bottom: 4vh;
@@ -1290,18 +1311,18 @@ section.dark-colors {
     }
 
     .dark-colors div:nth-child(1) {
-        font-size: 40px;
+        font-size: 45px;
         color: #21222E;
         padding-top: 12vh;
     }
 
     .dark-colors div:nth-child(2) {
-        padding-top: 4vh;
+        padding-top: 2vh;
     }
 
     .dark-colors div:nth-child(3) {
-        font-size: 25px;
-        padding-top: 4vh;
+        font-size: 22px;
+        padding-top: 2vh;
         padding-right: 30vw;
     }
 
@@ -1336,18 +1357,18 @@ section.dark-colors {
     
     .dark-take :nth-child(2) {
         color: #21222E;
-        font-size: 40px;
+        font-size: 45px;
         padding: 0 14vw;
-        text-align: start;
+        /* text-align: start; */
     }
     
     .dark-take div:nth-child(3) {
         color: #62799D;
-        font-size: 25px;
-        padding: 5vh 14vw;
-        padding-bottom: 12vh;
-        padding-right: 30vw;
-        text-align: start;
+        font-size: 22px;
+        padding: 3vh 20vw;
+        padding-bottom: 14vh;
+        /* padding-right: 30vw; */
+        /* text-align: start; */
     }
     /* NEW CSS NOT COPIED FROM WEBSITE DESIGN - END */
 }

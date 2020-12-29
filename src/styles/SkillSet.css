@@ -4,6 +4,7 @@
     font-size: 30px;
     color: #21222E;
     /* font-family: PlayfairDisplay; */
+    font-family: PlayfairDisplay;
     text-align: center;
 }
 
@@ -34,13 +35,14 @@ div.sk-svg-mobile > img {
 @media only screen and (min-width: 1024px) {
 
     .sk-title {
-        text-align: start;
-        font-size: 50px;
+        /* text-align: start; */
+        font-size: 45px;
     }
 
     .sk-desc {
-        text-align: start;
-        padding-right: 30vw;
+        /* text-align: start; */
+        /* padding-right: 30vw; */
+        padding: 0 20vw;
     }
 
     .sk-svg-mobile {
@@ -57,7 +59,7 @@ div.sk-svg-mobile > img {
     div.sk-svg-desktop > img {
         width: 70%;
         height: auto;
-        padding: 5vh 0;
+        padding: 6vh 0;
         padding-bottom: 8vh;
     }
 }

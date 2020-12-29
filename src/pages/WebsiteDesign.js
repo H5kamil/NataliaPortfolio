@@ -157,7 +157,7 @@ class WebsiteDesign extends Component {
               <div id="web-9-dark-id" >Iterations of Home page</div>
               <div>Design and prototype</div>
               <div>Home page needed a completly new design. Showcasing the flow that potential user will follow when start to use Tellyo was the main idea. 
-                It should be simple and easy to understand with no aditional tetx. 
+                It should be simple and easy to understand with no aditional text. 
                 Having to use only title, we had to explain clearly what Tellyo is about and quickly establish emotional connection with the audience. 
                 Intriguing them but at the same time make the experience irresistibly professional. Home page had many different approaches:
               </div>
@@ -169,7 +169,7 @@ class WebsiteDesign extends Component {
           <section className="web-9-sec">
             <div>    
               <div>Case Studies</div>
-              <div>Final Design </div>
+              <div>Final solution </div>
               <div>Since the site should be simple and easy to navigate and content is always getting bigger, 
                 I had to make it easy scalable. Taking into considerations business goals, I had in mind that we need to focus on sales and company 
                 reputation but also engaged and encourage new customers. Keeping up with the established IA and all graphics assets in mind, 
@@ -214,8 +214,9 @@ class WebsiteDesign extends Component {
             <div>
               In final design solution, we aimed to improve the content hierarchy and to 
               clearly portray the company’s brand and services offered. Design closely 
-              harmonize with Tellyo Design system. I believe we improved the ease of listing, 
-              which should result in an increased number of  site visitors and new clients.    
+              harmonize with Tellyo's Design System. We improved the overall User Experience, 
+              Information Architecture and ease of listing, 
+              which result in an increased number of site visitors and new clients.    
             </div>
           </section>
           <NextProject id={1}/>

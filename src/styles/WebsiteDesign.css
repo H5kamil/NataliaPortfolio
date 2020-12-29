@@ -48,15 +48,16 @@
 }
 
 section.web-second-sec div:nth-child(1) {
-    padding-top: 5vh;
+    padding-top: 4vh;
     font-size: 36px;
     color: #21222E;
-    font-family: "Playfair Display";
+    font-family: PlayfairDisplay;
+
 }
 
 section.web-second-sec div:nth-child(2), 
 section.web-second-sec div:nth-child(3){
-    padding: 4vh 0;
+    padding: 2vh 0;
     font-size: 22px;
     color: #62799D;
 }
@@ -106,8 +107,8 @@ section.web-second-sec div:nth-child(5) {
 
 .web-third-sec-item div:nth-child(1) {
     font-size: 36px;
-    font-family: "Playfair Display";
-    padding-top: 7vh;
+    font-family: PlayfairDisplay;
+    padding-top: 2vh;
 }
 
 .web-third-sec div.web-third-sec-item:nth-child(1) div:nth-child(2) {
@@ -125,8 +126,8 @@ section.web-second-sec div:nth-child(5) {
 .web-4-sec div div:nth-child(1) {
     color: #21222E;
     font-size: 36px;
-    padding-top: 8vh;
-    font-family: "Playfair Display";
+    padding-top: 12vh;
+    font-family: PlayfairDisplay;
 }
 
 .web-4-sec div div:nth-child(2) {
@@ -187,7 +188,7 @@ div.web-5-item2 div {
 
 .web-6-sec div div:nth-child(1) {
     padding: 0 7vw;
-    padding-top: 6vh;
+    padding-top: 16vh;
     color: #21222E;
     font-size: 36px;
     font-family: "Playfair Display";
@@ -311,13 +312,13 @@ section.web-9-sec div:nth-child(1) {
 .web-10-sec div:nth-child(1) {
     font-size: 36px;
     color: #ffffff;
-    font-family: "Playfair Display";
+    font-family: PlayfairDisplay;
     padding-top: 7vh;
 }
 
 .web-10-sec div:nth-child(2) {
     font-size: 22px;
-    color: #62799D;
+    color: #ffffff;
     padding-top: 2vh;
 }
 
@@ -393,13 +394,13 @@ section div.web-10-sec-img-cont img {
     color: white;
     width: 100vw;
     text-align: center;
-    padding: 7vh 0;
+    padding: 12vh 0;
 }
 
 .web-12-sec div:nth-child(1) {
     font-size: 36px;
     padding-bottom: 3vh;
-    font-family: "Playfair Display";
+    font-family: PlayfairDisplay;
 
 }
 
@@ -420,7 +421,7 @@ section.web-13-sec div:nth-child(1) {
     font-size: 36px;
     color: #21222E;
     padding-top: 10vh;
-    font-family: "Playfair Display";
+    font-family: PlayfairDisplay;
 }
 
 section.web-13-sec div:nth-child(2) {
@@ -466,7 +467,7 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-first-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 60px;
     }
     
     .web-first-sec div:nth-child(2) {
@@ -507,15 +508,15 @@ section.web-9-dark div div:nth-child(3) {
 
     section.web-second-sec {
         /* text-align: start; */
-        padding: 4vh 14vw;
+        padding: 8vh 20vw;
     }
 
     section.web-second-sec div:nth-child(1) {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     section.web-second-sec div:nth-child(3) {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     section.web-second-sec div:nth-child(4) {
@@ -523,7 +524,7 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     section.web-second-sec div:nth-child(5) {
-        font-size: 25px;
+        font-size: 22px;
         /* padding-right: 15vw; */
     }
 
@@ -540,7 +541,7 @@ section.web-9-dark div div:nth-child(3) {
         display: flex;
         flex-direction: row;
         text-align: start;
-        padding: 5vh 14vw;
+        padding: 8vh 14vw;
     }
 
     .web-third-sec div:nth-child(1) {
@@ -554,7 +555,7 @@ section.web-9-dark div div:nth-child(3) {
 
     .web-third-sec-item {
         width: 50%;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .web-third-sec-item {
@@ -562,11 +563,11 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-third-sec-item div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .web-third-sec div.web-third-sec-item:nth-child(1) div:nth-child(2) {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .web-4-sec {
@@ -589,7 +590,7 @@ section.web-9-dark div div:nth-child(3) {
     .web-4-sec div div:nth-child(2) {
         font-size: 22px;
         padding-right: 10vw;
-        padding-bottom: 7vh;
+        padding-bottom: 14vh;
     }   
 
     .web-4-sec-img-mobile {
@@ -599,7 +600,7 @@ section.web-9-dark div div:nth-child(3) {
     .web-4-sec-img-desktop {
         display: block;
         width: 100vw;
-        padding-top: 7vh;
+        padding-top: 14vh;
     }
     
     .web-4-sec-img-desktop img {
@@ -613,6 +614,7 @@ section.web-9-dark div div:nth-child(3) {
         width: 72vw;
         text-align: start;
         padding: 5vh 14vw;
+        padding-top: 10vh;
     }
 
     .web-5-item1 {
@@ -621,8 +623,8 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     #web-challange {
-        font-size: 50px;
-        font-family: "Playfair Display";
+        font-size: 45px;
+        font-family: PlayfairDisplay;
     }
 
     .web-5-item1 div:nth-child(2) {
@@ -632,7 +634,7 @@ section.web-9-dark div div:nth-child(3) {
     .web-5-item2 {
         display: block;
         width: 50%;
-        padding: 10vh 6vw;
+        padding: 12vh 6vw;
         padding-left: 9vw;
     }
 
@@ -665,7 +667,7 @@ section.web-9-dark div div:nth-child(3) {
         padding-left: 14vw;
         padding-right: 0;
         padding-bottom: 7vh;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .web-6-sec-img-wrapper {
@@ -683,22 +685,22 @@ section.web-9-dark div div:nth-child(3) {
     .web-7-sec div:nth-child(1),
     .web-7-sec div:nth-child(2),
     .web-7-sec div:nth-child(3) {
-        padding: 3vh 14vw;
+        padding: 1vh 20vw;
     }
 
     section.web-7-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 14vh;
         font-family: "Playfair Display";
     }
 
     section.web-7-sec div:nth-child(2) {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     section.web-7-sec div:nth-child(3) {
         /* padding-right: 20vw; */
-        font-size: 25px;
+        font-size: 22px;
     }
 
     section.web-7-sec div.web-7-sec-img-mobile {
@@ -708,8 +710,8 @@ section.web-9-dark div div:nth-child(3) {
     section.web-7-sec div.web-7-sec-img-dekstop {
         display: block;
         width: 86vw;
-        padding-top: 5vh;
-        padding-bottom: 7vh;
+        padding-top: 6vh;
+        padding-bottom: 14vh;
         text-align: center;
     }
 
@@ -719,8 +721,8 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-8-sec {
-        width: 68vw;
-        padding: 16vh 18vw;
+        width: 60vw;
+        padding: 16vh 20vw;
         font-size: 30px;
     }
 
@@ -737,18 +739,18 @@ section.web-9-dark div div:nth-child(3) {
     }
     
     .web-9-sec div div:nth-child(2){
-        font-size: 35px;
+        font-size: 30px;
         padding: 0;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
     
     .web-9-sec div div:nth-child(3){
         margin: 0 0;
         padding: 0;
-        padding-top: 5vh;
-        padding-left: 14vw;
-        padding-right: 14vw;
-        font-size: 25px;
+        padding-top: 3vh;
+        padding-left: 22vw;
+        padding-right: 22vw;
+        font-size: 22px;
     }
 
     .web-9-sec-gif {
@@ -761,27 +763,27 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-10-sec {
-        width: 72vw;
-        padding: 2vw 14vw;
+        width: 56vw;
+        padding: 4vw 22vw;
         padding-top: 8vh;
         /* text-align: start; */
     }
     
     .web-10-sec div:nth-child(1) {
-        font-size: 50px;
-        font-family: "Playfair Display";
+        font-size: 45px;
+        font-family: PlayfairDisplay;
         padding-top: 4vh;
     }
     
     .web-10-sec div:nth-child(2) {
-        font-size: 34px;
-        padding-top: 5vh;
+        font-size: 30px;
+        padding-top: 2vh;
     }
 
     .web-10-sec div:nth-child(3) {
-        font-size: 25px;
-        padding-top: 5vh;
-        color: #62799D;
+        font-size: 22px;
+        padding-top: 2vh;
+        color: #ffffff;
     }
 
     .web-10-sec div:nth-child(4) {
@@ -794,24 +796,24 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     section div.web-10-sec-img-cont img {
-        width: 80%;
+        width: 95%;
     }
 
     .web-11-sec div:nth-child(1){
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 14vh;
     }
     
     .web-11-sec div:nth-child(2){
-        font-size: 35px;
+        font-size: 30px;
         padding: 0 14vw;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
 
     .web-11-sec div:nth-child(3){
-        font-size: 25px;
-        padding: 0 14vw;
-        padding-top: 5vh;
+        font-size: 22px;
+        padding: 0 22vw;
+        padding-top: 2vh;
         color:#62799D;
     }
 
@@ -824,7 +826,7 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-12-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
     }
     
     .web-12-sec div:nth-child(2) {
@@ -837,18 +839,18 @@ section.web-9-dark div div:nth-child(3) {
     }
 
     .web-13-sec {
-        width: 64vw;
-        padding: 0 18vw;
+        width: 56vw;
+        padding: 0 22vw;
     }
     
     section.web-13-sec div:nth-child(1) {
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 15vh;
     }
     
     section.web-13-sec div:nth-child(2) {
-        font-size: 25px;
-        padding: 5vh 0;
+        font-size: 22px;
+        padding: 2vh 0;
         padding-bottom: 15vh;
     }
 }

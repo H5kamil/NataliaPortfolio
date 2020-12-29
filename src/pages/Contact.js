@@ -104,7 +104,7 @@ class Contact extends Component {
               </div>
               <div className="con-picture">
                 <img src={require('../images-work/face.png')} alt="Contact portrait"/>
-                <figcaption>If filling up this form is not your thing, please use:<br/> <span>marcinkiewicz.natalia@gmail.com</span></figcaption>
+                <figcaption>If filling up this form is not your thing, please use:<br/> <span>marcinkiewicz.nata@gmail.com</span></figcaption>
               </div>
             </div>
             <SocialMedia/>
