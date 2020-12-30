@@ -28,7 +28,7 @@
     padding: 5vh 0;
 }
 
-.work-first-sec div:nth-child(1) {
+section.work-first-sec div:nth-child(1) {
     padding-top: 3vh;
     font-size: 40px;
     font-family: PlayfairDisplay;
@@ -221,6 +221,12 @@ a.work-btn-light > button {
     .work-img-container {
         width: 60vw;
         /* padding-top: 7vh; */
+    }
+
+    section.work-first-sec div:nth-child(1) {
+        padding-top: 3vh;
+        font-size: 60px;
+        font-family: PlayfairDisplay;
     }
 
     .work-item {
