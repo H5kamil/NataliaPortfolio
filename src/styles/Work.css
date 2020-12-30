@@ -30,7 +30,7 @@
 
 .work-first-sec div:nth-child(1) {
     padding-top: 3vh;
-    font-size: 50px;
+    font-size: 40px;
     font-family: PlayfairDisplay;
 }
 
@@ -56,7 +56,7 @@
 .work-light1 {
     padding-top: 5vh;
     color: #21222E;
-    font-size: 32px;
+    font-size: 34px;
     font-family: PlayfairDisplay;
 }
 
@@ -84,7 +84,7 @@
     padding-top: 5vh;
     font-family: PlayfairDisplay;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .work-dark2 {

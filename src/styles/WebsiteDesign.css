@@ -439,6 +439,7 @@ section.web-13-sec div:nth-child(2) {
 .web-9-dark {
     background-color: #21222E;
     color: #ffffff;
+    text-align: center;
 }
 
 section.web-9-dark div div:nth-child(3) {
@@ -452,14 +453,21 @@ section.web-9-dark div div:nth-child(3) {
 }
 
 #web-gif-am {
+    text-align: center;
     padding-bottom: 7vh;
 }
 
 #web-gif-am img {
-    width: 100%;
+    width: 95%;
 }
 
 @media only screen and (min-width: 1024px) {
+
+    
+    #web-gif-am img {
+        width: 70%;
+    }
+
     .web-fs-text-mobile {
         display: none;
     }
@@ -594,8 +602,8 @@ section.web-9-dark div div:nth-child(3) {
 
     .web-4-sec div div:nth-child(2) {
         font-size: 22px;
-        padding-right: 10vw;
-        padding-bottom: 14vh;
+        padding-right: 8vw;
+        padding-bottom: 16vh;
     }   
 
     .web-4-sec-img-mobile {
@@ -605,7 +613,7 @@ section.web-9-dark div div:nth-child(3) {
     .web-4-sec-img-desktop {
         display: block;
         width: 100vw;
-        padding-top: 14vh;
+        padding-top: 6vh;
     }
     
     .web-4-sec-img-desktop img {
