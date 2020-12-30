@@ -26,7 +26,7 @@ class WebsiteDesign extends Component {
             <div>website design</div>
             {/* ggggf */}
             <div className="web-fs-text-dekstop">
-              The design process for refreshing company website
+              The design process of refreshing company website
             </div>
             <div className="web-fs-text-mobile">
               The design process for<br/> refreshing company<br/> website

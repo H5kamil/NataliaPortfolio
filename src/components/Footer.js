@@ -6,7 +6,7 @@ const Footer = () => {
       <section className="foo-container-wrapper">
         <div className="foo-container">
           <div>Natalia Marcikiewicz</div>
-          <div>Design Portfolio 2020</div>
+          <div>Design Portfolio 2021</div>
         </div>
     </section>
     );

@@ -13,7 +13,7 @@
 }
 
 .dark-first-sec div:nth-child(1) {
-    font-size: 36px;
+    font-size: 40px;
     text-transform: uppercase;
     padding-top: 3vh;
 }
@@ -52,7 +52,7 @@
 
 section.dark-second-sec div:nth-child(1) {
     padding-top: 5vh;
-    font-size: 28px;
+    font-size: 36px;
     color: #21222E;
     font-family: PlayfairDisplay;
 }
@@ -96,10 +96,12 @@ section.dark-second-sec div:nth-child(5) {
     color: #62799D;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 8vh;
 }
 
 .dark-third-sec-item {
     padding: 3vh 7vw;
+    padding-top: 8vh;
 }
 
 .dark-third-sec-item div {
@@ -107,7 +109,7 @@ section.dark-second-sec div:nth-child(5) {
 }
 
 .dark-third-sec-item div:nth-child(1) {
-    font-size: 26px;
+    font-size: 36px;
     font-family: PlayfairDisplay;
 }
 
@@ -265,16 +267,17 @@ section.dark-7-sec div.dark-7-sec-img-dekstop {
 }
 
 .dark-9-sec div div:nth-child(1){
-    font-size: 26px;
+    font-size: 36px;
     color: #21222E;
     padding: 3vh 5vw;
+    padding-top: 10vh;
     font-family: PlayfairDisplay;
 }
 
 .dark-9-sec div div:nth-child(2){
     padding-bottom: 4vh;
     font-size: 20px;
-    margin: 0 8vw;
+    margin: 0 5vw;
 }
 
 section.dark-9-sec div:nth-child(1) {
@@ -300,8 +303,8 @@ section.dark-9-sec div:nth-child(1) {
 
 .dark-9-sec-gif-mobile figcaption,
 .dark-9-sec-gif-desktop figcaption {
-    padding: 3vh 12vw;
-    padding-bottom: 4vh;
+    padding: 2vh 6vw;
+    padding-bottom: 8vh;
     color: #A9A6A6;
     font-size: 18px;
 }
@@ -446,15 +449,15 @@ section.dark-13-sec div:nth-child(2) {
 section.dark-a-sec {
     background-color: #62799D;
     color: white;
-    padding: 0 7vw;
+    padding: 0 5vw;
     text-align: center;
     font-size: 20px;
 }
 
 section.dark-a-sec div:nth-child(1) {
-    font-size: 30px;
-    padding: 5vh 0;
-    padding-top: 8vh;
+    font-size: 36px;
+    padding: 3vh 0;
+    padding-top: 10vh;
     font-family: PlayfairDisplay;
 }
 
@@ -464,19 +467,19 @@ section.dark-a-sec div:nth-child(3) {
 }
 
 section.dark-a-sec div:nth-child(3) {
-    padding-bottom: 8vh;
+    padding-bottom: 12vh;
 }
 
 section.dark-b-sec {
     font-size: 20px;
     text-align: center;
-    padding: 3vh 7vw;
+    padding: 10vh 5vw;
     color: #62799D;
     background-color: #fff;
 }
 
 section.dark-b-sec div:nth-child(1) {
-    font-size: 30px;
+    font-size: 36px;
     color: #21222E;
     padding: 3vh 0;
     font-family: PlayfairDisplay;
@@ -484,7 +487,7 @@ section.dark-b-sec div:nth-child(1) {
 }
 
 section.dark-b-sec div:nth-child(2) {
-    font-size: 24px;
+    font-size: 23px;
     padding-bottom: 2vh;
 }
 
@@ -502,8 +505,8 @@ section.dark-b-sec div:nth-child(3) span:nth-child(1) {
 }
 
 section.dark-b-sec div:nth-child(4) {
-    font-size: 30px;
-    padding-top: 10vh;
+    font-size: 23px;
+    padding-top: 6vh;
     padding-bottom: 3vh;
 }
 
@@ -538,7 +541,7 @@ section.dark-b-sec div:nth-child(5) {
 .dark-text {
     font-size: 22px;
     text-align: center;
-    padding: 8vh 7vw;
+    padding: 10vh 5vw;
     background-color: #fff;
     color: #5876ED;
 }
@@ -553,7 +556,7 @@ section.dark-b-sec div:nth-child(5) {
 
 .dark-hard div:nth-child(1) {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 36px;
     font-family: PlayfairDisplay;
 }
 
@@ -617,32 +620,32 @@ section.dark-colors {
 .dark-colors div:nth-child(8),
 .dark-colors div:nth-child(10) {
     padding: 0 5vw;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .dark-colors div:nth-child(1) {
-    font-size: 30px;
+    font-size: 36px;
     color: #21222E;
-    padding-top: 7vh;
+    padding-top: 10vh;
     font-family: PlayfairDisplay;
 
 }
 
 .dark-colors div:nth-child(2) {
-    font-size: 25px;
-    padding-top: 4vh;
+    font-size: 23px;
+    padding-top: 3vh;
 }
 
 .dark-colors div:nth-child(3) {
     font-size: 20px;
-    padding-top: 4vh;
+    padding-top: 3vh;
 }
 
 .dark-colors div:nth-child(4),
 .dark-colors div:nth-child(8),
 .dark-colors div:nth-child(10) {
-    padding-top: 7vh;
-    padding-bottom: 3vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 .dark-colors div:nth-child(9) {
@@ -687,16 +690,16 @@ section.dark-colors {
 }
 
 .dark-c-img3-mobile img:nth-child(1){
-    padding-top: 3vh;
+    padding-top: 6vh;
 }
 
 .dark-c-img3-mobile img:nth-child(2){
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 .dark-c-img3-mobile img:nth-child(3){
-    padding-bottom: 3vh;
+    padding-bottom: 10vh;
 }
 
 .dark-take {
